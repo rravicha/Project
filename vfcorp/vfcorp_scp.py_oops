@@ -1,0 +1,71 @@
+''''
+
+Build Type : Prototype
+
+Project Name : Supply Chain Planning
+
+'''
+
+#Needed imports
+
+import pandas as pd
+
+import sys
+
+import logging as l
+
+#global variables
+
+
+
+#Class Definition
+
+class scp:
+
+    
+
+    def __init__(self,filename,d,o,w):
+
+        self.filename=filename
+
+        self.d,self.o,self.w=d,o,w
+
+        print("Filename -> {}\nDemand -> {}\nOnHand -> {}\nWIP -> {}\n".
+
+        format(self.filename,self.d,self.o,self.w))
+
+        logform = '%(asctime) %(level) %(message)'
+
+        l.basicConfig(filename="scp_log.dat",level=l.DEBUG,filemode='w',format=logform)
+
+        lg=l.logger()
+
+        print("End of Initialization")
+
+
+
+    def read_dmd(self):
+
+        self.lg.DEBUG("start read_dmd")
+
+        self.dmd=pd.read_excel(self.filename,self.d)
+
+        print(self.dmd)
+
+        self.lg.INFO("start read_dmd")
+
+##MAIN##
+
+if __name__ == "__main__":
+
+    
+
+    peg = scp(sys.argv[0],sys.argv[1],sys.argv[2],sys.argv[3])
+
+    
+
+    
+
+
+
+

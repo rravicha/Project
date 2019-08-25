@@ -1,35 +1,42 @@
-''''
+#!/usr/bin/python3
+'''
 Build Type : Prototype
 Project Name : Supply Chain Planning
+This module follows the functional prograaming methodology
+and needs the following arguments to be passed
+
+Version 1.0 - the program will function for all necessity
+Version 2.0 - the program will have a complex functionality
+Version 2.1  - will adhere to OOPS
 '''
 #Needed imports
-try:
-    import pandas as pd
-except ImportError as e:
-    raise ImportError("package missing pandas")
-else:
-    print("successful import of pandas")
-finally:
-    print("End of pandas import")
-
-import sys
+#import sys
+import pandas as pd
+#import logging as l
 #global variables
 
-#Class Definition
-class scp:
-    def __init__(self,filename,sheet):
-        self.filename=filename
-        self.sheet=sheet
-        
-    def read_sheet(self):
-        self.dmd=pd.read_excel(self.filename,sheet_name=self.sheet)
-        
-    def print_demand(self):
-        print(self.dmd)
-     
-##MAIN##
-if __name__ == "__main__":
-    scpobj = scp(sys.argv[0],sys.argv[0])
-    print("opening filename {} - sheetname {}".format(sys.argv[0],sys.argv[0]))
-    scpobj.read_sheet()
-    scpobj.print_demand()
+#function declarations
+#INITIALIZATION
+xlsx='vfcorp_scp.xlsx'
+dmdSheet='demand'
+wipSheet='wip'
+onhandSheet='onhand'
+l='-----------------------------------------------------------------'
+def line():
+       print(l)
+#READ DEMAND FILE
+dmd=pd.read_excel(xlsx,dmdSheet)
+print(dmd)
+#READ ONHAND FILE
+ohd=pd.read_excel(xlsx,onhandSheet)
+print(ohd)
+#READ WIP FILE
+wip=pd.read_excel(xlsx,wipSheet)
+print(wip)
+line()
+#build HASHES
+dmd_d={}
+for i in range(len(dmd)):
+    dmd_k=str(dmd.values[i][0])+'~'+str(dmd.values[i][1])+'~'+str(dmd.values[i][2])+'~'+str(dmd.values[i][3])+'~'+str(dmd.values[i][4])
+    dmd_v=dmd.values[i][-1]
+    dmd_d[dmd_k]=dmd_v
