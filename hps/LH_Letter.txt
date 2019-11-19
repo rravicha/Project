@@ -1,0 +1,5 @@
+send late payment letter
+
+read the trigger from database
+
+and build a pdf/doc through python.
