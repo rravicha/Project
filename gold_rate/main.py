@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import pandas as pd
 import sqlite3
+# import psycopg2
 content1=[];content2=[];content3=[];content4=[];content5=[]
 url = "https://www.livechennai.com/gold_silverrate.asp"
 page=requests.get(url)
