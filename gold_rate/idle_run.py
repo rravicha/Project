@@ -1,17 +1,8 @@
-import os
-os.system('cls')
 from bs4 import BeautifulSoup as bs
 import requests
 import pandas as pd
-
 from sqlalchemy import create_engine
-import sys
-try:
-    flag=sys.argv[1]
-except IndexError:
-    flag=0
 
-print(flag)
 content1=[];content2=[];content3=[];content4=[];content5=[]
 url = "https://www.livechennai.com/gold_silverrate.asp"
 page=requests.get(url)
@@ -50,28 +41,6 @@ headers=('date','24K_1gm','24K_8gm','22K_1gm','22K_8gm')
 df=pd.DataFrame(content4,columns=headers)
 
 # df.to_csv("content.csv")
-print('raw df')
 print(df)
-print('format and replace')
-df.replace('',np.NaN,inplace=True)
-df.dropna(inplace=True)
-print('writing to db')
-
-if flag==1:
-    print('conneting to db')
-    engine   = create_engine("postgres://scott:tiger@localhost/bigdata")
-    df.to_sql('gold',engine,if_exists = 'append')   # writes to postgres db
-
-print('pushed to db')
-# q=pd.read_sql('select * from gold_tb', conn)
-# print(q)
-# conn.commit()
-# print('commited the changes')
-
-
-
-
-# conn=sqlite3.connect('gold.db')
-# cur=conn.cursor()
-# cur.execute(''' INSERT INTO gold_tb values ''')
-print("EOP")
+# df.to_sql(current_table,engine,if_exists = 'append')   # writes to postgres db
+    
