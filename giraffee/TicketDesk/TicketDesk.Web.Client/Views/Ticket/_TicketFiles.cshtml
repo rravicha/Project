@@ -1,0 +1,39 @@
+﻿@*
+    TicketDesk - Attribution notice
+    Contributor(s):
+
+         Stephen Redd (https://github.com/stephenredd)
+
+    This file is distributed under the terms of the Microsoft Public
+    License (Ms-PL). See http://opensource.org/licenses/MS-PL
+    for the complete terms of use.
+
+    For any distribution that contains code from this file, this notice of
+    attribution must remain intact, and a copy of the license must be
+    provided to the recipient.
+*@
+@using TicketDesk.Localization.Views.Ticket
+
+@using TicketDesk.IO
+@model IEnumerable<TicketDeskFileInfo>
+@{
+
+    if (Model != null && Model.Any())
+    {
+        <div class="panel panel-info" style="padding-top: 0; padding-bottom: 0;">
+            <div class="panel-heading panel-title" style="padding: 3px 5px;">
+                @Index.Files
+            </div>
+            <div class="panel-body" style="">
+                <ul class="list-unstyled list-inline">
+                    @foreach (var file in Model)
+                    {
+                        <li>
+                            <a href="@Url.RouteUrl("GetAttachedFile", new {Id = ViewBag.TicketId, FileName = file.Name})"><i class="fa fa-file fa-align-left"></i> @file.Name</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+}

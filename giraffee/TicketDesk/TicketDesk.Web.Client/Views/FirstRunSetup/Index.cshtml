@@ -1,0 +1,76 @@
+﻿@*
+    TicketDesk - Attribution notice
+    Contributor(s):
+
+         Stephen Redd (https://github.com/stephenredd)
+
+    This file is distributed under the terms of the Microsoft Public
+    License (Ms-PL). See http://opensource.org/licenses/MS-PL
+    for the complete terms of use.
+
+    For any distribution that contains code from this file, this notice of
+    attribution must remain intact, and a copy of the license must be
+    provided to the recipient.
+*@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>First Run Setup</title>
+    @Styles.Render("~/content/styles")
+</head>
+<body>
+    <div>
+        <h1 class="text-center">TicketDesk - First-Run Setup</h1>
+      
+       
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Application Insights Info</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-3">Application Insights </div>
+                            <div class="col-sm-8">@(Microsoft.ApplicationInsights.Extensibility.TelemetryConfiguration.Active.DisableTelemetry? "Disabled" : "Enabled")</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                @{ Html.RenderAction("AzureInfo"); }
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+
+                @{ Html.RenderAction("DatabaseInfo"); }
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                @{ Html.RenderAction("NewDatabase"); }
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                @{ Html.RenderAction("LegacyDatabase"); }
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                @{ Html.RenderAction("LegacySecurity"); }
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                @{ Html.RenderAction("SetupCompleteInfo"); }
+            </div>
+        </div>
+    </div>
+</body>
+</html>

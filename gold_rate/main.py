@@ -1,3 +1,9 @@
+'''
+version notes:
+12-22-2019 - Initial Link to Production
+04-18-2020 - Added Database configuration to load resulting dataframe to db.
+04-20-2020 - 
+'''
 import os
 os.system('cls')
 from bs4 import BeautifulSoup as bs
@@ -69,10 +75,6 @@ print('pushed to db')
 # print(q)
 # conn.commit()
 # print('commited the changes')
-
-
-
-
 # conn=sqlite3.connect('gold.db')
 # cur=conn.cursor()
 # cur.execute(''' INSERT INTO gold_tb values ''')

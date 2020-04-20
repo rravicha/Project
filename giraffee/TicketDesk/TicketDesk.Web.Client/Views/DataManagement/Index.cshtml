@@ -1,0 +1,21 @@
+﻿@using TicketDesk.Localization.Views.DataManagement
+@section title
+{
+    @Index.Title
+}
+
+
+<h2>@Index.Header</h2>
+
+<ul>
+
+    <li>
+        @Index.DbEmpty = @ViewBag.IsDatabaseEmpty
+    </li>
+    <li>
+        @Index.DbIsLegacy = @ViewBag.IsLegacyDatabase
+    </li>
+    <li>
+        @Index.DbIsReady = @ViewBag.IsDatabaseReady
+    </li>
+</ul>

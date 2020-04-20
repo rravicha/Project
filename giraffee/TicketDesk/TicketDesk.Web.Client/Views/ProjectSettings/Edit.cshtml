@@ -1,0 +1,101 @@
+﻿@using TicketDesk.Localization.Views.ProjectSettings
+@model TicketDesk.Domain.Model.Project
+
+@section title
+{
+    @Edit.Title
+}
+
+<main>
+    <div class="container">
+        <fieldset>
+            <legend class="col-lg-8 col-lg-offset-2 col-md-9 col-md-offset-1 col-sm-12">@Edit.Legend</legend>
+            <div class="col-lg-7 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
+                @using (Html.BeginForm("Edit", "ProjectSettings", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(m => m.ProjectId)
+                    ;
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">@Edit.Header</h2>
+                        </div>
+                        <div class="panel-body">
+                            @Html.ValidationSummary("", new { @class = "text-danger" })
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.ProjectName, new { @class = "col-sm-3 control-label" })
+                                <div class="col-sm-9">
+                                    @Html.TextBoxFor(m => m.ProjectName, new { @class = "form-control" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.ProjectDescription, new { @class = "col-sm-3 control-label" })
+                                <div class="col-sm-9">
+                                    @Html.TextBoxFor(m => m.ProjectDescription, new { @class = "form-control" })
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="panel-footer">
+                            <div class="pull-right">
+                                @if (ViewBag.EnableDelete ?? false)
+                                {
+                                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#delete-confirm">
+                                        <i class="fa fa-remove"></i>&nbsp;&nbsp;@Edit.DeleteOption
+                                    </a>
+                                }
+
+
+                            </div>
+                            <div class="">
+                                <button type="submit" class="btn btn-success" tabindex="10">
+                                    <i class="fa fa-save"></i>&nbsp;&nbsp;@Edit.SaveOption
+                                </button>&nbsp;&nbsp;
+                                @Html.ActionLink(Edit.BackOption, "Index")
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </fieldset>
+
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="delete-confirm" tabindex="-1" role="dialog" aria-labelledby="delete-confirm-label" aria-hidden="true">
+        <div class="modal-dialog">
+            @using (Html.BeginForm("Delete", "ProjectSettings", new { Model.ProjectId }, FormMethod.Post, new { @class = "form", role = "form" }))
+            {
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="@Edit.CloseOption"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="delete-confirm-label">@Edit.DeleteConfirmation</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <div class="alert alert-danger">
+                                @Edit.DeleteAlert
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label">@Edit.ReassignTickets</label>
+                            <div class="">
+                                @Html.DropDownList("ReassignTo", (System.Web.Mvc.SelectList)ViewBag.ProjectReassignList, new { @class = "form-control", data_val = "true", data_val_required = Edit.ProjectRequired, })
+                                @Html.ValidationMessage("ReassignTo", "", new { @class = "text-danger" })
+                                <span class="help-block">@Edit.ReassignTickets_Help</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">@Edit.CancelOption</button>
+                        <button type="submit" class="btn btn-primary">@Edit.DeleteOption</button>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</main>
