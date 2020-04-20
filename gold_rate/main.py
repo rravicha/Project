@@ -3,7 +3,7 @@ os.system('cls')
 from bs4 import BeautifulSoup as bs
 import requests
 import pandas as pd
-
+import numpy as np
 from sqlalchemy import create_engine
 import sys
 try:
@@ -44,7 +44,8 @@ for i in range(11):
 
 content3=[row.strip() for row in content2]
 content4.append(['date','24K_1gm','24K_8gm','22K_1gm','22K_8gm'])
-content4=[list((row[:16],row[16:23],row[23:31],row[31:38],row[38:47])) for row in content3]
+# content4=[list((row[:16],row[16:23],row[23:31],row[31:38],row[38:47])) for row in content3]
+content4=[list((row[:13],row[13:20],row[20:28],row[28:35],row[35:])) for row in content3]
 headers=('date','24K_1gm','24K_8gm','22K_1gm','22K_8gm')
 # print(headers[0])
 df=pd.DataFrame(content4,columns=headers)
@@ -55,6 +56,7 @@ print(df)
 print('format and replace')
 df.replace('',np.NaN,inplace=True)
 df.dropna(inplace=True)
+print(df)
 print('writing to db')
 
 if flag==1:
