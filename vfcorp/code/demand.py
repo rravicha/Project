@@ -1,12 +1,17 @@
 #!/usr/bin/python3
 '''
-PPMS			: 	224259_001
-Project Title	:	Automate Non Ocr PDF formatting
-Program Name 	:	pdfocr_glob.py
-Execute Method 	:	Shell/Crontab
-Usage			:	`python3 pdfocr_glob.py`
-Input			:	Automatically takes files present in container directory
-Description		:	The program is part of automation initative to process the file that falls in 
-					container directory. The input file should be a Non-Ocr pdf file and the output
-					will be in the form of pdf
+Sub Module : Called from main.py
 '''
+import pandas as pd
+class Demand:
+	def __init__(self,file,tab):
+		self.file=file
+		self.tab=tab
+		print('hit init')
+	
+	def read(self):
+		demand_df=pd.read_excel(self.file,self.tab)
+		# print('hit read')
+		return(demand_df)
+	
+
