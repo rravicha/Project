@@ -41,7 +41,7 @@ with open("gold_list.txt") as fh:
     gold_list1=fh.readlines()
 print('gold list 1 after formatting')
 print(gold_list1)
-'''
+
 for i in range(11):
     if i==0 or i>11:
         pass
@@ -68,9 +68,10 @@ print('writing to db')
 
 print('conneting to db')
 engine   = create_engine("postgres://scott:tiger@localhost/bigdata")
-df.to_sql('gold',engine,if_exists = 'append')   # writes to postgres db
+# df.to_sql('gold',engine,if_exists = 'append')   # writes to postgres db
 
 print('pushed to db')
+'''
 # q=pd.read_sql('select * from gold_tb', conn)
 # print(q)
 # conn.commit()
@@ -79,17 +80,17 @@ print('pushed to db')
 # cur=conn.cursor()
 
 '''
-print("Gold Rates loaded\n")
+# print("Gold Rates loaded\n")
 
-print('Extracting for silver\n')
-silver_str=gold_list1[-1]
-print(silver_str)
-silver_list=silver_str[22:318].split(' ')
-silver_dict={}
-for row in silver_list:
-    key=row[0:13];value=row[13:18]
-    silver_dict[key]=value
+# print('Extracting for silver\n')
+# silver_str=gold_list1[-1]
+# print(silver_str)
+# silver_list=silver_str[22:318].split(' ')
+# silver_dict={}
+# for row in silver_list:
+#     key=row[0:13];value=row[13:18]
+#     silver_dict[key]=value
 
-print("final dict")
-print(silver_dict)
-silver_headers=('date','rate')
+# print("final dict")
+# print(silver_dict)
+# silver_headers=('date','rate')

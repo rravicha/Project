@@ -15,7 +15,8 @@ from inbound import Inbound
 # import getpass
 def main():
     inb=Inbound()
-    inb.terminal()
+    # inb.terminal()
+    inb.load_to_db()
     
 
 
