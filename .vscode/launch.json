@@ -6,13 +6,15 @@
     "configurations": [
 
         {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
+            "name"        :  "Python: Current File",
+            "type"        :  "python",
+            "request"     :  "launch",
+            "program"     :  "${file}",
+            "console"     :  "externalTerminal",
+            "showOutput"  :  "always"
+            // "console": "Terminal",
             // "args":["1"],
-            "showOutput":"always"
+            
         }
     ]
 }

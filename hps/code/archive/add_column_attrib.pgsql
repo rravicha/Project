@@ -1,0 +1,18 @@
+alter table subscriber alter column fname set default 'botfname' ;
+alter table subscriber alter column lname set default 'botfname' ;
+alter table subscriber alter column gender set default 'M' ;
+alter table subscriber alter column dob set default '03/15/1990' ;
+alter table subscriber alter column email set default 'bot.email@mail.com' ;
+alter table subscriber alter column addr1 set default 'bot addr1' ;
+alter table subscriber alter column addr2 set default 'bot addr2' ;
+alter table subscriber alter column pincode set default '99999' ;
+alter table subscriber alter column city set default 'linux' ;
+alter table subscriber alter column country set default 'terminal' ;
+alter table subscriber alter column state set default 'fedora' ;
+alter table subscriber alter column phone set default '9999999' ;
+alter table subscriber alter column policy set default '20BOT099' ;
+alter table subscriber alter column ptype set default 'B' ;
+alter table subscriber alter column incpdt set default '01/01/2020' ;
+alter table subscriber alter column enddt set default '06/01/2020' ;
+alter table subscriber alter column effdt set default '01/01/2020' ;
+alter table subscriber alter column trmdt set default '01/30/2020' ;

@@ -1,9 +1,9 @@
 import psycopg2
 import getpass
+import os;os.system('cls')
 ###############################################################
-# Class idfdfdfdfeff                                                             #
-#                                                             #
-#                                                             #
+# Class inbound:
+# Get the incoming data and lods the subscriber table
 ###############################################################
 class Inbound:
     def __init__(self):
@@ -15,9 +15,9 @@ class Inbound:
         # passwd=getpass.getpass("Pass Key : ")
         # input("Level of Access : ")
         # get demographic information
-        self.fname     = str(input("fname  "))             
-        self.lname     = str(input("lname  "))          
-        self.gender    = str(input("gender "))           
+        self.fname     = str(input("fname  "));self.fname=self.fname.title()            
+        self.lname     = str(input("lname  "));self.lname=self.lname.title()         
+        self.gender    = str(input("gender "));self.gender=self.gender.upper()           
         self.dob       = str(input("dob    "))        
         self.email     = str(input("email  "))          
         self.addr1     = str(input("addr1  "))          
@@ -38,6 +38,7 @@ class Inbound:
         self.addln     =  "inbound"      
       
 
+    
     def load_to_db(self):
         # Connecting to Database
         con=psycopg2.connect("dbname='hps' user='postgres' password='Lokilove@123' host='localhost' port='5432'")
@@ -54,8 +55,8 @@ class Inbound:
 
         data=(self.fname  ,self.lname  ,self.gender ,self.dob    ,self.email  ,self.addr1  ,self.addr2  ,self.pincode,self.city   ,
         self.country,self.state  ,self.phone  ,self. policy,self.ptype  ,self.incpdt, self.enddt  ,self.effdt  ,self.trmdt  ,self.addln )
-        data=('bot','ssdfasdf','f','01/01/2020','dsfsd','dsfs','sdf','sd','dsf','sdf','sdf','963','sdfds','s',
-			 '01/01/2020','01/01/2020','01/01/2020','01/01/2020','dummy')
+        # data=('bot','ssdfasdf','f','01/01/2020','dsfsd','dsfs','sdf','sd','dsf','sdf','sdf','963','sdfds','s',
+		# 	 '01/01/2020','01/01/2020','01/01/2020','01/01/2020','dummy')
         
         sql="""insert into 
             subscriber
@@ -68,8 +69,10 @@ class Inbound:
         cur.execute(sql,data)
         retid = cur.fetchone()[0]
         # execute
-        print(retid)
+        # print(retid)
         print("Successfully Registered")
+        print(f"Your Policy ID is {retid}")
 
         con.commit()
+    
 # Main
