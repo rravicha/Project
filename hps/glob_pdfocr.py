@@ -63,19 +63,19 @@ if __name__=='__main__':
 	file_list=[]
 	os.chdir('container')
 	
-	files=glob.glob('*.pdf')
+	# files=glob.glob('*.pdf')
 	# obj1=pdfocr(files)
 
 	with concurrent.futures.ThreadPoolExecutor() as execute:
 		files=glob.glob('*.pdf')
-		# print(f'Files:{files}')
+		print(f'Files:{files}')
 		# l.info("files %s",files)
 		# results=execute.map(pdfocr,files)
 		obj1=execute.map(pdfocr,files)
 		# execute.submit(obj1.process)
 	# for result in results:
 		# print(result)
-	print('!!start')
+	# print('!!start')
 
 # '''
 # test
