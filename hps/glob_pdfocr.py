@@ -26,7 +26,7 @@ logging.basicConfig(filename="log.dat",filemode='w',format=lf,level=logging.INFO
 l=logging.getLogger()
 class pdfocr:
 	def __init__(self,flist):
-		l.info("flist"+flist)
+		l.info(f"flist {flist} ")
 		self.flist=flist
 		print(f'flist%%%%%%%%%%%%%%%:{self.flist}')
 		print(type(flist))
@@ -63,15 +63,15 @@ if __name__=='__main__':
 	file_list=[]
 	os.chdir('container')
 	
-	# files=glob.glob('*.pdf')
-	# obj1=pdfocr(files)
+	files=glob.glob('*.pdf')
+	obj1=pdfocr(files)
 
 	with concurrent.futures.ThreadPoolExecutor() as execute:
 		files=glob.glob('*.pdf')
 		print(f'Files:{files}')
 		# l.info("files %s",files)
 		# results=execute.map(pdfocr,files)
-		obj1=execute.map(pdfocr,files)
+		obj1=execute.map(obj1.process,files)
 		# execute.submit(obj1.process)
 	# for result in results:
 		# print(result)

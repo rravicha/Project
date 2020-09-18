@@ -1,3 +1,2 @@
-2020-09-01 02:36:02,530 INFO !!start
-2020-09-01 02:36:02,538 INFO flistPast_Due_Letter.pdf
-2020-09-01 02:36:02,551 INFO flistfacsimile_confidential.pdf
+2020-09-04 02:41:20,210 INFO !!start
+2020-09-04 02:41:20,210 INFO flist ['Past_Due_Letter.pdf', 'facsimile_confidential.pdf'] 

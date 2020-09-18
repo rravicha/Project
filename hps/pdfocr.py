@@ -8,7 +8,6 @@ pdf=wi(filename="sample2.pdf",resolution=300)
 pdi=pdf.convert('jpeg')
 
 il=[]
-
 for img in pdi.sequence:
     i=wi(image=img)
     il.append(i.make_blob('jpeg'))
