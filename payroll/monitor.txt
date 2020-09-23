@@ -1,1 +1,9 @@
 
+INFO 2020-09-20 05:43:00,927 -  * Restarting with windowsapi reloader -->113 |_internal 
+WARNING 2020-09-20 05:43:02,081 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-20 05:43:02,097 -  * Debugger PIN: 335-082-241 -->113 |_internal 
+INFO 2020-09-20 05:43:02,159 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) -->113 |_internal 
+INFO 2020-09-20 06:38:07,073 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit) -->113 |_internal 
+INFO 2020-09-20 06:38:07,105 -  * Restarting with stat -->113 |_internal 
+WARNING 2020-09-20 06:38:07,690 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-20 06:38:07,790 -  * Debugger PIN: 239-603-654 -->113 |_internal 
