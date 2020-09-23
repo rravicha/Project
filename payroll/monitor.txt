@@ -1,1 +1,47 @@
 
+WARNING 2020-09-23 06:16:47,414 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:16:47,416 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:16:51,459 -  * Detected change in '/home/susi/github/Project/payroll/engine/__init__.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:16:51,903 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:16:51,904 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:16:56,110 - 127.0.0.1 - - [23/Sep/2020 06:16:56] "[37mGET / HTTP/1.1[0m" 200 - -->113 |_internal 
+INFO 2020-09-23 06:19:31,653 - 127.0.0.1 - - [23/Sep/2020 06:19:31] "[37mGET / HTTP/1.1[0m" 200 - -->113 |_internal 
+INFO 2020-09-23 06:20:14,389 - 127.0.0.1 - - [23/Sep/2020 06:20:14] "[31m[1mGET / HTTP/1.1[0m" 400 - -->113 |_internal 
+INFO 2020-09-23 06:22:26,333 -  * Detected change in '/home/susi/github/Project/payroll/engine/routes.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:22:35,638 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:22:35,640 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:22:53,805 -  * Detected change in '/home/susi/github/Project/payroll/engine/__init__.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:22:54,310 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:22:54,311 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:23:00,375 -  * Detected change in '/home/susi/github/Project/payroll/engine/__init__.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:23:00,932 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:23:00,935 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:23:02,968 -  * Detected change in '/home/susi/github/Project/payroll/engine/__init__.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:23:03,476 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:23:03,477 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:23:05,463 - 127.0.0.1 - - [23/Sep/2020 06:23:05] "[31m[1mGET / HTTP/1.1[0m" 400 - -->113 |_internal 
+INFO 2020-09-23 06:23:26,661 -  * Detected change in '/home/susi/github/Project/payroll/engine/api/routes.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:23:27,260 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:23:27,263 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:23:31,299 -  * Detected change in '/home/susi/github/Project/payroll/engine/api/routes.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:23:31,793 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:23:31,794 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:23:44,889 -  * Detected change in '/home/susi/github/Project/payroll/engine/api/routes.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:23:45,331 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:23:45,332 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:23:55,418 -  * Detected change in '/home/susi/github/Project/payroll/engine/api/routes.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:23:55,939 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:23:55,940 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:23:57,630 - 127.0.0.1 - - [23/Sep/2020 06:23:57] "[31m[1mGET / HTTP/1.1[0m" 400 - -->113 |_internal 
+INFO 2020-09-23 06:27:11,403 -  * Detected change in '/home/susi/github/Project/payroll/engine/api/routes.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:27:11,925 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:27:11,928 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:27:17,991 -  * Detected change in '/home/susi/github/Project/payroll/engine/api/routes.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:27:18,474 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:27:18,478 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:27:25,551 -  * Detected change in '/home/susi/github/Project/payroll/engine/api/routes.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:27:26,116 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:27:26,117 -  * Debugger PIN: 303-145-180 -->113 |_internal 
+INFO 2020-09-23 06:28:06,454 -  * Detected change in '/home/susi/github/Project/payroll/engine/api/routes.py', reloading -->113 |_internal 
+WARNING 2020-09-23 06:28:06,905 -  * Debugger is active! -->113 |_internal 
+INFO 2020-09-23 06:28:06,907 -  * Debugger PIN: 303-145-180 -->113 |_internal 
