@@ -1,0 +1,987 @@
+Record Count "984"
+Emp ID,Name Prefix,First Name,Middle Initial,Last Name,Gender,Age in Yrs.,Date of Joining,Age in Company (Years),Salary,Place Name,County,City,State,Zip
+330816,Ms.,Jasmine,J,Freeman,F,55.95,2/1/1983,34.51,154216,Ocoee,Polk,Ocoee,TN,37361
+532002,Ms.,Madge,V,Sargent,F,35.84,4/13/2006,11.3,133003,Springfield,Sangamon,Springfield,IL,62712
+612850,Ms.,Bethany,Z,Cline,F,30.84,4/19/2008,9.28,154836,Montgomery,Lycoming,Montgomery,PA,17752
+483751,Prof.,Reid,F,Randolph,M,28.54,4/8/2017,0.3,124757,Pacoima,Los Angeles,Pacoima,CA,91331
+252938,Hon.,Antoine,H,Wiley,M,21.44,4/18/2017,0.28,58733,Canby,Clackamas,Canby,OR,97013
+966375,Dr.,Mathew,O,Hodge,M,22.08,11/11/2016,0.71,75584,Van Nuys,Los Angeles,Van Nuys,CA,91404
+707520,Mr.,Bernardo,L,Austin,M,42.51,1/26/2005,12.51,118693,Knoxville,Marion,Knoxville,IA,50197
+673049,Dr.,Cole,E,Jensen,M,27.48,5/30/2011,6.17,98381,Oklahoma City,Oklahoma,Oklahoma City,OK,73184
+265124,Ms.,Tonia,J,Burns,F,33,9/12/2014,2.88,102274,Friant,Fresno,Friant,CA,93626
+300693,Mr.,Tod,N,Holcomb,M,30.12,6/5/2015,2.15,91719,Reisterstown,Baltimore,Reisterstown,MD,21136
+369712,Mrs.,Yesenia,B,Guerrero,F,49.36,3/3/1994,23.42,150016,Patuxent River,St. Mary's,Patuxent River,MD,20670
+913253,Mr.,Carey,B,Ferrell,M,45.21,10/30/2004,12.75,125232,New Baltimore,Greene,New Baltimore,NY,12124
+308617,Mrs.,Aileen,D,Blanchard,F,30.67,7/18/2009,8.03,179264,Herman,Washington,Herman,NE,68029
+766783,Mrs.,Marta,N,Cervantes,F,46.47,9/17/2016,0.86,68134,Hoquiam,Grays Harbor,Hoquiam,WA,98550
+959506,Mr.,Arthur,Q,Holloway,M,47,1/27/2004,13.51,118621,Sheldon,O'Brien,Sheldon,IA,51201
+513011,Ms.,Tara,Y,Forbes,F,41.12,9/24/2009,7.85,85864,Dodson,Winn,Dodson,LA,71422
+290808,Mr.,Josef,S,Griffin,M,40.98,2/25/1998,19.43,98030,Sacramento,Sacramento,Sacramento,CA,95830
+253588,Ms.,Keri,J,Slater,F,58,8/9/1994,22.98,149842,Friendship,Knox,Friendship,ME,4547
+865628,Mr.,Desmond,R,Wynn,M,26,10/1/2013,3.82,79476,Fresno,Fresno,Fresno,CA,93888
+583924,Mrs.,Adrienne,H,Puckett,F,42.21,2/22/1997,20.44,105366,Arlee,Lake,Arlee,MT,59821
+932453,Mrs.,Beatriz,I,Knowles,F,33.44,9/16/2011,5.87,53311,Burlingame,San Mateo,Burlingame,CA,94012
+432168,Hon.,Jermaine,S,Sykes,M,27.54,5/24/2016,1.18,122631,Welaka,Putnam,Welaka,FL,32193
+463784,Mr.,Scott,H,Best,M,26.95,12/22/2015,1.6,45210,Bairoil,Sweetwater,Bairoil,WY,82322
+721098,Ms.,Isabel,Q,Espinoza,F,44,10/14/1993,23.8,115858,Tupelo,Coal,Tupelo,OK,74572
+392678,Mr.,Marcelino,Y,Kinney,M,21.52,2/28/2017,0.41,178750,Little Rock,Little Rock,Little Rock,AR,72208
+880704,Dr.,Benjamin,X,Jennings,M,40.21,6/10/2001,16.14,115574,Shungnak,Northwest Arctic,Shungnak,AK,99773
+186102,Drs.,Marcia,N,Casey,F,51.05,11/8/2013,3.72,118607,Victoria,Victoria,Victoria,TX,77903
+350367,Mr.,Rudolph,P,Gordon,M,38.28,11/12/2001,15.72,98990,Shinnston,Harrison,Shinnston,WV,26431
+893976,Ms.,Beverly,I,Rosales,F,42.43,4/24/2005,12.27,139394,Rossville,Vermilion,Rossville,IL,60963
+542826,Mr.,Marcus,D,Bolton,M,40.09,1/9/2011,6.55,63525,Bellerose,Queens,Bellerose,NY,11426
+590579,Ms.,Priscilla,Z,Mays,F,31.92,2/26/2017,0.42,185105,Fairview,Oscoda,Fairview,MI,48621
+297741,Ms.,Lynn,E,Pena,F,54.99,11/8/1996,20.73,48443,Castleton,Stark,Castleton,IL,61426
+458320,Ms.,Tessa,D,Pace,F,59.68,12/29/2012,4.58,44198,Austinville,Butler,Austinville,IA,50608
+297059,Mr.,Rufus,S,Guerra,M,49.62,5/1/2004,13.25,169620,Adams Basin,Monroe,Adams Basin,NY,14410
+874971,Mr.,Roman,R,Clark,M,54.63,1/8/1985,32.57,125299,Lampeter,Lancaster,Lampeter,PA,17537
+136626,Ms.,Carmela,D,Jefferson,F,42.39,2/27/2003,14.42,132431,Keystone Heights,Clay,Keystone Heights,FL,32656
+865495,Mr.,Thurman,J,Good,M,21.52,2/6/2017,0.47,118525,Eddyville,Pope,Eddyville,IL,62928
+415161,Dr.,Lemuel,V,Guerrero,M,32.16,10/15/2011,5.79,127772,Listie,Somerset,Listie,PA,15549
+279563,Mr.,Clint,A,Bridges,M,23.25,10/14/2015,1.79,67442,Blue Island,Cook,Blue Island,IL,60406
+201710,Ms.,Karyn,A,Christian,F,34.21,6/18/2017,0.11,96197,Ardenvoir,Chelan,Ardenvoir,WA,98811
+722543,Ms.,Lesa,E,Hughes,F,36.48,1/3/2016,1.57,96641,Terre Haute,Vigo,Terre Haute,IN,47807
+909337,Mr.,Rich,M,Bates,M,28.43,1/22/2011,6.52,145181,Maysville,Mason,Maysville,KY,41056
+601071,Ms.,Liz,H,Frank,F,31.39,2/14/2009,8.45,199943,Amherst,Hampshire,Amherst,MA,1002
+269523,Hon.,Kendra,X,Villarreal,F,53.8,3/30/2007,10.34,144517,Beaman,Grundy,Beaman,IA,50609
+310986,Drs.,Maryellen,R,Mcfadden,F,41.85,4/14/2017,0.29,94221,Tuckerman,Jackson,Tuckerman,AR,72473
+323914,Mr.,German,M,Carney,M,59.06,5/14/2000,17.22,84824,Lakeview,Montcalm,Lakeview,MI,48850
+928739,Hon.,Micheal,A,Shannon,M,30.66,2/27/2015,2.42,143864,Arlington,Bureau,Arlington,IL,61312
+238992,Dr.,Carlo,X,Albert,M,55.68,12/26/1996,20.6,104197,Liverpool,Onondaga,Liverpool,NY,13088
+434046,Mrs.,Bianca,I,Langley,F,57.19,4/14/1994,23.3,80844,Escatawpa,Jackson,Escatawpa,MS,39552
+971444,Mr.,Elias,X,Cabrera,M,27.06,5/2/2016,1.24,87962,Oaks,Montgomery,Oaks,PA,19456
+602683,Ms.,Alberta,A,Chapman,F,45.18,6/29/1999,18.09,125428,Rochester,Monroe,Rochester,NY,14611
+145327,Mr.,Erin,M,Olsen,M,22.99,4/19/2016,1.27,66575,Farmington,Fayette,Farmington,PA,15437
+597202,Dr.,Frederic,E,Stephenson,M,47.82,4/23/2013,4.27,192498,Seligman,Barry,Seligman,MO,65745
+168824,Mr.,Tanner,T,Caldwell,M,49.34,6/6/1999,18.16,116635,Michigan City,LaPorte,Michigan City,IN,46360
+616665,Mr.,Clarence,I,Powers,M,35.09,4/11/2005,12.3,108511,Macon,Bibb,Macon,GA,31203
+396135,Prof.,German,I,Sheppard,M,26.02,10/24/2014,2.76,110021,Matthews,Mecklenburg,Matthews,NC,28105
+966525,Mr.,Dion,U,Duffy,M,22.33,1/16/2017,0.53,124074,Plainfield,Union,Plainfield,NJ,7063
+362287,Mr.,Cornelius,V,Townsend,M,47.19,4/26/2009,8.26,176165,High Point,Moniteau,High Point,MO,65042
+798646,Ms.,Patsy,N,Koch,F,33.06,3/9/2010,7.39,87146,Atlanta,Fulton,Atlanta,GA,30304
+451972,Hon.,Waldo,I,Shields,M,46.69,2/22/2012,5.43,62435,Wooton,Leslie,Wooton,KY,41776
+993675,Hon.,Damien,Z,Rose,M,52.07,12/17/2005,11.62,161871,Five Forks,Five Forks,Five Forks,WV,26145
+807964,Mr.,Curt,Y,Bridges,M,38.79,9/17/2011,5.87,97656,Monticello,Jefferson,Monticello,FL,32344
+769123,Mr.,Brenton,N,Matthews,M,46.76,12/27/1994,22.6,98023,Green Camp,Marion,Green Camp,OH,43322
+395792,Hon.,Miguel,W,Finley,M,37.08,7/12/2004,13.05,103749,Kingfisher,Kingfisher,Kingfisher,OK,73750
+929791,Ms.,Esperanza,E,Paul,F,56.67,3/14/1990,27.39,176095,Lexington,Lexington (city),Lexington,VA,24450
+141326,Hon.,Patricia,C,Briggs,F,41.73,5/5/2000,17.24,160494,Easton,Talbot,Easton,MD,21601
+232794,Dr.,Forrest,B,Noel,M,39.37,4/5/1999,18.33,112988,Lee,Madison,Lee,FL,32059
+946835,Hon.,Marjorie,J,Wells,F,55.91,12/2/2005,11.66,128425,Baldwin City,Douglas,Baldwin City,KS,66006
+894936,Ms.,Vivian,T,Burnett,F,57.5,9/6/2001,15.9,93355,Hampden Sydney,Prince Edward,Hampden Sydney,VA,23943
+946630,Mr.,Duncan,L,Chen,M,53.48,11/2/2000,16.75,154843,West Palm Beach,Palm Beach,West Palm Beach,FL,33420
+381338,Ms.,Miriam,A,Barrett,F,27.11,3/8/2016,1.39,131543,Brady,McCulloch,Brady,TX,76825
+141178,Mr.,Adam,X,Kirby,M,54,8/3/2015,1.99,107957,Potlatch,Latah,Potlatch,ID,83855
+169763,Prof.,Benjamin,X,Macdonald,M,41.23,4/20/1999,18.28,89172,Tribune,Greeley,Tribune,KS,67879
+326358,Mr.,Neil,U,Murray,M,31.88,3/24/2016,1.35,84151,Milton,Strafford,Milton,NH,3851
+185077,Ms.,Nichole,S,Oneil,F,59.7,3/24/2008,9.35,153345,Bangor,Butte,Bangor,CA,95914
+901185,Mr.,Jonathon,M,Pearson,M,49.86,8/17/2015,1.95,173372,Silver Spring,Montgomery,Silver Spring,MD,20903
+264960,Dr.,Brent,J,Bryant,M,57.26,12/30/1985,31.6,180468,Adamsville,McNairy,Adamsville,TN,38310
+248449,Ms.,Carlene,E,Cain,F,31.69,6/25/2007,10.1,107647,Houston,Harris,Houston,TX,77219
+906870,Mr.,Arnulfo,M,Pittman,M,44.87,5/11/2002,15.22,190709,Auburn,Schuylkill,Auburn,PA,17922
+160503,Mr.,Nickolas,Z,Williams,M,32.12,6/15/2009,8.12,97725,Hanna,Carbon,Hanna,WY,82327
+212917,Prof.,Raymundo,W,Kramer,M,42.28,7/1/2002,15.08,178073,Toast,Surry,Toast,NC,27049
+337955,Mr.,Jeremiah,W,Dotson,M,29.05,1/21/2015,2.52,42840,Shauck,Morrow,Shauck,OH,43349
+171553,Mr.,Tanner,I,Matthews,M,40.87,12/7/2008,8.64,161106,Anchorage,Anchorage Municipality,Anchorage,AK,99695
+433510,Mr.,Dorian,A,Foster,M,57.05,8/15/2009,7.96,98604,Canebrake,Canebrake,Canebrake,WV,24819
+970502,Drs.,Nora,I,Hansen,F,34.73,6/1/2004,13.16,159223,Woolstock,Wright,Woolstock,IA,50599
+668717,Hon.,Danial,F,Watts,M,57.99,6/9/2013,4.14,188022,Joyce,Clallam,Joyce,WA,98343
+479832,Dr.,Nelson,H,Mcintosh,M,41.98,7/15/2005,12.04,139662,Glen Saint Mary,Baker,Glen Saint Mary,FL,32040
+273645,Dr.,Manuel,J,Fulton,M,34.06,6/29/2017,0.08,80629,Peabody,Peabody,Peabody,MA,1964
+266284,Hon.,Dominic,U,Henson,M,38.33,2/6/2003,14.48,180062,Sumner,Chariton,Sumner,MO,64681
+332802,Mr.,Lowell,M,Erickson,M,34.93,10/23/2013,3.76,104764,Potter,Cheyenne,Potter,NE,69156
+166615,Mrs.,Jayne,O,Coleman,F,36.97,11/27/2010,6.67,171662,Norfolk,Norfolk (city),Norfolk,VA,23506
+953967,Mr.,Cornell,G,Daniel,M,57.21,10/31/2004,12.75,197951,Woodhaven,Queens,Woodhaven,NY,11421
+114425,Mrs.,Doris,G,Glenn,F,41.56,9/2/2002,14.91,188137,Blaine,Lawrence,Blaine,KY,41124
+676618,Drs.,Tabatha,C,Gonzales,F,51.17,8/7/2009,7.98,160421,Steelville,Chester,Steelville,PA,19370
+581563,Prof.,Jerome,E,Foreman,M,28.65,8/28/2015,1.92,125044,Cobalt,Middlesex,Cobalt,CT,6414
+925484,Mr.,Elton,L,Ferguson,M,34.68,5/9/2006,11.23,176750,Lombard,DuPage,Lombard,IL,60148
+328562,Mr.,Stacy,V,Jennings,M,37.17,6/28/2006,11.09,134904,Enterprise,Catahoula,Enterprise,LA,71425
+759248,Dr.,Rory,V,Fowler,M,41.42,12/22/2004,12.61,70626,Templeton,Armstrong,Templeton,PA,16259
+158543,Mr.,Greg,S,Kane,M,53.33,5/21/1992,25.2,62904,Turners Station,Henry,Turners Station,KY,40075
+275491,Dr.,Julian,Y,Russo,M,59.33,1/27/1988,29.52,117739,Lisbon Center,Lisbon Center,Lisbon Center,ME,4251
+257927,Ms.,Agnes,J,Herman,F,41.65,1/4/1998,19.58,128225,Sugar City,Crowley,Sugar City,CO,81076
+144114,Mrs.,Nancy,P,Gillespie,F,37.28,2/3/2011,6.48,41796,Cypress,Johnson,Cypress,IL,62923
+262843,Mr.,Tyrone,N,Soto,M,44.34,10/26/2002,14.76,175995,Driftwood,Cameron,Driftwood,PA,15832
+963676,Mr.,Bradley,L,Chan,M,38.1,12/2/2002,14.66,58663,Portland,Multnomah,Portland,OR,97228
+745672,Dr.,Emile,A,Love,M,36.8,1/23/2011,6.52,144867,Mears,Accomack,Mears,VA,23409
+135089,Prof.,Zachary,G,Gregory,M,30.72,7/14/2010,7.04,193629,Fairbanks,Fairbanks North Star,Fairbanks,AK,99708
+593953,Drs.,Tara,A,Gutierrez,F,46.53,8/17/1995,21.96,115223,Zephyrhills,Pasco,Zephyrhills,FL,33543
+169348,Mr.,Aubrey,T,Pugh,M,23.64,3/1/2016,1.41,56797,Osprey,Sarasota,Osprey,FL,34229
+976096,Mr.,Carroll,E,Sweeney,M,28.14,6/22/2016,1.1,103003,Saint Martin,Stearns,Saint Martin,MN,56376
+790389,Ms.,Claudette,W,Solomon,F,32.62,7/24/2014,3.01,181603,Omaha,Douglas,Omaha,NE,68175
+143898,Mr.,Ricky,C,Bowers,M,40.75,12/28/2008,8.59,124155,Mount Hope,Lawrence,Mount Hope,AL,35651
+749765,Mr.,Brian,S,Fitzpatrick,M,38.68,11/9/2007,9.72,151448,Orlando,Orange,Orlando,FL,32813
+877422,Hon.,Nicholas,T,Branch,M,25.5,6/13/2013,4.13,134715,Pomona,Los Angeles,Pomona,CA,91769
+825343,Mrs.,Eileen,A,Hobbs,F,53.25,8/1/1994,23.01,139476,Oshkosh,Winnebago,Oshkosh,WI,54903
+155570,Mr.,Colin,G,Wilson,M,41.4,4/15/2002,15.3,131510,Conroe,Montgomery,Conroe,TX,77304
+587361,Hon.,Rosario,W,Trevino,F,56.64,6/30/2001,16.09,46453,Chattahoochee,Gadsden,Chattahoochee,FL,32324
+191240,Mr.,Salvador,Q,Gutierrez,M,23.43,1/24/2016,1.51,98487,Huddy,Pike,Huddy,KY,41535
+404070,Prof.,Aldo,J,Medina,M,43.75,10/4/2009,7.82,61791,Linton,Emmons,Linton,ND,58552
+192175,Dr.,Bret,J,Blevins,M,37.85,7/11/2015,2.05,163665,Vassar,Tuscola,Vassar,MI,48768
+825853,Hon.,Dominic,H,Mosley,M,21.04,7/27/2017,0,112683,Vancouver,Clark,Vancouver,WA,98663
+430843,Ms.,Karina,J,Owens,F,59.78,6/30/1984,33.1,91713,Centerville,Turner,Centerville,SD,57014
+597805,Hon.,Marquis,R,Perkins,M,32.68,4/7/2012,5.31,186371,Manchester,Ontario,Manchester,NY,14504
+651120,Mr.,Damon,G,Solomon,M,53.03,5/10/2008,9.22,157154,Stacy,Chisago,Stacy,MN,55079
+995242,Mr.,Leonel,K,Atkins,M,21.06,7/27/2017,0,190537,Isaban,McDowell,Isaban,WV,24846
+839558,Mr.,Teddy,A,Merritt,M,40.16,5/15/2010,7.21,43192,Timblin,Jefferson,Timblin,PA,15778
+398788,Ms.,Alexandria,Y,Long,F,28.47,11/16/2010,6.7,136817,Cooksville,McLean,Cooksville,IL,61730
+166790,Ms.,Margaret,C,Reilly,F,45.84,1/8/1995,22.57,131166,Plant City,Hillsborough,Plant City,FL,33567
+581261,Dr.,Willis,L,Rose,M,38.03,12/25/2010,6.59,192446,Freeman,Brunswick,Freeman,VA,23856
+793523,Prof.,Donovan,O,Bowman,M,30.42,9/16/2011,5.87,145629,Monroe,Waldo,Monroe,ME,4951
+178602,Mrs.,Kristina,Q,Mcgowan,F,38.94,5/11/2007,10.22,185016,Merced,Merced,Merced,CA,95348
+346662,Mr.,Garth,I,Clarke,M,47.74,11/7/2015,1.72,80047,Phyllis,Pike,Phyllis,KY,41554
+817037,Mr.,Martin,W,Buchanan,M,42.9,7/14/2001,16.05,105374,Centre,Cherokee,Centre,AL,35960
+648913,Mr.,Irwin,D,Jenkins,M,42.22,5/23/2013,4.18,48133,Traverse City,Grand Traverse,Traverse City,MI,49685
+924281,Mr.,Reynaldo,P,Sosa,M,51.82,5/3/1989,28.25,153633,Jamaica,Jamaica,Jamaica,NY,11446
+951857,Drs.,Sherri,T,Snyder,F,26.18,8/21/2013,3.94,65798,Saint Louis,St. Louis,Saint Louis,MO,63132
+474759,Mr.,Johnny,E,Dunlap,M,54.77,7/15/2012,5.04,193315,Irwinville,Irwin,Irwinville,GA,31760
+144715,Mr.,Earnest,X,Kirk,M,52.44,9/21/2005,11.86,168726,Masardis,Aroostook,Masardis,ME,4759
+141086,Dr.,Bernardo,Q,Mcdowell,M,54.21,4/24/2003,14.27,118615,Hollywood,Broward,Hollywood,FL,33026
+633255,Hon.,Yvette,U,Warner,F,21.13,7/9/2017,0.05,190579,Orviston,Centre,Orviston,PA,16864
+768457,Mr.,Robby,U,Jordan,M,43.39,3/12/2007,10.39,119793,Metaline,Pend Oreille,Metaline,WA,99152
+583282,Mrs.,Carolina,Y,Coleman,F,22.76,7/1/2016,1.07,166828,Sanford,Seminole,Sanford,FL,32771
+421955,Ms.,Sonia,X,Cook,F,52.1,12/25/2012,4.59,191691,Pearisburg,Giles,Pearisburg,VA,24134
+556491,Prof.,Larry,C,Tran,M,47.57,3/15/2007,10.38,129203,Pliny,Pliny,Pliny,WV,25158
+701223,Ms.,Esmeralda,P,Grant,F,26.62,1/24/2013,4.51,190367,Shullsburg,Lafayette,Shullsburg,WI,53586
+122005,Hon.,Candy,K,Singleton,F,36.1,4/11/2017,0.3,175771,Wetumpka,Elmore,Wetumpka,AL,36093
+461385,Mrs.,Emma,E,Obrien,F,50.9,12/2/2012,4.65,182870,Briggsville,Marquette,Briggsville,WI,53920
+249180,Dr.,Scot,M,Beach,M,37.02,6/29/2010,7.08,141641,Pocahontas,Pocahontas,Pocahontas,IA,50574
+634658,Mr.,Rolland,D,Mendoza,M,51.01,1/26/2015,2.5,75123,Jackson,Hinds,Jackson,MS,39216
+842752,Mrs.,Tommie,B,Sanchez,F,43.17,9/25/1997,19.85,155291,Wedowee,Randolph,Wedowee,AL,36278
+513773,Prof.,Jessie,N,Cortez,M,35.88,4/16/2016,1.28,102944,Clearwater,Pinellas,Clearwater,FL,33763
+781472,Mr.,Isiah,T,Guthrie,M,51.98,5/6/2009,8.23,45519,Heber City,Wasatch,Heber City,UT,84032
+747200,Mrs.,Janelle,Q,Gill,F,55.21,7/13/1999,18.05,131182,Falls Church,Falls Church (city),Falls Church,VA,22040
+932425,Mr.,Christoper,Y,Haynes,M,37.93,2/24/2014,3.42,84029,Speaks,Lavaca,Speaks,TX,77985
+962851,Ms.,Kathie,E,Kirby,F,30.7,7/30/2011,6,65985,Santa Teresa,Doña Ana,Santa Teresa,NM,88008
+168829,Ms.,Antonia,H,Kinney,F,32.48,5/26/2006,11.18,148623,Fort Lauderdale,Broward,Fort Lauderdale,FL,33348
+603575,Ms.,Ophelia,V,Wagner,F,45.52,11/25/2013,3.67,45192,Scottsdale,Maricopa,Scottsdale,AZ,85257
+419075,Mrs.,Hallie,G,Cervantes,F,38.1,4/3/2016,1.32,192037,Se Ree,Breckinridge,Se Ree,KY,40164
+224473,Ms.,Adriana,R,Mcfarland,F,38.94,1/10/2000,17.56,71847,Gordon,Sheridan,Gordon,NE,69343
+552582,Hon.,Jana,L,Weiss,F,49.6,6/3/2000,17.16,141390,Athens,Clarke,Athens,GA,30606
+724235,Mr.,Quentin,J,Benson,M,37.38,4/17/2013,4.28,75837,Chippewa Falls,Chippewa,Chippewa Falls,WI,54774
+908007,Mrs.,Debra,S,Pena,F,26.69,9/17/2015,1.86,113267,Kossuth,Clarion,Kossuth,PA,16331
+871610,Mr.,Kenton,I,Moreno,M,24.54,1/8/2016,1.55,148664,Highland Park,Lake,Highland Park,IL,60035
+491595,Prof.,Ian,O,Alvarado,M,51.87,12/27/1998,18.6,109416,Huntsville,Madison,Huntsville,AL,35806
+821474,Mr.,Jasper,F,Lucas,M,35.88,2/12/2003,14.47,96328,Greeley,Anderson,Greeley,KS,66033
+206783,Hon.,Brock,X,Roberts,M,49.45,1/8/1991,26.57,158082,Gary,McDowell,Gary,WV,24836
+870463,Mr.,Salvador,S,Deleon,M,48.34,2/21/1995,22.45,55351,Riverdale,Cook,Riverdale,IL,60827
+809491,Mr.,Terence,U,Giles,M,40.89,6/12/2010,7.13,145954,Montevallo,Shelby,Montevallo,AL,35115
+924427,Mr.,Dario,O,Townsend,M,55.25,1/27/1994,23.52,116911,Torrance,Los Angeles,Torrance,CA,90501
+505780,Drs.,Ester,Z,Houston,F,39.41,7/1/2007,10.08,65748,Arendtsville,Adams,Arendtsville,PA,17303
+149904,Ms.,Leanne,R,Mcmahon,F,53.58,5/8/1985,32.24,144108,Brookton,Washington,Brookton,ME,4413
+886315,Dr.,Valentin,S,Montoya,M,51.76,1/5/1997,20.57,164411,Kingston,Roane,Kingston,TN,37763
+948512,Mr.,Jared,Q,Shepherd,M,21.35,5/10/2017,0.22,47359,Dewittville,Chautauqua,Dewittville,NY,14728
+780963,Mrs.,Jami,P,Cantrell,F,31.35,4/20/2007,10.28,196942,Country Club Hills,Cook,Country Club Hills,IL,60478
+282037,Mr.,Bruno,M,Whitney,M,41.38,4/4/2010,7.32,182912,Killen,Lauderdale,Killen,AL,35645
+505758,Mr.,Garland,Q,Watkins,M,55.57,9/26/2008,8.84,70852,Kopperl,Bosque,Kopperl,TX,76652
+487100,Mr.,Augustus,E,Maldonado,M,25.19,8/1/2016,0.99,139481,Napoleon,Jackson,Napoleon,MI,49261
+974444,Prof.,Luther,F,Mcneil,M,25.34,4/2/2014,3.32,46241,Winthrop Harbor,Lake,Winthrop Harbor,IL,60096
+829416,Mr.,Jimmy,C,Molina,M,51.26,10/11/2005,11.8,138022,Biloxi,Harrison,Biloxi,MS,39533
+146825,Hon.,Morton,Q,Franklin,M,56.97,2/14/2008,9.46,136498,Kenton,Kent,Kenton,DE,19955
+603179,Mr.,Andrew,V,Price,M,30.42,5/31/2009,8.16,189614,Ohio City,Van Wert,Ohio City,OH,45874
+175035,Ms.,Ava,L,Romero,F,45.21,9/14/2004,12.88,154633,Fort Payne,DeKalb,Fort Payne,AL,35967
+358935,Ms.,Anastasia,Y,Bowen,F,24.61,4/1/2017,0.32,196480,Garrett Park,Montgomery,Garrett Park,MD,20896
+608832,Mrs.,Sabrina,O,Fowler,F,35.59,7/17/2006,11.04,130226,Duncan,Bolivar,Duncan,MS,38740
+509911,Ms.,Kirsten,Y,Lee,F,48.81,12/19/2014,2.61,61126,Saint Louis,St. Louis (city),Saint Louis,MO,63164
+354363,Ms.,Tabatha,W,Arnold,F,41.02,12/1/2004,12.66,62009,Bagdad,Santa Rosa,Bagdad,FL,32530
+344607,Mr.,Gregg,T,Mann,M,58.24,7/9/1998,19.07,188608,Dartmouth,Bristol,Dartmouth,MA,2714
+191963,Ms.,Deanne,H,Mccarty,F,43.59,7/3/2012,5.07,91068,Clarinda,Page,Clarinda,IA,51632
+695631,Mrs.,Juanita,O,Zimmerman,F,42.81,11/18/2010,6.7,86919,Seward,Kenai Peninsula,Seward,AK,99664
+547420,Mr.,Doug,V,Small,M,25.65,11/19/2014,2.69,139670,Doe Hill,Highland,Doe Hill,VA,24433
+403674,Dr.,Billy,R,Mcdowell,M,33.83,4/6/2014,3.31,170510,Rhodelia,Meade,Rhodelia,KY,40161
+988937,Dr.,Boyd,L,Valencia,M,30.16,11/16/2016,0.7,180715,Mount Hamilton,Santa Clara,Mount Hamilton,CA,95140
+937737,Mr.,Roberto,T,Caldwell,M,22.98,3/11/2017,0.38,71924,Peoria,Peoria,Peoria,IL,61639
+144235,Mr.,Kris,U,Conner,M,55.22,9/20/1998,18.87,102819,Ballouville,Windham,Ballouville,CT,6233
+866051,Ms.,Leann,R,Ortiz,F,27.46,4/8/2011,6.31,86569,Neelyton,Huntingdon,Neelyton,PA,17239
+287787,Mr.,Joaquin,B,Bentley,M,55.96,7/28/2012,5,96012,Barren Springs,Wythe,Barren Springs,VA,24313
+316579,Mrs.,Leanne,Z,Potter,F,28.52,10/16/2015,1.78,95604,Cordova,Valdez-Cordova (CA),Cordova,AK,99574
+625981,Mr.,Jay,R,Sanders,M,53.6,12/29/1987,29.6,123069,Oxford,Worcester,Oxford,MA,1540
+232661,Ms.,Luz,G,Brown,F,56.1,5/18/1987,30.22,111953,Charleston,Charleston,Charleston,SC,29403
+863522,Mr.,Dudley,W,Preston,M,39.72,3/24/2014,3.35,121461,Keokee,Lee,Keokee,VA,24265
+118236,Mr.,Monroe,D,Beach,M,29.8,8/26/2015,1.92,74452,Norwood,East Feliciana,Norwood,LA,70761
+412201,Ms.,Dina,Q,Jones,F,26.94,7/26/2013,4.01,60935,Monticello,Wright,Monticello,MN,55591
+855988,Hon.,Christian,G,Morrison,M,58.1,11/12/2011,5.71,75109,Sand Lake,Rensselaer,Sand Lake,NY,12153
+158689,Ms.,Lucile,L,Fleming,F,50.66,12/9/2006,10.64,141720,Cabot,Washington,Cabot,VT,5647
+737292,Mr.,Luciano,H,Ray,M,25.79,2/22/2014,3.43,164496,Little Rock,Pulaski,Little Rock,AR,72231
+596917,Mr.,Ahmad,B,Poole,M,44.17,6/1/2016,1.16,178345,North Judson,Starke,North Judson,IN,46366
+620634,Ms.,Janna,Y,Hopkins,F,29.7,12/21/2011,5.61,40265,Madison,Madison,Madison,NY,13402
+130591,Prof.,Kendrick,V,Miles,M,55,1/25/1991,26.52,134103,Nashua,Hillsborough,Nashua,NH,3063
+579618,Hon.,Demetrius,Z,Ruiz,M,24.64,5/20/2015,2.19,83790,Chantilly,Chantilly,Chantilly,VA,22021
+240295,Mr.,Ken,P,Winters,M,22.47,3/31/2016,1.33,131126,Jefferson City,Cole,Jefferson City,MO,65111
+846100,Mr.,Earl,O,Gilbert,M,44.56,8/26/2013,3.92,129931,Niagara Falls,Niagara,Niagara Falls,NY,14302
+431841,Ms.,Taylor,K,Barlow,F,52.51,4/18/1987,30.3,61082,Sentinel,Washita,Sentinel,OK,73664
+520702,Ms.,Clarissa,Z,Lawson,F,24.1,11/11/2015,1.71,74924,Melbourne,Marshall,Melbourne,IA,50162
+771425,Mr.,Lewis,T,Fuller,M,58.78,12/20/2006,10.61,81514,Hope,Montgomery,Hope,KY,40334
+189557,Mrs.,Claudine,Y,Black,F,39.21,9/9/2015,1.88,67398,Farrandsville,Farrandsville,Farrandsville,PA,17734
+702034,Mrs.,Mitzi,Y,Lynch,F,56.95,3/17/2005,12.37,122784,Jamesville,Onondaga,Jamesville,NY,13078
+586207,Dr.,Michel,T,Finch,M,31.11,3/20/2012,5.36,147516,Mascotte,Lake,Mascotte,FL,34753
+835545,Ms.,Janie,P,Velasquez,F,59.32,5/14/1983,34.23,90653,Venango,Crawford,Venango,PA,16440
+326407,Mrs.,Sophie,F,Bass,F,27.55,10/13/2011,5.79,199238,Mears,Oceana,Mears,MI,49436
+414967,Mrs.,Bette,Y,Kane,F,37.6,6/13/2004,13.13,89490,Mc Elhattan,Clinton,Mc Elhattan,PA,17748
+410300,Mrs.,Dena,Q,Blake,F,42.2,2/24/2011,6.43,160716,Otter,Powder River,Otter,MT,59062
+252371,Mr.,Dante,Q,Farmer,M,32.06,8/18/2010,6.95,191093,Hannah,Cavalier,Hannah,ND,58239
+297502,Ms.,Angelina,D,Lynn,F,42.4,3/8/2007,10.4,157805,Hazard,Sherman,Hazard,NE,68844
+725857,Ms.,Shannon,D,Snow,F,55.77,7/30/2014,3,114142,Durham,Durham,Durham,NC,27701
+805103,Mr.,Ron,C,Glenn,M,24.08,9/14/2014,2.87,105706,Galion,Crawford,Galion,OH,44833
+641096,Mrs.,Kerry,C,Pitts,F,28.25,4/4/2017,0.32,179286,Oklahoma City,Cleveland,Oklahoma City,OK,73173
+856369,Mr.,Dominick,M,Robbins,M,37.97,10/21/2001,15.78,123733,Spring Green,Sauk,Spring Green,WI,53588
+318571,Prof.,Emory,N,Spence,M,50.27,10/18/2004,12.78,144834,Milford,Hillsborough,Milford,NH,3055
+219020,Drs.,Lana,G,Spence,F,50.07,6/21/2009,8.11,108199,Beaufort,Beaufort,Beaufort,SC,29904
+934285,Mr.,Jeremy,G,English,M,44.91,10/20/1996,20.78,88094,Big Spring,Howard,Big Spring,TX,79721
+149763,Dr.,Dudley,N,Melton,M,26.34,5/17/2013,4.2,48438,Essex Fells,Essex,Essex Fells,NJ,7021
+363951,Drs.,Frances,D,Stafford,F,51.92,7/25/1987,30.03,177320,Merritt,Pamlico,Merritt,NC,28556
+306185,Mr.,Percy,N,Hunt,M,46.65,11/7/2004,12.73,150940,Hasse,Hasse,Hasse,TX,76456
+225090,Mr.,Alfredo,H,Vasquez,M,44.3,10/4/2005,11.82,59287,Clover,York,Clover,SC,29710
+287114,Ms.,Joanna,A,Perkins,F,58.01,9/9/1992,24.9,196619,Audubon,Audubon,Audubon,IA,50025
+811489,Hon.,Susanna,R,Huff,F,47.08,5/4/2011,6.24,67505,Springdale,Allegheny,Springdale,PA,15144
+162573,Hon.,Ola,T,Thompson,F,46.95,8/19/2003,13.95,156203,Dayton,Sheridan,Dayton,WY,82836
+836699,Mrs.,Louella,F,Wolfe,F,51.47,5/21/2001,16.2,96037,Phoenix,Phoenix,Phoenix,AZ,85083
+798859,Drs.,Deirdre,N,Travis,F,46.33,7/15/1998,19.05,128752,Indianapolis,Marion,Indianapolis,IN,46206
+458765,Ms.,Kristina,W,Ware,F,36.11,10/18/2006,10.78,183956,Moorpark,Ventura,Moorpark,CA,93021
+562109,Mr.,Stacy,O,Dixon,M,54.21,11/30/1995,21.67,108295,Peoria,Peoria,Peoria,IL,61640
+947334,Mr.,Frankie,Y,Clark,M,56.73,11/20/2010,6.69,175424,Red Oak,Montgomery,Red Oak,IA,51566
+316995,Mrs.,Pauline,J,Gilbert,F,21.08,7/22/2017,0.02,123599,Niotaze,Chautauqua,Niotaze,KS,67355
+798671,Mr.,Adolph,L,Skinner,M,52.89,5/26/2008,9.18,180393,Durham,Durham,Durham,NC,27707
+415004,Ms.,Rosa,P,Camacho,F,22.32,5/25/2016,1.18,56054,Appleton,Outagamie,Appleton,WI,54913
+770810,Mr.,Craig,W,Marquez,M,35.14,12/18/2004,12.62,80934,Sand Creek,Lenawee,Sand Creek,MI,49279
+255640,Mr.,Stanley,T,Lowe,M,30.91,11/14/2008,8.71,80699,Jolo,McDowell,Jolo,WV,24850
+311079,Dr.,Morgan,C,Farrell,M,28.3,11/23/2011,5.68,48192,Hartline,Grant,Hartline,WA,99135
+559421,Ms.,Reba,O,Potts,F,31.34,7/7/2011,6.06,155351,Columbia,Richland,Columbia,SC,29216
+959306,Ms.,Shana,O,Gould,F,44.05,8/17/2000,16.96,74961,Edward,Beaufort,Edward,NC,27821
+713805,Mr.,Adam,I,Bartlett,M,45.87,6/20/2005,12.11,62876,Ohatchee,Calhoun,Ohatchee,AL,36271
+532285,Ms.,Leann,W,Melendez,F,43.76,12/17/2007,9.62,88889,Woodbridge,Prince William,Woodbridge,VA,22193
+664249,Mr.,Floyd,B,Mills,M,33.94,2/2/2006,11.49,111583,Farwell,Howard,Farwell,NE,68838
+339483,Mr.,Scott,Q,Carrillo,M,47.56,8/6/1991,25.99,171304,Rockford,Floyd,Rockford,IA,50468
+155956,Mr.,Sterling,K,Hooper,M,54.89,8/18/2003,13.95,78732,Saint Anne,Kankakee,Saint Anne,IL,60964
+791119,Mr.,Damon,T,Hunt,M,38.69,11/5/2010,6.73,126670,Onego,Pendleton,Onego,WV,26886
+798553,Prof.,Mauricio,A,Potts,M,30.93,4/15/2015,2.29,102183,Lawrence,Essex,Lawrence,MA,1841
+981925,Ms.,Ebony,B,Eaton,F,53.05,10/26/1999,17.77,87666,Otego,Otsego,Otego,NY,13825
+648118,Drs.,Bobbie,M,Joyner,F,46.3,4/19/2016,1.27,65153,Park Valley,Box Elder,Park Valley,UT,84329
+278391,Ms.,Jami,N,Velasquez,F,25.03,8/19/2016,0.94,40883,Max,Itasca,Max,MN,56659
+556573,Ms.,Aisha,Z,Gentry,F,51.78,7/10/1991,26.07,139115,Montezuma,Cayuga,Montezuma,NY,13117
+159472,Hon.,Moses,P,Reid,M,52.63,8/14/1999,17.97,198160,Orlando,Orange,Orlando,FL,32834
+871770,Ms.,Monique,S,Deleon,F,27.32,5/17/2015,2.2,69805,Cardington,Morrow,Cardington,OH,43315
+338556,Mr.,Domingo,S,Gibbs,M,28.74,10/27/2013,3.75,178530,Littlefield,Mohave,Littlefield,AZ,86432
+182719,Ms.,Tammy,D,Vincent,F,57.08,11/19/2007,9.7,111372,Dongola,Union,Dongola,IL,62926
+305556,Mr.,Federico,J,Wilson,M,42.73,4/13/2000,17.3,125802,Hart,Castro,Hart,TX,79043
+915507,Mr.,Kory,X,Roth,M,43.55,11/24/2010,6.68,153636,Buies Creek,Harnett,Buies Creek,NC,27506
+761381,Ms.,Nichole,Z,Lloyd,F,31.28,12/15/2016,0.62,46766,Wichita,Sedgwick,Wichita,KS,67217
+141022,Mr.,Rodger,D,Chavez,M,36.07,3/3/2005,12.41,187480,Sacramento,Sacramento,Sacramento,CA,95842
+528086,Mr.,Bruce,Z,Carney,M,43.49,5/7/2013,4.23,95018,Detroit,Wayne,Detroit,MI,48288
+177821,Mr.,Derick,N,Ferrell,M,42.5,4/5/2008,9.32,173372,Mc Veytown,Mifflin,Mc Veytown,PA,17051
+740281,Ms.,Lorna,W,Henson,F,28.15,10/23/2011,5.77,85410,Scranton,Lackawanna,Scranton,PA,18510
+906797,Mr.,Rico,K,Mayo,M,26.15,11/17/2016,0.69,137995,Mineral City,Tuscarawas,Mineral City,OH,44656
+790008,Ms.,Luann,R,Crane,F,40.37,7/15/2010,7.04,84136,Phoenix,Oswego,Phoenix,NY,13135
+825433,Mrs.,Tara,H,Goodwin,F,49.05,11/24/2007,9.68,84023,Glenmoore,Chester,Glenmoore,PA,19343
+941759,Prof.,Shaun,J,Evans,M,48.35,6/13/1990,27.14,119430,Kansas City,Jackson,Kansas City,MO,64108
+313864,Mrs.,Debbie,S,Velez,F,54.33,9/29/1996,20.84,138006,Littleton,Arapahoe,Littleton,CO,80120
+978745,Mrs.,May,R,Hodge,F,42.54,1/31/2015,2.49,137894,Leslie,Franklin,Leslie,MO,63056
+807182,Mrs.,Adeline,R,Evans,F,28.98,4/7/2016,1.31,121383,Niota,Hancock,Niota,IL,62358
+463743,Mr.,Guy,C,Gilbert,M,56.9,7/17/1988,29.05,91453,Castle Rock,Douglas,Castle Rock,CO,80104
+901775,Ms.,Opal,X,Hansen,F,39.76,5/4/2017,0.23,169631,South Ryegate,Caledonia,South Ryegate,VT,5069
+197867,Mrs.,Robbie,C,Oconnor,F,24.48,5/30/2014,3.16,79934,Pascagoula,Jackson,Pascagoula,MS,39569
+423470,Mrs.,Ella,W,Craft,F,25.46,4/7/2017,0.31,64521,Norvelt,Westmoreland,Norvelt,PA,15674
+238361,Prof.,Derrick,T,Vaughn,M,52.32,5/6/1990,27.25,194264,Ossian,Winneshiek,Ossian,IA,52161
+596366,Mrs.,Maura,W,Cherry,F,47.27,4/5/1996,21.33,104520,Fairfield,Hyde,Fairfield,NC,27826
+725424,Dr.,Roderick,R,Vinson,M,23.42,8/28/2016,0.92,65304,Encampment,Carbon,Encampment,WY,82325
+229037,Ms.,Gwen,T,Gilliam,F,22.55,5/8/2016,1.22,138294,Marathon,Clermont,Marathon,OH,45145
+434723,Mrs.,Melanie,L,Zimmerman,F,47.17,1/12/1999,18.55,83300,La Puente,Los Angeles,La Puente,CA,91749
+501422,Mr.,Micah,Y,Merritt,M,33.78,11/27/2006,10.67,146356,Lyoth,San Joaquin,Lyoth,CA,95296
+638943,Mr.,Buford,D,Hobbs,M,41.85,3/15/2000,17.38,52960,Success,Clay,Success,AR,72470
+935745,Mr.,Kyle,N,Farmer,M,42.72,8/30/2015,1.91,195833,Tebbetts,Callaway,Tebbetts,MO,65080
+750581,Ms.,Jocelyn,U,Rojas,F,48.51,10/17/2009,7.78,49158,Merritt Island,Brevard,Merritt Island,FL,32953
+468128,Mr.,Larry,G,Gray,M,23.88,7/31/2015,1.99,193352,San Augustine,San Augustine,San Augustine,TX,75972
+884877,Mr.,Wilbur,P,Bates,M,28.02,4/12/2012,5.3,118264,West Copake,Columbia,West Copake,NY,12593
+870904,Ms.,Maxine,F,Moran,F,49.28,3/25/2009,8.35,61056,Hogansburg,Franklin,Hogansburg,NY,13655
+926224,Ms.,Kathleen,T,Middleton,F,38.42,5/20/2009,8.19,150091,Somerset,Pulaski,Somerset,KY,42502
+220061,Prof.,Norbert,P,Joyner,M,51.31,11/24/2008,8.68,40749,Schuyler,Colfax,Schuyler,NE,68661
+125823,Mr.,Chadwick,G,Walton,M,51.48,9/14/2008,8.87,165482,Lattimer Mines,Luzerne,Lattimer Mines,PA,18234
+768943,Mrs.,Connie,O,Shaffer,F,43.99,10/15/1999,17.8,71160,Casselberry,Seminole,Casselberry,FL,32718
+591698,Ms.,Bobbie,C,Singleton,F,32.51,1/1/2011,6.58,184505,Jamaica,Queens,Jamaica,NY,11435
+700418,Drs.,Lesley,K,Rollins,F,22.42,2/11/2017,0.46,103327,Nuevo,Riverside,Nuevo,CA,92567
+476635,Ms.,Victoria,H,Howe,F,49.5,9/1/1995,21.92,160288,Toledo,Lucas,Toledo,OH,43657
+785299,Mr.,Marc,F,Nixon,M,47.47,12/28/2005,11.59,59123,East Hickory,Forest,East Hickory,PA,16321
+225139,Prof.,Elias,A,Pena,M,21.38,4/8/2017,0.3,183466,Mayking,Letcher,Mayking,KY,41837
+308125,Mrs.,Flossie,C,Mcpherson,F,47.72,3/18/1996,21.38,97890,Nezperce,Lewis,Nezperce,ID,83543
+129426,Drs.,Lana,E,Hayes,F,41.64,10/15/2013,3.79,82263,Shawnee Mission,Johnson,Shawnee Mission,KS,66219
+399192,Mr.,Nick,C,Wilcox,M,40.72,9/10/2012,4.88,136207,Glen Ellyn,DuPage,Glen Ellyn,IL,60137
+555551,Ms.,Nona,W,Buck,F,29.15,11/8/2010,6.72,143194,Odessa,Ector,Odessa,TX,79763
+245059,Mr.,Abdul,K,Barnett,M,32.36,9/26/2011,5.84,165777,Alexandria,Fairfax,Alexandria,VA,22307
+423008,Drs.,Inez,C,Kane,F,32.23,9/11/2009,7.88,77392,Sierra Madre,Los Angeles,Sierra Madre,CA,91025
+316407,Drs.,Raquel,A,Bray,F,23.65,9/10/2015,1.88,74449,Pine Island,Orange,Pine Island,NY,10969
+410027,Mr.,Sean,F,Noble,M,54.98,3/25/2011,6.35,117566,Corona,Riverside,Corona,CA,92879
+307715,Dr.,Fred,I,Woodward,M,46.63,4/4/2003,14.33,115356,North Palm Springs,Riverside,North Palm Springs,CA,92258
+690117,Mr.,Sylvester,Q,Salas,M,29.86,2/18/2016,1.44,170570,Sarasota,Sarasota,Sarasota,FL,34241
+149844,Mrs.,Berta,P,Irwin,F,34.56,6/2/2012,5.16,169176,Holbrook,Suffolk,Holbrook,NY,11741
+116530,Drs.,Noelle,G,Paul,F,53.52,11/19/1988,28.71,190616,Crocker,Crocker,Crocker,SD,57229
+234429,Ms.,Chrystal,D,Swanson,F,33.44,4/27/2007,10.26,144528,Norristown,Montgomery,Norristown,PA,19401
+437970,Hon.,Reggie,R,Nolan,M,27.88,8/5/2013,3.98,178094,Woodward,Dallas,Woodward,IA,50276
+766745,Hon.,Joanne,K,Melton,F,52.64,3/30/2006,11.34,61487,Cincinnati,Hamilton,Cincinnati,OH,45253
+684446,Mr.,Bryon,J,Gardner,M,32.45,3/4/2008,9.41,169032,Platina,Shasta,Platina,CA,96076
+385932,Ms.,Noreen,M,Vincent,F,22.88,8/20/2016,0.94,163224,Fisty,Knott,Fisty,KY,41743
+862150,Hon.,Mathew,S,Duran,M,23.91,9/27/2015,1.84,140169,Millville,Sussex,Millville,DE,19967
+635915,Ms.,Herminia,I,Morin,F,56.46,6/25/1989,28.11,160770,Reidsville,Rockingham,Reidsville,NC,27320
+540696,Dr.,Luke,Y,Craft,M,32.95,7/26/2013,4.01,114661,Harned,Breckinridge,Harned,KY,40144
+870351,Mr.,Ronny,C,Long,M,34.65,11/25/2009,7.68,115908,Thompson,Winnebago,Thompson,IA,50478
+360498,Ms.,Jeannine,E,Vaughn,F,39.33,4/29/2014,3.25,153407,Bingham,Somerset,Bingham,ME,4920
+397164,Mrs.,Silvia,F,Huff,F,43.48,1/28/2009,8.5,67189,Fort Worth,Tarrant,Fort Worth,TX,76179
+488068,Mrs.,Margo,K,Hoffman,F,32.23,12/21/2009,7.61,117004,Crouseville,Aroostook,Crouseville,ME,4738
+890432,Mrs.,Kimberly,K,Summers,F,58.61,4/30/2006,11.25,184073,Carter,Carter,Carter,KY,41128
+935890,Hon.,Jodie,I,Mckinney,F,21.8,12/24/2016,0.59,83325,Miston,Dyer,Miston,TN,38056
+541867,Ms.,Lorrie,V,Leblanc,F,49.58,2/13/1993,24.47,74192,San Bernardino,San Bernardino,San Bernardino,CA,92408
+885774,Dr.,Miles,Q,Giles,M,41.01,2/12/2007,10.46,105720,Indianapolis,Marion,Indianapolis,IN,46298
+979649,Mr.,Jamar,Q,Castaneda,M,35.24,5/22/2006,11.19,68745,Wilmington,New Castle,Wilmington,DE,19889
+599012,Mrs.,Amber,Z,Warner,F,59.73,8/6/2016,0.98,116847,Darien,McIntosh,Darien,GA,31305
+204626,Prof.,Sterling,X,Patel,M,51.48,11/11/2001,15.72,151009,Burton,King,Burton,WA,98013
+830006,Ms.,Enid,M,Pearson,F,45.03,4/24/2006,11.27,183123,Brick,Ocean,Brick,NJ,8724
+127205,Mrs.,Annmarie,C,Frye,F,31.17,7/14/2013,4.04,72981,Smithville,Monroe,Smithville,IN,47458
+215589,Ms.,Molly,X,Roach,F,50.8,10/1/2005,11.83,74803,Fairwater,Fond du Lac,Fairwater,WI,53931
+621606,Mr.,Rogelio,P,Poole,M,25.34,7/27/2014,3.01,85147,Vici,Dewey,Vici,OK,73859
+223379,Dr.,Mathew,P,Duke,M,24.54,9/6/2015,1.89,196685,Ramona,Marion,Ramona,KS,67475
+236366,Mr.,Lewis,Q,Ayala,M,24.68,6/15/2016,1.12,144369,Lexington,Davidson,Lexington,NC,27292
+798043,Ms.,Claudette,B,Walter,F,33.47,8/4/2012,4.98,44430,Albany,Albany,Albany,NY,12226
+811092,Ms.,Tracie,B,Delaney,F,44.19,5/19/2011,6.2,144899,The Villages,The Villages,The Villages,FL,32163
+288820,Mr.,Eric,N,Mccullough,M,51.81,3/20/1997,20.37,151530,Lafayette,Allen,Lafayette,OH,45854
+138351,Mr.,Nestor,J,Carney,M,42.18,12/4/1996,20.66,77526,Warsaw,Benton,Warsaw,MO,65355
+130501,Drs.,Mitzi,P,Mueller,F,50.44,4/10/2010,7.3,91870,Rockland,New Castle,Rockland,DE,19732
+587373,Drs.,Lillian,J,Atkinson,F,24.44,12/26/2016,0.59,181837,Clipper Mills,Butte,Clipper Mills,CA,95930
+750124,Mr.,Barry,A,Garner,M,37.63,1/26/2014,3.5,182944,Donaldson,Hot Spring,Donaldson,AR,71941
+495105,Mrs.,Coleen,V,Morris,F,21.71,2/2/2017,0.48,76605,Holmes,Delaware,Holmes,PA,19043
+282678,Hon.,Marci,O,Alvarado,F,51.19,9/2/2007,9.91,174673,Bowling Green,York,Bowling Green,SC,29703
+241302,Mr.,Monty,R,Lancaster,M,57.4,8/7/1985,31.99,53313,Sedley,Southampton,Sedley,VA,23878
+790290,Mr.,Norris,R,Adams,M,23.78,4/8/2016,1.3,88865,Georgetown,Beaver,Georgetown,PA,15043
+924304,Mrs.,Elvira,D,Byrd,F,27.49,4/19/2011,6.28,77787,Louisville,Jefferson,Louisville,KY,40269
+234880,Mr.,Keven,E,Logan,M,28.48,5/10/2012,5.22,94291,Philadelphia,Montgomery,Philadelphia,PA,19126
+443072,Mr.,Rosendo,R,Rasmussen,M,38.78,4/29/2001,16.26,84964,Ripley,Ripley,Ripley,CA,92272
+232070,Mrs.,Carly,R,Leach,F,46.6,12/20/2013,3.61,182390,Oakland,Oakland,Oakland,MI,48363
+902132,Mrs.,Colleen,N,Bray,F,35.33,7/29/2014,3,71784,Jacksonville,Duval,Jacksonville,FL,32211
+280781,Mrs.,Ollie,G,William,F,37.8,9/14/2007,9.88,128589,Gillett,Karnes,Gillett,TX,78116
+589440,Prof.,Hilario,B,Vang,M,39.17,4/12/2011,6.3,133205,Ridge,Suffolk,Ridge,NY,11961
+940754,Ms.,Nadine,X,Blanchard,F,39.4,10/29/2001,15.76,104269,Los Molinos,Tehama,Los Molinos,CA,96055
+888277,Prof.,Wm,C,Carroll,M,30.22,1/17/2017,0.53,146342,Unionville,Orange,Unionville,NY,10988
+430202,Ms.,Minnie,B,Mckee,F,21.94,9/23/2016,0.84,104332,Swanton,Fulton,Swanton,OH,43558
+928723,Mrs.,Angela,M,Compton,F,50.55,12/1/2008,8.66,127733,Middletown Springs,Rutland,Middletown Springs,VT,5757
+449164,Drs.,Lillian,H,Gill,F,47.03,4/9/2000,17.31,75411,Claunch,Socorro,Claunch,NM,87011
+117603,Mr.,Bob,W,Weiss,M,25.77,12/23/2012,4.6,88733,North Collins,Erie,North Collins,NY,14111
+811884,Mr.,Edwin,A,Perez,M,25.43,6/11/2014,3.13,109695,Crivitz,Marinette,Crivitz,WI,54114
+463579,Mr.,Bernardo,W,Langley,M,44.8,8/30/2007,9.92,174027,Atlanta,Fulton,Atlanta,GA,30348
+915993,Prof.,William,K,Morrison,M,50.36,10/2/2001,15.83,109382,Longdale,Blaine,Longdale,OK,73755
+836259,Dr.,Vance,A,Osborne,M,44.75,6/30/2001,16.09,148267,Independence,Polk,Independence,OR,97351
+520719,Prof.,Edmund,E,Salas,M,58.1,8/16/1989,27.97,126758,Hillsboro,Montgomery,Hillsboro,IL,62049
+409341,Mrs.,Imogene,O,Sanders,F,32.17,10/15/2012,4.79,55845,Hayesville,Keokuk,Hayesville,IA,52562
+528576,Mr.,Darin,F,Callahan,M,24.77,4/14/2014,3.29,64901,Avon,Powell,Avon,MT,59713
+315565,Mrs.,Loretta,M,Sawyer,F,21.53,3/7/2017,0.39,78780,Nerinx,Marion,Nerinx,KY,40049
+242740,Ms.,Olive,L,Livingston,F,36.49,9/16/2002,14.87,184008,Alba,Jasper,Alba,MO,64830
+763459,Mr.,Gino,A,Mcconnell,M,41.83,5/23/2005,12.19,57731,Coosawatchie,Jasper,Coosawatchie,SC,29912
+239010,Mr.,Fred,E,Hayes,M,37.64,3/30/2001,16.34,58345,Pleasant Grove,Pleasant Grove,Pleasant Grove,MS,38657
+865905,Mr.,Nelson,O,Wilkins,M,55.66,2/23/2017,0.42,141143,Fort Smith,Sebastian,Fort Smith,AR,72918
+657908,Mrs.,Joyce,K,Hooper,F,37.46,7/14/2002,15.05,68835,Murray,Calloway,Murray,KY,42071
+652723,Mrs.,Juliana,W,Rowland,F,24.32,12/8/2016,0.64,67506,Saint Louis,St. Louis,Saint Louis,MO,63130
+944699,Mr.,Norris,S,Mack,M,33.88,10/16/2009,7.79,116248,Erving,Franklin,Erving,MA,1344
+517283,Prof.,Tom,B,Frye,M,41.33,3/18/2015,2.36,65753,Deridder,Beauregard,Deridder,LA,70634
+176214,Mrs.,Josephine,G,Pitts,F,44.61,8/30/2008,8.92,40040,Reynoldsburg,Franklin,Reynoldsburg,OH,43068
+680485,Mr.,Les,W,Brady,M,27.08,12/23/2016,0.59,158773,Tacoma,Tacoma,Tacoma,WA,98419
+891142,Hon.,Jaime,M,Avery,M,50.43,10/28/2005,11.76,187800,Verona,LaMoure,Verona,ND,58490
+810984,Mrs.,Marissa,L,Caldwell,F,37.84,10/25/2000,16.77,135046,Atlanta,Fulton,Atlanta,GA,30302
+896022,Mr.,Lavern,X,Gardner,M,45.81,2/27/1998,19.43,140328,Richmond,Wayne,Richmond,IN,47375
+162773,Drs.,Evangeline,K,Mejia,F,57.93,1/31/2010,7.49,93417,Cedar City,Iron,Cedar City,UT,84721
+408036,Ms.,Brandy,O,Carr,F,40.71,9/21/2008,8.85,197345,Watford City,McKenzie,Watford City,ND,58854
+591248,Mrs.,Molly,O,Manning,F,55.17,6/30/2004,13.08,65981,Russell Springs,Russell Springs,Russell Springs,KS,67755
+562393,Mr.,Gale,R,Perez,M,52.69,4/10/1994,23.32,188811,Killdeer,Dunn,Killdeer,ND,58640
+808843,Mr.,Merlin,Z,Yates,M,26.59,4/4/2012,5.32,144104,Fawn Grove,York,Fawn Grove,PA,17321
+645393,Prof.,Nelson,H,Mooney,M,50.19,7/1/1995,22.09,136885,California,Moniteau,California,MO,65018
+685818,Mr.,Jackson,E,Bass,M,34.4,6/3/2013,4.15,172555,Jackson,Hinds,Jackson,MS,39201
+747647,Ms.,Trisha,U,Mueller,F,42.15,9/28/2006,10.84,133504,Niverville,Columbia,Niverville,NY,12130
+846178,Ms.,Lilia,I,Collins,F,37.16,2/4/2004,13.49,196782,Aromas,Monterey,Aromas,CA,95004
+754091,Mrs.,Kimberly,R,Cantu,F,40.83,10/4/2002,14.82,198580,Kenesaw,Adams,Kenesaw,NE,68956
+808727,Prof.,Luciano,B,Jordan,M,23.28,3/12/2016,1.38,168292,Geneseo,Livingston,Geneseo,NY,14454
+143029,Mr.,Danny,H,Robbins,M,53.87,2/13/1999,18.47,123832,Bluffton,Wells,Bluffton,IN,46714
+923271,Mr.,Wilfredo,J,Richards,M,56.66,10/26/1985,31.78,173178,Randall,Morrison,Randall,MN,56475
+621988,Ms.,Callie,Y,Snider,F,27.63,6/25/2012,5.09,147243,Ocate,Mora,Ocate,NM,87734
+240842,Mrs.,Rachelle,J,Reed,F,39.69,4/14/2010,7.29,88748,El Paso,El Paso,El Paso,TX,79994
+517038,Ms.,Bobbi,M,Olson,F,53.77,6/5/2017,0.15,143127,Keystone,Benton,Keystone,IA,52249
+456842,Mrs.,Kris,S,Richards,F,51.46,4/14/2011,6.29,173303,Leeton,Johnson,Leeton,MO,64761
+276700,Drs.,Marissa,J,Meyer,F,59.08,2/28/1995,22.43,172845,Davenport,Cass,Davenport,ND,58021
+510431,Mr.,Jamar,Z,Reese,M,52.16,3/26/1999,18.35,134013,Texola,Beckham,Texola,OK,73668
+451543,Ms.,Nelda,E,Webster,F,31.55,3/3/2016,1.4,161123,Columbus,Muscogee,Columbus,GA,31909
+423508,Ms.,Carolina,F,Bruce,F,45.84,4/22/2007,10.27,177947,Newark,Essex,Newark,NJ,7193
+399486,Ms.,Terri,K,Phelps,F,41.71,12/16/1998,18.63,183013,Copper City,Houghton,Copper City,MI,49917
+295933,Mr.,Nestor,L,Rosales,M,38.34,4/23/2010,7.27,71204,Clarksville,Montgomery,Clarksville,TN,37041
+855670,Drs.,Adrian,L,Robles,F,59.18,10/14/1982,34.81,166464,Glen Spey,Sullivan,Glen Spey,NY,12737
+151449,Hon.,Kyle,Y,Rios,M,24.48,11/28/2016,0.66,111183,Pine,Jefferson,Pine,CO,80470
+394700,Mr.,Domingo,Y,Wilkinson,M,32.54,3/12/2008,9.38,95530,Milwaukee,Milwaukee,Milwaukee,WI,53221
+328740,Mr.,Leonardo,T,Bird,M,43.54,5/26/1997,20.19,116972,Macon,Noxubee,Macon,MS,39341
+924134,Dr.,Hubert,P,Zimmerman,M,37.38,10/7/2009,7.81,79197,Rush,Boyd,Rush,KY,41168
+556518,Mr.,Kory,G,Frank,M,29.93,9/28/2010,6.84,102865,Leeds,Jefferson,Leeds,AL,35094
+237003,Ms.,Tami,Z,Hayes,F,24.62,4/2/2016,1.32,170836,Dayton,Sheridan,Dayton,WY,82836
+518193,Drs.,Amanda,Y,Carr,F,44.2,11/27/2009,7.67,100000,Agua Dulce,Nueces,Agua Dulce,TX,78330
+540019,Mr.,Stephen,J,Bauer,M,27.14,8/30/2013,3.91,183279,Jersey City,Hudson,Jersey City,NJ,7308
+489463,Mr.,Johnie,G,Carney,M,26.16,6/20/2015,2.11,151127,Stanardsville,Greene,Stanardsville,VA,22973
+763039,Ms.,Rebekah,J,Hull,F,44.53,4/29/2017,0.25,104526,Glen Haven,Larimer,Glen Haven,CO,80532
+854365,Ms.,Kelly,G,Spence,F,45.41,4/3/1997,20.33,103499,Penwell,Ector,Penwell,TX,79776
+233110,Hon.,Tracie,K,Estes,F,35.24,4/17/2012,5.28,159071,North Bergen,Hudson,North Bergen,NJ,7047
+416483,Mr.,Bennett,H,Le,M,34.99,5/29/2004,13.17,144885,Winston Salem,Forsyth,Winston Salem,NC,27107
+629763,Hon.,Vernon,V,Bass,M,54.85,3/18/2013,4.36,79853,Hallstead,Susquehanna,Hallstead,PA,18822
+755278,Mr.,Theron,E,Sweet,M,22.39,6/14/2016,1.12,187715,Orange,Orange,Orange,CA,92862
+471560,Mr.,Ernie,Y,Holden,M,33.69,5/15/2013,4.21,75839,Durham,Marion,Durham,KS,67438
+988676,Mr.,Shawn,C,Rasmussen,M,38.67,7/5/2013,4.07,86337,Manhattan Beach,Manhattan Beach,Manhattan Beach,MN,56463
+606109,Mr.,Enrique,M,Adams,M,51.65,8/18/2001,15.95,100224,Binger,Caddo,Binger,OK,73009
+414129,Mr.,Ernie,H,Aguilar,M,57.01,1/17/2001,16.54,152421,Higgins,Lipscomb,Higgins,TX,79046
+286890,Mrs.,Carolyn,S,Donaldson,F,57.28,3/1/2005,12.42,144259,Eben Junction,Alger,Eben Junction,MI,49825
+944811,Mrs.,Margie,S,Deleon,F,38.32,8/28/2005,11.92,193461,Port Washington,Ozaukee,Port Washington,WI,53074
+975770,Mr.,Keven,F,Collins,M,45.07,10/1/1995,21.84,161705,Atkins,Pope,Atkins,AR,72823
+590955,Mr.,Bruce,Q,Colon,M,45.27,8/25/2010,6.93,139425,Ida,Monroe,Ida,MI,48140
+565658,Mrs.,Kristen,F,Lott,F,28.08,3/20/2011,6.36,188910,Smyrna,Cobb,Smyrna,GA,30081
+569664,Mr.,Howard,X,Dodson,M,34.44,2/18/2007,10.45,82516,Elmer,Rapides,Elmer,LA,71424
+939970,Mr.,Merle,R,Britt,M,39.73,6/21/2009,8.11,145515,Maple Plain,Hennepin,Maple Plain,MN,55578
+848744,Dr.,Hector,D,Bradley,M,28.82,1/5/2013,4.56,155065,Easton,Northampton,Easton,PA,18042
+452230,Mr.,Darnell,D,Spencer,M,47.9,8/11/1999,17.98,120778,New York City,New York,New York City,NY,10069
+930129,Ms.,Janelle,Z,William,F,46.46,10/11/2004,12.8,70544,Atqasuk,North Slope,Atqasuk,AK,99791
+909139,Ms.,Eula,H,Atkinson,F,54.27,2/16/2012,5.45,70531,Slemp,Perry,Slemp,KY,41763
+678436,Hon.,Theresa,M,Bender,F,58.45,2/27/1982,35.44,112711,Sonnette,Powder River,Sonnette,MT,59348
+196011,Ms.,Kimberley,C,Jacobson,F,27.84,10/20/2010,6.78,129756,Excelsior Springs,Clay,Excelsior Springs,MO,64024
+666886,Mrs.,Angelita,J,Reyes,F,54.15,1/30/1987,30.51,117868,West Bloomfield,Oakland,West Bloomfield,MI,48325
+572348,Ms.,Selma,L,Floyd,F,23.84,11/26/2015,1.67,65787,Union City,Hudson,Union City,NJ,7087
+846144,Mrs.,Edna,B,Paul,F,57.59,8/22/1989,27.95,75261,Washington,District of Columbia,Washington,DC,20416
+665326,Dr.,Dewayne,N,Sheppard,M,58.75,5/21/2003,14.2,117143,Kansas City,Clay,Kansas City,MO,64165
+119399,Prof.,Gale,C,Rodriquez,M,56.21,5/23/1995,22.2,90590,Easton,Faribault,Easton,MN,56025
+744539,Mrs.,Cora,J,Blackburn,F,53.63,11/7/2013,3.72,62973,Colorado Springs,El Paso,Colorado Springs,CO,80904
+518154,Drs.,Annmarie,D,Roth,F,36.81,2/22/2006,11.44,57649,Bronx,Bronx,Bronx,NY,10455
+416872,Mr.,Owen,Y,Lopez,M,40.74,5/26/2017,0.17,128144,Joplin,Jasper,Joplin,MO,64801
+339806,Ms.,Chrystal,Z,Pittman,F,50.72,3/23/2009,8.35,63095,Wellesley Island,Jefferson,Wellesley Island,NY,13640
+991522,Hon.,Thurman,R,Daniel,M,48.32,11/18/2001,15.7,168935,Oakville,Louisa,Oakville,IA,52646
+830373,Mr.,Darnell,Q,Hoffman,M,35.3,2/25/2013,4.42,189337,Somers,Flathead,Somers,MT,59932
+987377,Hon.,Raymundo,J,Sims,M,53.7,8/14/2009,7.96,184370,Sargeant,Mower,Sargeant,MN,55973
+551251,Mr.,Frederick,H,Graham,M,54.64,4/26/2015,2.26,180550,Tisch Mills,Manitowoc,Tisch Mills,WI,54240
+143864,Ms.,Natalie,P,Marshall,F,43.62,3/25/2001,16.35,118172,Washington,Washington,Washington,DC,20023
+679990,Mr.,Thad,R,Franklin,M,23.44,11/2/2016,0.73,116818,Baxter,Putnam,Baxter,TN,38544
+851939,Drs.,Belinda,Y,Trujillo,F,25.79,1/23/2017,0.51,156339,Killduff,Jasper,Killduff,IA,50137
+272885,Ms.,Rosanna,P,Chase,F,45.32,12/22/2011,5.6,81401,Wolf Creek,Lewis and Clark,Wolf Creek,MT,59648
+588553,Ms.,Wilda,I,Rios,F,30.75,6/3/2010,7.16,45345,Sebago,Cumberland,Sebago,ME,4029
+739367,Drs.,Alyssa,P,Marquez,F,39.2,7/7/2012,5.06,46119,Saltville,Smyth,Saltville,VA,24370
+271247,Mrs.,Liz,E,Barry,F,25.92,8/26/2013,3.92,155974,Los Angeles,Los Angeles,Los Angeles,CA,90080
+778200,Mr.,Mariano,D,Lloyd,M,58.03,11/16/1996,20.71,119877,Ellamore,Randolph,Ellamore,WV,26267
+338449,Prof.,Forest,L,Moss,M,53.95,5/13/1994,23.22,177768,Fargo,Cass,Fargo,ND,58123
+581042,Mr.,Gino,K,Sullivan,M,51.72,2/2/2014,3.48,65297,Earlysville,Albemarle,Earlysville,VA,22936
+138800,Prof.,Jarred,T,Bernard,M,49.27,4/24/2012,5.26,169107,Natural Bridge,Winston,Natural Bridge,AL,35577
+553362,Mr.,Preston,X,Floyd,M,49.39,5/5/1992,25.25,68488,Gideon,New Madrid,Gideon,MO,63848
+435055,Mr.,Clinton,W,Farley,M,34.96,5/31/2015,2.16,87911,Ortonville,Oakland,Ortonville,MI,48462
+469392,Mrs.,Dana,A,Hill,F,58.77,6/29/1999,18.09,146938,Sand Point,Aleutians East,Sand Point,AK,99661
+161467,Mr.,Odell,G,Bryan,M,36.79,8/4/2012,4.98,47971,Twin Lakes,Kenosha,Twin Lakes,WI,53181
+755543,Drs.,Tameka,N,Atkinson,F,33.93,10/12/2009,7.8,100525,Glyndon,Baltimore,Glyndon,MD,21071
+129077,Mr.,Dominique,Z,Moreno,M,26.57,8/26/2014,2.92,65901,Lynndyl,Millard,Lynndyl,UT,84640
+707856,Mr.,Abraham,H,Mayo,M,28.25,1/31/2015,2.49,190663,Krypton,Perry,Krypton,KY,41754
+817818,Mr.,Augustus,V,Hines,M,50.7,11/13/1990,26.72,183713,Yakima,Yakima,Yakima,WA,98903
+226811,Hon.,Rene,X,Burks,M,25.59,12/24/2016,0.59,52560,Buckner,Oldham,Buckner,KY,40010
+283199,Mr.,Christian,V,Acevedo,M,37.04,9/16/2006,10.87,132022,Canton,Stark,Canton,OH,44705
+319493,Mr.,Major,X,Lucas,M,34.74,2/9/2011,6.47,105620,Salters,Williamsburg,Salters,SC,29590
+205347,Ms.,Frieda,Z,Hebert,F,59.97,6/11/1985,32.15,138878,Allentown,Lehigh,Allentown,PA,18175
+508019,Ms.,Rachael,S,Newman,F,57.16,7/11/2001,16.06,166948,Houston,Winston,Houston,AL,35572
+774862,Ms.,Bernadine,S,Joseph,F,49.69,3/3/2006,11.41,49212,Lexington,Fayette,Lexington,KY,40513
+394200,Mrs.,Deanna,P,Mccoy,F,44.92,6/27/1995,22.1,92993,Milwaukee,Milwaukee,Milwaukee,WI,53218
+887692,Mr.,Joseph,B,Tucker,M,37.84,8/22/2006,10.94,199923,Camden,Benton,Camden,TN,38320
+408248,Hon.,Antwan,L,Richardson,M,43.86,7/15/2004,13.04,114321,San Bernardino,San Bernardino,San Bernardino,CA,92409
+787931,Hon.,Harrison,D,Ortega,M,42.32,7/27/1998,19.02,175569,Kansas City,Jackson,Kansas City,MO,64198
+547050,Mr.,Dylan,T,Cantu,M,54.11,12/25/1998,18.6,168495,Washington Navy Yard,District Of Columbia,Washington Navy Yard,DC,20376
+964084,Mr.,Winston,J,Hewitt,M,59.34,8/14/2013,3.96,89708,Napoleonville,Assumption,Napoleonville,LA,70390
+574256,Mrs.,Serena,F,Marshall,F,36.76,5/1/2016,1.24,136097,Curtis Bay,Anne Arundel,Curtis Bay,MD,21226
+215473,Ms.,Maryann,V,Vance,F,45.77,6/8/2010,7.14,116843,Chunky,Newton,Chunky,MS,39323
+932175,Ms.,Roxie,E,Mckay,F,27.81,11/25/2013,3.67,44868,Piney Fork,Jefferson,Piney Fork,OH,43941
+472119,Dr.,Sonny,F,Morin,M,47.72,11/15/2001,15.71,120002,Cincinnati,Hamilton,Cincinnati,OH,45240
+282137,Mr.,Eduardo,Q,Burnett,M,47.36,2/27/2002,15.42,146973,Pelican Lake,Oneida,Pelican Lake,WI,54463
+395867,Mrs.,Marietta,X,Watson,F,46.38,1/31/2014,3.49,138943,Prescott,Yavapai,Prescott,AZ,86302
+923329,Ms.,Nettie,A,Preston,F,38.12,9/15/2003,13.88,174389,Columbus,Franklin,Columbus,OH,43279
+901654,Mr.,Sandy,P,Gillespie,M,28.04,10/21/2012,4.77,143979,Franklin,Oakland,Franklin,MI,48025
+673438,Dr.,Christopher,Z,Peters,M,28.03,10/17/2015,1.78,157427,Belvidere,Belvidere,Belvidere,KS,67015
+626693,Ms.,Felicia,S,Gilmore,F,44.51,2/26/1996,21.43,60433,Lee Mont,Lee Mont,Lee Mont,VA,23403
+683325,Dr.,Tyler,E,Mercado,M,49.3,12/4/1999,17.66,111364,Hattiesburg,Hattiesburg,Hattiesburg,MS,39400
+486465,Ms.,Arline,N,Campbell,F,29.6,4/6/2012,5.31,148717,Donovan,Iroquois,Donovan,IL,60931
+213493,Mrs.,Margo,N,Daniels,F,47.53,10/14/2009,7.79,96218,Madison,Jefferson,Madison,IN,47250
+234177,Dr.,Kareem,O,Jimenez,M,35.04,6/29/2010,7.08,105034,Niagara Falls,Niagara,Niagara Falls,NY,14305
+289041,Mrs.,Nanette,P,Lee,F,54.25,9/14/2016,0.87,114631,Terra Bella,Tulare,Terra Bella,CA,93270
+384810,Drs.,Myra,L,Franco,F,27.48,3/25/2012,5.35,87704,Shepherdsville,Bullitt,Shepherdsville,KY,40165
+149750,Mr.,Luther,D,Harrell,M,37.52,12/1/2009,7.66,152889,Cuthbert,Randolph,Cuthbert,GA,31740
+864858,Mr.,Ramon,S,Campbell,M,26.87,4/12/2013,4.3,194123,Sterling,Windham,Sterling,CT,6377
+856418,Mrs.,Sallie,J,Huffman,F,55,4/30/2005,12.25,70060,Covington,Covington,Covington,GA,30210
+415537,Hon.,Shirley,Z,Herrera,F,40.01,2/28/2010,7.42,73333,Garden Grove,Orange,Garden Grove,CA,92842
+414557,Dr.,Corey,J,Harrell,M,46.05,5/16/2003,14.21,40261,Syracuse,Onondaga,Syracuse,NY,13218
+999475,Ms.,Carrie,T,Keller,F,23.39,7/31/2015,1.99,79233,Doddridge,Miller,Doddridge,AR,71834
+554345,Ms.,Ofelia,J,Rivers,F,43.24,7/14/2000,17.05,53050,Taftville,New London,Taftville,CT,6380
+349751,Mr.,Shelton,V,Harrison,M,31.29,9/3/2011,5.9,129402,Klemme,Hancock,Klemme,IA,50449
+194598,Ms.,Carlene,I,Bernard,F,23.04,8/17/2015,1.95,56938,Siasconset,Nantucket,Siasconset,MA,2564
+466860,Ms.,Earline,G,Cherry,F,42.05,4/4/1997,20.33,154554,Lykens,Dauphin,Lykens,PA,17048
+618554,Mrs.,Kitty,U,Mathis,F,58.78,10/26/1991,25.77,131033,Portland,Multnomah,Portland,OR,97207
+535812,Mrs.,Lavonne,B,Carney,F,47.71,5/2/2009,8.24,143616,Westhoff,DeWitt,Westhoff,TX,77994
+500345,Mrs.,Reyna,J,Marks,F,34.82,3/13/2017,0.38,109805,Alliance,Stark,Alliance,OH,44601
+735598,Hon.,Preston,M,Perez,M,55.78,10/29/1992,24.76,69430,Rudyard,Chippewa,Rudyard,MI,49780
+921061,Mr.,Isaac,P,Cochran,M,53.07,8/25/2006,10.93,45973,Lynbrook,Nassau,Lynbrook,NY,11564
+968785,Mr.,Noe,K,Clay,M,42.38,8/11/2002,14.97,180086,Solon Mills,McHenry,Solon Mills,IL,60080
+735499,Ms.,Callie,J,Cohen,F,49.62,10/19/1996,20.79,56526,New York City,New York,New York City,NY,10031
+983480,Mr.,Elliott,P,Marks,M,51.53,1/5/2000,17.57,100866,Atlanta,Fulton,Atlanta,GA,30326
+206279,Ms.,Georgina,F,Lamb,F,25.73,4/12/2016,1.29,56863,Uniontown,Bourbon,Uniontown,KS,66779
+582100,Mr.,Frances,D,May,M,50.72,12/21/2001,15.61,191830,Little Ferry,Bergen,Little Ferry,NJ,7643
+821988,Mr.,Marc,Y,Hurley,M,35.04,12/13/2016,0.62,88052,Robert Lee,Coke,Robert Lee,TX,76945
+611384,Mr.,Nathaniel,V,Bates,M,49.77,9/20/2003,13.86,166017,Covel,Wyoming,Covel,WV,24719
+993792,Mr.,Colby,O,Holder,M,44,1/6/1999,18.57,62228,Midland,Muscogee,Midland,GA,31820
+316999,Mrs.,Dee,W,Love,F,53.89,7/2/1993,24.09,93272,Denham,Denham,Denham,IN,46925
+880526,Hon.,Willie,M,Gibson,M,55.59,8/1/1999,18,191109,Desoto,Dallas,Desoto,TX,75123
+201612,Drs.,Alison,G,Walsh,F,45.99,8/20/2010,6.94,154700,Monetta,Saluda,Monetta,SC,29105
+481137,Ms.,Gena,L,Holman,F,28.25,6/18/2013,4.11,42626,Alix,Franklin,Alix,AR,72820
+191985,Ms.,Tammy,X,Casey,F,37.31,3/19/2002,15.37,192743,Ottoville,Putnam,Ottoville,OH,45876
+244500,Ms.,Shirley,L,Waller,F,58.13,2/10/1990,27.48,130706,Martha,Lawrence,Martha,KY,41159
+920668,Mrs.,Joanna,L,Poole,F,30.2,6/9/2015,2.14,141884,Adrian,Bates,Adrian,MO,64720
+335470,Mrs.,Amber,Z,Mendoza,F,44.5,9/5/1994,22.91,63144,Walpole,Cheshire,Walpole,NH,3608
+150036,Mrs.,Lourdes,O,Hull,F,49.2,11/16/1990,26.72,64976,Catalina,Pima,Catalina,AZ,85738
+251640,Mrs.,Kim,D,England,F,47.47,6/25/1995,22.11,112635,Baxter,Putnam,Baxter,TN,38544
+588702,Ms.,Haley,O,Maddox,F,45.41,6/25/2004,13.1,160196,Eagar,Apache,Eagar,AZ,85925
+707453,Mr.,Rory,F,Atkins,M,50.93,3/19/1995,22.38,155903,Kona,Kona,Kona,KY,41829
+239168,Drs.,Kathrine,Z,Whitaker,F,25.01,9/21/2016,0.85,183618,Port Bolivar,Galveston,Port Bolivar,TX,77650
+146790,Hon.,Lou,M,Buckner,F,27.76,11/29/2010,6.67,45969,Sheyenne,Eddy,Sheyenne,ND,58374
+637843,Ms.,Karla,W,Barrera,F,51.15,5/12/1993,24.23,172421,Bozeman,Gallatin,Bozeman,MT,59771
+689587,Ms.,Ava,M,Kane,F,34.32,3/24/2012,5.35,82550,Fairbanks,Sullivan,Fairbanks,IN,47849
+126316,Mrs.,Roseann,A,Riley,F,40.97,2/22/2010,7.43,73715,Rochford,Pennington,Rochford,SD,57778
+318026,Ms.,Elizabeth,H,Fernandez,F,22.08,7/31/2016,0.99,125562,Dabneys,Dabneys,Dabneys,VA,23042
+848311,Mrs.,Flora,B,Decker,F,59.98,6/22/1995,22.12,83996,Aurora,Sevier,Aurora,UT,84620
+774548,Ms.,Shannon,I,Parker,F,29.63,2/13/2011,6.46,96768,North Pole,Fairbanks North Star,North Pole,AK,99705
+611233,Ms.,James,K,Cain,F,21.58,2/22/2017,0.43,184223,Wilder,Canyon,Wilder,ID,83676
+421652,Mr.,Craig,N,Roberts,M,52.87,10/22/2004,12.77,174547,Rockford,Winnebago,Rockford,IL,61106
+528969,Hon.,Celina,H,Huffman,F,39.95,9/15/2002,14.88,115518,Wetmore,Custer,Wetmore,CO,81253
+202408,Ms.,Jimmie,F,Burnett,F,22.44,1/1/2017,0.57,146772,Toppenish,Yakima,Toppenish,WA,98948
+918148,Mrs.,Faye,J,Barrett,F,32.09,11/14/2008,8.71,120502,Marion,Crittenden,Marion,KY,42064
+396091,Ms.,Gena,A,Bradley,F,44.47,10/6/1999,17.82,146840,Garden City,Hardin,Garden City,IA,50102
+808996,Mr.,Deandre,C,Good,M,51.16,6/29/2007,10.09,95240,South Waterford,Oxford,South Waterford,ME,4081
+752301,Mr.,Garland,H,Ayers,M,46.48,2/27/2011,6.42,77803,Kingston,Madison,Kingston,AR,72742
+654102,Mr.,Jerrod,C,Bell,M,25.04,11/15/2014,2.7,116822,Columbus,Lowndes,Columbus,MS,39710
+809104,Mr.,Alexis,I,Holland,M,37.62,8/17/2011,5.95,189640,Fort Worth,Tarrant,Fort Worth,TX,76110
+929548,Mrs.,Deidre,V,Barrett,F,31.19,4/24/2012,5.26,71568,Sykesville,Jefferson,Sykesville,PA,15865
+978535,Mr.,Fred,G,Hoffman,M,47.11,2/10/2017,0.46,194639,San Antonio,Bexar,San Antonio,TX,78261
+211729,Mrs.,Effie,X,Santana,F,54.71,8/2/1993,24,148855,Chicora,Butler,Chicora,PA,16025
+760573,Hon.,Juliette,Y,Mosley,F,52.94,1/11/2014,3.55,105923,Chancellor,Turner,Chancellor,SD,57015
+979873,Ms.,Susan,E,Schwartz,F,48.66,4/15/2002,15.3,165568,Boalsburg,Centre,Boalsburg,PA,16827
+446702,Mr.,Richie,V,Downs,M,56.83,10/2/1992,24.84,104084,Floriston,Nevada,Floriston,CA,96111
+505362,Mr.,Winston,I,Griffin,M,23.66,2/25/2015,2.42,46181,Rural Retreat,Wythe,Rural Retreat,VA,24368
+451940,Mr.,Sammy,N,Mills,M,32.44,5/22/2006,11.19,136951,Seminole,Pinellas,Seminole,FL,33776
+411196,Ms.,Gracie,C,Mosley,F,49.7,1/17/2015,2.53,143460,Millers Creek,Millers Creek,Millers Creek,NC,28696
+636457,Mr.,Manuel,D,Bentley,M,58.8,10/5/2014,2.81,157479,Cyclone,Wyoming,Cyclone,WV,24827
+262702,Mr.,Roberto,O,Hogan,M,53.21,9/6/2003,13.9,124788,Liscomb,Marshall,Liscomb,IA,50148
+422323,Mrs.,Wilma,U,Gray,F,54.03,2/23/2002,15.44,184765,Elk Creek,Johnson,Elk Creek,NE,68348
+328389,Mr.,Roderick,T,Perry,M,33.44,1/9/2009,8.55,149121,West Townsend,Middlesex,West Townsend,MA,1474
+733184,Hon.,Mayra,L,Bowen,F,45.3,5/20/2011,6.19,53190,San Diego,San Diego,San Diego,CA,92134
+649821,Mr.,Andres,G,Alexander,M,34.96,12/23/2015,1.6,99567,Edwards,St. Lawrence,Edwards,NY,13635
+117956,Mr.,Quentin,B,Carney,M,39.01,3/12/2015,2.38,194686,Donaldson,Kittson,Donaldson,MN,56720
+670526,Mrs.,Adrian,W,Dunlap,F,32.55,8/26/2013,3.92,196585,Hartford,Hartford,Hartford,CT,6105
+752997,Hon.,Lelia,H,Sawyer,F,37.25,7/18/2015,2.03,199120,Millersburg,Iowa,Millersburg,IA,52308
+340599,Mr.,Tad,K,Patrick,M,40.25,11/24/1998,18.69,116817,North Port,North Port,North Port,FL,34290
+239415,Mrs.,Pansy,V,Macdonald,F,44.55,10/28/2015,1.75,97818,Hershey,Dauphin,Hershey,PA,17033
+280326,Mr.,Agustin,J,Gentry,M,54.7,6/16/1985,32.14,182540,Chattanooga,Hamilton,Chattanooga,TN,37408
+445516,Mr.,Riley,R,Conley,M,25.74,6/10/2013,4.13,75199,El Paso,El Paso,El Paso,TX,88518
+586177,Mr.,Bernard,N,Leach,M,27.71,12/28/2012,4.58,66743,Kiowa,Elbert,Kiowa,CO,80117
+866614,Hon.,Lonnie,S,Gonzales,M,49.24,2/11/2005,12.47,113546,Missouri City,Fort Bend,Missouri City,TX,77459
+751376,Mr.,Courtney,G,Barnes,M,24.08,12/1/2014,2.66,98833,Elliston,Roanoke,Elliston,VA,24087
+196645,Mrs.,Eliza,R,Odonnell,F,30.47,1/18/2013,4.53,155891,Worcester,Worcester,Worcester,MA,1601
+728839,Mr.,Jody,D,Mejia,M,57.72,9/1/2013,3.91,55958,Rineyville,Hardin,Rineyville,KY,40162
+694921,Ms.,Pam,L,Stuart,F,50.55,2/28/1990,27.43,132035,Stockton,Worcester,Stockton,MD,21864
+719798,Mr.,Trevor,M,Romero,M,34.91,3/12/2013,4.38,124965,Clifton,Passaic,Clifton,NJ,7011
+375797,Ms.,Tamara,Z,Perez,F,41.28,12/30/2012,4.58,192689,Essington,Delaware,Essington,PA,19029
+160350,Ms.,Bonita,N,Dixon,F,38.93,10/24/2003,13.77,119978,Kennett Square,Chester,Kennett Square,PA,19348
+937931,Mr.,Raphael,O,Durham,M,45.33,11/7/2010,6.73,96734,Elm City,Wilson,Elm City,NC,27822
+155916,Mrs.,Rosanne,M,Mendoza,F,58.89,1/11/1980,37.57,120595,White Lake,Aurora,White Lake,SD,57383
+905335,Ms.,Ola,E,Hays,F,37.68,5/16/2014,3.2,96619,Redlands,San Bernardino,Redlands,CA,92373
+502509,Ms.,Genevieve,P,Finley,F,59.76,5/18/2003,14.21,135726,Ora,Starke,Ora,IN,46968
+563580,Mr.,Lamont,Q,Albert,M,49.33,8/20/1995,21.95,106870,Cassville,Huntingdon,Cassville,PA,16623
+433698,Ms.,Margie,R,Vincent,F,42.76,12/22/2006,10.61,118038,Corpus Christi,Nueces,Corpus Christi,TX,78415
+163351,Mr.,Terrell,V,Sears,M,47.28,10/31/1997,19.75,60737,Crouseville,Aroostook,Crouseville,ME,4738
+898816,Ms.,Edna,E,Riddle,F,56.89,10/21/2007,9.78,94034,Calimesa,Riverside,Calimesa,CA,92320
+641368,Mr.,Lindsey,O,Griffin,M,38.7,2/27/2004,13.42,79954,Winston Salem,Forsyth,Winston Salem,NC,27113
+177982,Ms.,Lorrie,G,Sears,F,44.78,1/16/1998,19.54,54762,Montara,San Mateo,Montara,CA,94037
+330889,Prof.,Denver,C,Mays,M,48.37,7/4/2015,2.07,82632,Merrill,Lincoln,Merrill,WI,54452
+639474,Ms.,Daisy,I,Giles,F,29.76,4/29/2017,0.25,92138,Lutz,Hillsborough,Lutz,FL,33548
+911800,Ms.,Esperanza,I,Wade,F,47.45,8/28/2014,2.92,94276,Ruffin,Rockingham,Ruffin,NC,27326
+222807,Drs.,Janice,J,Berg,F,59.22,11/6/1981,35.75,185898,Bladensburg,Knox,Bladensburg,OH,43005
+516945,Mrs.,Helene,M,Gallegos,F,28.35,12/3/2012,4.65,166924,Hunter,Garfield,Hunter,OK,74640
+230829,Hon.,Rosario,F,Tyson,F,21.1,6/25/2017,0.09,46179,Garcia,Costilla,Garcia,CO,81134
+133610,Hon.,Teresa,X,Bowen,F,31.01,12/24/2009,7.6,131410,Allenhurst,Monmouth,Allenhurst,NJ,7709
+791967,Mrs.,Janna,J,Joseph,F,35.85,9/26/2014,2.84,96725,Durham,Androscoggin,Durham,ME,4222
+772354,Ms.,Erika,U,Myers,F,42.28,12/13/2002,14.63,87760,Walkersville,Frederick,Walkersville,MD,21793
+909265,Mr.,Mohamed,X,Fitzgerald,M,58.39,2/20/2013,4.44,83708,Dallas,Dallas,Dallas,TX,75356
+208763,Hon.,Mohammad,F,Downs,M,41.69,10/31/2013,3.74,178707,Spur,Dickens,Spur,TX,79370
+679572,Mr.,Felipe,I,Vance,M,55.48,6/18/1987,30.13,155186,Chetopa,Labette,Chetopa,KS,67336
+992569,Dr.,Rusty,K,Moran,M,37.36,6/16/2004,13.12,151325,Ferris,Hancock,Ferris,IL,62336
+821754,Mrs.,Kirsten,T,Wolf,F,56.35,11/9/1985,31.74,176179,Joyce,Winn,Joyce,LA,71440
+751897,Mrs.,Mercedes,T,Glass,F,53.2,8/24/1988,28.95,51802,Fall River Mills,Shasta,Fall River Mills,CA,96028
+208375,Ms.,Kenya,A,Merrill,F,37.43,3/31/2006,11.33,124374,House Springs,Jefferson,House Springs,MO,63051
+931551,Mr.,Laurence,Y,Camacho,M,28.4,2/1/2015,2.49,78330,Norvelt,Westmoreland,Norvelt,PA,15674
+317525,Ms.,Shirley,Q,Potter,F,31.51,3/17/2013,4.37,131453,Scandia,Washington,Scandia,MN,55073
+993099,Mr.,Ricky,Z,Snider,M,58.12,2/12/1981,36.48,57113,Hector,Schuyler,Hector,NY,14841
+854776,Hon.,Jerry,X,Jacobs,F,32.02,8/18/2014,2.95,55042,Knoxville,Knox,Knoxville,TN,37929
+
+410844,Mr.,Eliseo,Q,Wilkerson,M,34.98,2/27/2017,0.41,135526,Wind Gap,Northampton,Wind Gap,PA,18091
+530958,Mrs.,Lynne,Y,Vinson,F,29.35,4/25/2012,5.26,102102,South Colby,Kitsap,South Colby,WA,98384
+232194,Ms.,Maude,F,Jackson,F,51.7,7/29/2012,5,88456,Westfield,Hampden,Westfield,MA,1085
+888196,Mrs.,Kathryn,U,Sargent,F,33.03,3/5/2010,7.4,141141,Benoit,Bayfield,Benoit,WI,54816
+696612,Hon.,Dan,A,William,M,51.3,4/19/2014,3.28,137843,West Chesterfield,Cheshire,West Chesterfield,NH,3466
+775434,Ms.,Tanisha,A,Lester,F,39.65,12/7/2001,15.65,73471,Osgood,Ripley,Osgood,IN,47037
+860093,Mrs.,Kitty,L,Clay,F,46.95,1/24/2003,14.52,119388,Flagstaff,Coconino,Flagstaff,AZ,86002
+476072,Hon.,Kent,U,Jackson,M,43.76,2/21/1996,21.45,93228,Nitro,Kanawha,Nitro,WV,25143
+407160,Ms.,Ashlee,A,Gardner,F,54,2/8/2015,2.47,186933,Woodland,Northampton,Woodland,NC,27897
+221262,Hon.,Felecia,B,Sparks,F,54.72,10/8/2007,9.81,90146,Corpus Christi,Nueces,Corpus Christi,TX,78412
+790187,Mr.,Horace,N,Rasmussen,M,58.75,8/15/2012,4.95,97528,Jim Falls,Chippewa,Jim Falls,WI,54748
+771945,Mr.,Rickie,J,Gilmore,M,54.98,10/19/1999,17.79,114318,Mc Lean,Tompkins,Mc Lean,NY,13102
+372188,Ms.,Maria,F,Chavez,F,31.24,5/9/2017,0.22,137142,Karns City,Butler,Karns City,PA,16041
+657125,Mrs.,Michael,C,West,F,45.5,12/7/1999,17.65,79089,Cleveland,Bradley,Cleveland,TN,37320
+489761,Ms.,Paula,T,Pacheco,F,21.72,3/30/2017,0.33,171987,Los Angeles,Los Angeles,Los Angeles,CA,90055
+651738,Mr.,Rick,V,Sawyer,M,58,1/27/1993,24.52,127075,Spartanburg,Spartanburg,Spartanburg,SC,29307
+463929,Mr.,Ramiro,N,Rojas,M,33,7/6/2006,11.07,70471,Newton Center,Middlesex,Newton Center,MA,2459
+521878,Dr.,Benny,G,Stephenson,M,31.09,12/23/2015,1.6,84296,Burke,Franklin,Burke,NY,12917
+697802,Ms.,Beryl,K,Nelson,F,29.42,7/17/2010,7.04,140782,Rockford,Spokane,Rockford,WA,99030
+842936,Ms.,Bernice,T,Conrad,F,37.19,8/2/2002,15,147448,Shawnee Mission,Johnson,Shawnee Mission,KS,66225
+333260,Mr.,Bud,M,Knowles,M,58.1,10/27/2007,9.76,109080,Trevorton,Northumberland,Trevorton,PA,17881
+696218,Mrs.,Anita,Q,Pratt,F,59.24,1/21/2001,16.53,189291,Sutherlin,Douglas,Sutherlin,OR,97479
+161109,Hon.,Kareem,R,Fuentes,M,43.54,10/21/2001,15.78,163337,Washington,District of Columbia,Washington,DC,20099
+938475,Mr.,Curtis,V,Hoover,M,39.28,9/11/2011,5.88,67164,Kingsford Heights,LaPorte,Kingsford Heights,IN,46346
+368041,Ms.,Tamika,W,Rosa,F,44.25,10/25/2009,7.76,107782,Milwaukee,Milwaukee,Milwaukee,WI,53219
+738794,Mr.,Carmelo,S,Scott,M,30.82,1/12/2011,6.55,159630,Dallas,Dallas,Dallas,TX,75239
+703738,Drs.,Rebecca,W,Moon,F,30,12/26/2015,1.59,72982,Asbury,Warren,Asbury,NJ,8802
+188409,Ms.,Pearlie,M,Bryant,F,30.07,12/31/2008,8.58,116234,Hampton,Windham,Hampton,CT,6247
+206997,Mr.,Donovan,P,Russo,M,39.71,4/26/2000,17.27,186548,Jackson,Hinds,Jackson,MS,39210
+677871,Mr.,Robt,R,Ramsey,M,31.37,6/20/2009,8.11,85402,Moscow,Muscatine,Moscow,IA,52760
+963113,Mrs.,Lacy,V,Rowe,F,56.49,10/8/1997,19.82,169456,Jackson,Jackson,Jackson,MI,49201
+291577,Mrs.,Rosemary,K,Vaughn,F,33.87,1/24/2012,5.51,85449,Scarsdale,Westchester,Scarsdale,NY,10583
+142501,Dr.,Lon,R,Martin,M,29,10/24/2011,5.76,183005,Hyattsville,Prince George's,Hyattsville,MD,20788
+358556,Ms.,Grace,H,Dejesus,F,38.53,2/1/2000,17.5,103726,Radisson,Sawyer,Radisson,WI,54867
+126137,Dr.,Felix,S,Haynes,M,38.99,1/13/2003,14.55,131397,Bejou,Mahnomen,Bejou,MN,56516
+409492,Drs.,Beatriz,L,Pugh,F,35.32,2/13/2011,6.46,188881,Tiger,Rabun,Tiger,GA,30576
+967793,Ms.,Louisa,N,Wallace,F,30.15,11/19/2009,7.69,104936,Short Creek,Harrison,Short Creek,OH,43989
+790017,Prof.,Aubrey,A,Myers,M,58.62,3/15/2005,12.38,161252,Summerville,Dorchester,Summerville,SC,29484
+998638,Ms.,Reyna,Y,Mccoy,F,34.21,9/21/2016,0.85,48857,Peridot,Gila,Peridot,AZ,85542
+402452,Dr.,Rusty,U,Fletcher,M,37.99,7/8/2013,4.06,46383,Churchs Ferry,Ramsey,Churchs Ferry,ND,58325
+490868,Prof.,Houston,R,Morris,M,36.22,10/2/2012,4.82,142782,Teterboro,Teterboro,Teterboro,NJ,7699
+381597,Hon.,Edwardo,C,Stone,M,29.08,11/13/2016,0.7,136662,East Homer,Cortland,East Homer,NY,13056
+852587,Prof.,Clifton,H,Langley,M,25.16,1/7/2017,0.55,55791,Washington,District of Columbia,Washington,DC,20053
+732315,Drs.,Amparo,I,Campos,F,44.84,1/10/2016,1.55,106090,Oceanside,San Diego,Oceanside,CA,92054
+937260,Mrs.,Martha,O,Schmidt,F,34.76,3/28/2009,8.34,82136,San Juan Capistrano,Orange,San Juan Capistrano,CA,92693
+290034,Mrs.,Charmaine,D,Hawkins,F,32.99,12/31/2012,4.58,163170,Choudrant,Lincoln,Choudrant,LA,71227
+273325,Ms.,Jayne,L,Thomas,F,57.59,3/5/1981,36.42,162559,Salineville,Columbiana,Salineville,OH,43945
+809726,Dr.,Bryce,I,Cox,M,38.71,4/24/2004,13.27,66919,Cerro Gordo,Piatt,Cerro Gordo,IL,61818
+575035,Mrs.,Beatrice,M,Lawson,F,27.36,1/8/2017,0.55,196252,Louisville,Jefferson,Louisville,KY,40255
+211129,Mr.,Alphonse,X,Torres,M,45.59,5/26/2002,15.18,191018,Portland,Northampton,Portland,PA,18351
+673451,Drs.,Rae,R,Peck,F,25.53,3/15/2016,1.37,128429,Saint Louis,St. Louis,Saint Louis,MO,63137
+230226,Ms.,Dona,F,Maxwell,F,40.83,6/11/2014,3.13,61066,Shanks,Hampshire,Shanks,WV,26761
+673126,Dr.,David,D,Meyer,M,49.12,11/7/2001,15.73,98537,Pickerington,Fairfield,Pickerington,OH,43147
+615857,Drs.,Clara,H,Harrington,F,31.72,11/17/2006,10.7,69981,Minneapolis,Hennepin,Minneapolis,MN,55428
+251151,Dr.,Harlan,V,Vaughan,M,41.78,4/30/1999,18.26,174076,Salinas,Monterey,Salinas,CA,93915
+232585,Ms.,Wanda,X,Lester,F,52.32,6/30/1995,22.09,116510,Albany,Linn,Albany,OR,97321
+237448,Drs.,Keri,Y,Buchanan,F,32.14,4/9/2009,8.31,195057,Hamshire,Jefferson,Hamshire,TX,77622
+764254,Mr.,Wilfred,R,Charles,M,43.41,1/25/2017,0.5,151869,East Dennis,Barnstable,East Dennis,MA,2641
+837427,Mr.,Lynn,M,Howe,M,28.38,12/16/2015,1.62,134078,Neoga,Cumberland,Neoga,IL,62447
+934912,Hon.,Faye,Y,Mercer,F,34.7,12/1/2005,11.66,139511,Rome City,Noble,Rome City,IN,46784
+747004,Mr.,Bennie,D,Melendez,M,59.05,7/9/1987,30.07,137031,Luther,Boone,Luther,IA,50152
+497086,Mr.,Scotty,H,Ellis,M,44.29,8/5/1994,22.99,173017,Austin,Travis,Austin,TX,78713
+743314,Mr.,Grady,J,Herman,M,48.16,8/25/1990,26.94,89423,South Carrollton,Muhlenberg,South Carrollton,KY,42374
+570767,Mrs.,Eula,L,Aguirre,F,46.37,4/8/2002,15.32,97109,Holstein,Adams,Holstein,NE,68950
+445556,Ms.,Nita,Q,Adams,F,31.5,8/11/2009,7.97,193337,Laporte,Larimer,Laporte,CO,80535
+471961,Dr.,Zachery,D,Harvey,M,46.16,5/11/2005,12.22,96795,Fort Madison,Lee,Fort Madison,IA,52627
+273769,Dr.,Scot,C,Faulkner,M,51.22,5/25/2001,16.19,80002,Watsontown,Northumberland,Watsontown,PA,17777
+280832,Mrs.,Mia,S,Joseph,F,28.12,6/16/2017,0.12,79628,Show Low,Navajo,Show Low,AZ,85902
+411066,Mr.,Hung,M,Herman,M,40.65,11/8/2014,2.72,103007,Sanford,Lee,Sanford,NC,27330
+843879,Ms.,Genevieve,V,Bradshaw,F,50.44,11/10/1990,26.73,196104,Greenfield,Franklin,Greenfield,MA,1301
+352677,Mr.,Alec,G,Brown,M,50.4,12/10/2006,10.64,177116,Kings Beach,Placer,Kings Beach,CA,96143
+237902,Mr.,Pasquale,N,Knight,M,56.65,12/24/1992,24.61,83170,Reform,Reform,Reform,MS,39757
+180696,Mrs.,Sheri,L,Whitley,F,35.67,8/5/2012,4.98,47731,Cedar Rapids,Linn,Cedar Rapids,IA,52408
+168016,Prof.,Mauro,D,Marshall,M,28.7,5/2/2010,7.24,55874,Charlotte,Mecklenburg,Charlotte,NC,28234
+481176,Ms.,Cristina,K,Grimes,F,23.82,9/23/2015,1.85,115968,Virginia Beach,Virginia Beach (city),Virginia Beach,VA,23461
+438561,Mr.,Raul,M,Frost,M,52.04,2/2/2009,8.49,152121,Veradale,Spokane,Veradale,WA,99037
+709146,Hon.,Amparo,R,Dixon,F,38.24,3/27/2014,3.34,64356,Pierce City,Lawrence,Pierce City,MO,65723
+746945,Mr.,Efrain,D,Carney,M,59.15,12/15/2014,2.62,175570,Saint Louis,St. Louis (city),Saint Louis,MO,63150
+473773,Mr.,Stacey,O,Workman,M,51.38,4/23/1994,23.28,88171,Thorp,Clark,Thorp,WI,54771
+828174,Dr.,Leon,T,Mcgowan,M,31.24,9/29/2007,9.84,81646,Meadowlands,St. Louis,Meadowlands,MN,55765
+438094,Mrs.,Vonda,Z,Johns,F,45.08,8/22/2006,10.94,137384,Oakland,Alameda,Oakland,CA,94623
+866744,Dr.,Jorge,H,Wright,M,34.15,8/18/2016,0.94,91684,Wilmar,Drew,Wilmar,AR,71675
+638900,Drs.,Brandy,B,Bean,F,22.21,9/11/2016,0.88,134242,Sunnyside,Carbon,Sunnyside,UT,84539
+759226,Ms.,Lakeisha,S,Bowman,F,49.61,2/21/1989,28.45,120192,Vanderbilt Beach,Collier,Vanderbilt Beach,FL,34107
+476750,Drs.,Ernestine,C,Lambert,F,47.41,10/2/2009,7.82,171471,Wayside,Armstrong,Wayside,TX,79094
+588664,Mr.,Julius,H,Gardner,M,30.67,6/20/2012,5.11,60243,Meigs,Thomas,Meigs,GA,31765
+403910,Ms.,Naomi,I,Jacobs,F,44.24,7/25/2000,17.02,56103,Greensboro,Guilford,Greensboro,NC,27402
+449655,Mr.,Sydney,I,Frederick,M,25.41,11/10/2016,0.71,111989,Bray,Stephens,Bray,OK,73012
+226863,Mr.,Clifton,E,Tyson,M,50.46,7/8/1993,24.07,163933,New York City,New York,New York City,NY,10257
+651910,Mrs.,Consuelo,J,Hamilton,F,56.87,5/30/2006,11.17,59303,Fortville,Hancock,Fortville,IN,46040
+717861,Mr.,Aldo,E,Jarvis,M,34.64,8/20/2008,8.94,169588,Chemung,Chemung,Chemung,NY,14825
+885624,Mrs.,Deidre,M,Anthony,F,32.27,3/13/2014,3.38,119545,Napoleon,Ripley,Napoleon,IN,47034
+341048,Ms.,Maura,T,Delaney,F,53.98,12/2/1999,17.67,97239,Columbus,Platte,Columbus,NE,68602
+709748,Hon.,Claudine,X,Landry,F,32.49,6/29/2016,1.08,111452,Nottawa,St. Joseph,Nottawa,MI,49075
+454287,Drs.,Silvia,H,Ortega,F,51.38,4/1/2001,16.33,176930,Islip Terrace,Suffolk,Islip Terrace,NY,11752
+390973,Ms.,Gilda,N,Dillon,F,45.73,1/22/1998,19.53,126153,Indianapolis,Marion,Indianapolis,IN,46221
+570009,Drs.,Mai,R,Jennings,F,32.75,2/1/2007,10.49,191519,Beatty,Klamath,Beatty,OR,97621
+454506,Drs.,Cecilia,Y,Dawson,F,42.47,6/21/1999,18.12,166310,Fort Wainwright,Fairbanks North Star,Fort Wainwright,AK,99703
+147313,Mr.,Wilburn,U,Rowe,M,39.65,10/31/2015,1.74,159272,North Turner,Androscoggin,North Turner,ME,4266
+307771,Mr.,Delbert,I,Cooley,M,40.69,5/17/2016,1.2,98383,Palm Desert,Riverside,Palm Desert,CA,92261
+498653,Dr.,Vincent,P,Case,M,34.05,10/8/2007,9.81,77053,Charlotte,Dickson,Charlotte,TN,37036
+964798,Prof.,Orlando,M,Wilkerson,M,44.34,12/20/2009,7.61,183026,Burlington,Alfalfa,Burlington,OK,73722
+616656,Mr.,Isiah,I,Hubbard,M,46.44,4/2/2012,5.32,169164,Crompond,Westchester,Crompond,NY,10517
+232425,Mrs.,Jeanine,G,Ratliff,F,49.99,12/22/2014,2.6,88590,Greensboro,Guilford,Greensboro,NC,27403
+504422,Prof.,Damien,L,Middleton,M,41.17,7/1/1999,18.09,86783,Gideon,New Madrid,Gideon,MO,63848
+941632,Mrs.,Fern,Q,Burris,F,43.81,11/2/2003,13.75,92781,New Meadows,Adams,New Meadows,ID,83654
+925954,Mrs.,Katy,G,Glass,F,45,12/13/2006,10.63,183060,Westby,Sheridan,Westby,MT,59275
+585128,Ms.,Nikki,P,Bean,F,27.81,6/17/2011,6.12,57409,Suitland,Prince George's,Suitland,MD,20746
+271180,Mr.,Norris,F,Alvarez,M,31.93,9/25/2011,5.84,188804,Natrona,Natrona,Natrona,WY,82646
+277858,Mr.,Reinaldo,C,Eaton,M,36.21,6/24/2009,8.1,121290,Regent,Hettinger,Regent,ND,58650
+118882,Mr.,Eddie,A,Irwin,M,32.33,8/20/2011,5.94,93822,Four Oaks,Johnston,Four Oaks,NC,27524
+957082,Ms.,Denise,J,Swanson,F,25.24,4/29/2017,0.25,56255,Springfield,Sangamon,Springfield,IL,62767
+191995,Mrs.,Sasha,D,Beard,F,37.17,10/2/2004,12.83,78867,Manassas,Manassas Park (city),Manassas,VA,20111
+294276,Mr.,Josh,X,Tucker,M,26.02,3/19/2016,1.36,191297,Whalan,Whalan,Whalan,MN,55986
+955260,Mr.,Rodger,X,Roach,M,48.7,11/15/1993,23.72,63217,Pico Rivera,Los Angeles,Pico Rivera,CA,90665
+457714,Mr.,Miles,Y,Mcdaniel,M,53.78,7/7/2011,6.06,129827,Denver,Denver,Denver,CO,80252
+327467,Mrs.,Erin,A,French,F,43.22,8/10/2012,4.97,112881,Dushore,Sullivan,Dushore,PA,18614
+642418,Hon.,Rosalind,P,Booth,F,46.35,1/12/1998,19.55,165075,Morris,Stevens,Morris,MN,56267
+536053,Mr.,Lenard,Z,Conner,M,41.18,5/9/2017,0.22,114421,Lawson,Ray,Lawson,MO,64062
+950796,Hon.,Wilson,K,Mcmillan,M,26.8,1/5/2015,2.56,98600,Wilmington,New Castle,Wilmington,DE,19886
+475176,Mr.,Harley,T,Murphy,M,50.46,10/25/2008,8.76,199411,Antigo,Langlade,Antigo,WI,54409
+873985,Ms.,Carrie,I,Ramsey,F,22.45,3/1/2017,0.41,126933,Oketo,Marshall,Oketo,KS,66518
+706151,Dr.,Esteban,I,Finch,M,39.04,5/2/2013,4.24,84511,Fresno,Fresno,Fresno,CA,93729
+734991,Mr.,Merle,V,Martin,M,52.05,5/1/2016,1.24,181338,White House,Robertson,White House,TN,37188
+461350,Ms.,Joanna,C,Rodriquez,F,53.75,10/28/1987,29.77,172175,Cullman,Cullman,Cullman,AL,35056
+454745,Prof.,Cyrus,M,Gardner,M,25.22,12/22/2013,3.6,65708,Charles City,Charles City,Charles City,VA,23030
+901588,Mrs.,Mariana,N,Mcneil,F,56.38,2/18/1984,33.46,96974,Paisley,Lake,Paisley,FL,32767
+891083,Dr.,Fletcher,Z,Hardin,M,22.19,9/10/2016,0.88,57579,Wilmer,Mobile,Wilmer,AL,36587
+654747,Prof.,Edwin,Z,Brock,M,22.99,10/30/2015,1.75,42553,Austin,Travis,Austin,TX,78702
+778415,Ms.,Noreen,G,Bray,F,56.72,3/26/1988,29.36,77269,Iota,Acadia,Iota,LA,70543
+996768,Mr.,Ollie,E,Woods,M,33.53,8/30/2014,2.91,114205,Melrose,Natchitoches,Melrose,LA,71452
+295864,Mr.,Cleveland,C,Kirkland,M,24.28,6/22/2016,1.1,50146,Spring Hill,Hernando,Spring Hill,FL,34606
+924999,Mr.,Arron,N,Olsen,M,39.6,7/28/2009,8.01,132077,Cleveland,Cuyahoga,Cleveland,OH,44181
+291663,Mr.,Elijah,A,Garrison,M,30.59,5/20/2014,3.19,127017,Grand Lake Stream,Washington,Grand Lake Stream,ME,4637
+818352,Ms.,Allie,B,Landry,F,51.59,9/5/2006,10.9,170000,Claremont,Catawba,Claremont,NC,28610
+636018,Mrs.,Janie,F,Cooke,F,47.24,8/27/2012,4.92,107644,Enid,Garfield,Enid,OK,73706
+712045,Hon.,Shelia,V,Conrad,F,42.98,5/13/2001,16.22,124937,Central,Yukon-Koyukuk (CA),Central,AK,99730
+507999,Ms.,Aida,E,Banks,F,25.68,9/23/2013,3.85,172384,Lovingston,Nelson,Lovingston,VA,22949
+770255,Hon.,Lora,I,Wheeler,F,39.93,10/31/2012,4.74,162065,Fort Lauderdale,Broward,Fort Lauderdale,FL,33324
+977573,Mr.,Fritz,K,Gross,M,40.41,2/29/2004,13.42,106956,Charleston,Charleston,Charleston,SC,29417
+206695,Mrs.,Natalie,V,Ellison,F,45.09,6/22/2008,9.1,80478,South Bend,St. Joseph,South Bend,IN,46617
+688327,Mr.,Eliseo,A,Berry,M,32.43,8/10/2011,5.97,165331,Duluth,St. Louis,Duluth,MN,55804
+903098,Prof.,Philip,T,Mcbride,M,29.69,5/26/2017,0.17,164512,Pleasant Valley,Scott,Pleasant Valley,IA,52767
+557561,Mrs.,Kay,L,Travis,F,49.99,8/20/1994,22.95,195749,Sahuarita,Pima,Sahuarita,AZ,85629
+864516,Ms.,Liliana,C,Donovan,F,32.88,6/8/2007,10.15,45702,Pittsburgh,Allegheny,Pittsburgh,PA,15219
+743727,Ms.,Elise,I,Kidd,F,50.46,2/24/1989,28.44,94854,Bern,Nemaha,Bern,KS,66408
+205865,Ms.,Tabitha,Q,Baird,F,56.27,1/1/2002,15.58,140358,Terrell,Kaufman,Terrell,TX,75160
+909024,Hon.,Barney,S,Guerrero,M,43.6,9/24/2006,10.85,54968,Dalton,Cheyenne,Dalton,NE,69131
+808609,Mrs.,Myrtle,O,Riggs,F,26.82,1/16/2017,0.53,187768,Anderson,Madison,Anderson,IN,46013
+804895,Hon.,Frederick,I,Mckay,M,29.99,4/9/2013,4.3,69477,Edwardsville,Cleburne,Edwardsville,AL,36261
+564246,Ms.,Debora,T,Hinton,F,22.84,9/20/2016,0.85,174027,Cross Fork,Potter,Cross Fork,PA,17729
+208230,Mr.,Merlin,K,Meyers,M,46.73,12/25/2009,7.59,121345,Hambleton,Tucker,Hambleton,WV,26269
+232387,Drs.,Celia,U,Huffman,F,22.39,4/8/2016,1.3,166489,Apple Grove,Mason,Apple Grove,WV,25502
+124923,Ms.,Tina,C,Cabrera,F,47.41,6/9/1999,18.15,119758,Beulah,Phelps,Beulah,MO,65436
+274518,Ms.,Kelsey,J,Brown,F,31.82,11/29/2009,7.67,103848,New York City,New York,New York City,NY,10017
+288568,Mr.,Danny,U,Shaw,M,45.28,8/14/1997,19.97,129888,Warminster,Bucks,Warminster,PA,18974
+802355,Mrs.,Dena,X,Gomez,F,48.61,5/12/1999,18.22,146837,Cincinnati,Hamilton,Cincinnati,OH,45207
+648744,Dr.,Edmund,B,Blankenship,M,51.75,3/22/2017,0.35,40783,Pittsburg,Contra Costa,Pittsburg,CA,94565
+224106,Dr.,Hershel,Y,Cain,M,53.42,4/6/1986,31.33,154559,Yeagertown,Mifflin,Yeagertown,PA,17099
+543320,Mrs.,Lawanda,A,Whitehead,F,44.03,2/11/2013,4.46,96388,Garrard,Clay,Garrard,KY,40941
+838662,Ms.,Sophia,R,Gregory,F,31.48,11/3/2012,4.73,91439,Midland City,Dale,Midland City,AL,36350
+138130,Ms.,Lauren,Q,Mcgee,F,40.15,4/25/2014,3.26,74674,Reserve,St. John the Baptist,Reserve,LA,70084
+516579,Mr.,Guy,Q,Rutledge,M,23.1,2/6/2016,1.47,169802,Charlotte,Mecklenburg,Charlotte,NC,28214
+939556,Mr.,Kurt,V,Oconnor,M,47.14,3/12/2002,15.39,59917,Ellendale,Sussex,Ellendale,DE,19941
+495659,Mrs.,Mallory,W,Pearson,F,47.55,1/17/1993,24.54,53077,Fort Wayne,Allen,Fort Wayne,IN,46859
+630030,Ms.,Louisa,K,Nelson,F,38.44,9/30/2005,11.83,193080,Big Bend National Park,Brewster,Big Bend National Park,TX,79834
+874431,Mr.,Diego,J,Huffman,M,56.09,3/3/1998,19.42,164626,Catawba,Price,Catawba,WI,54515
+809793,Ms.,Louisa,U,Ellison,F,38.67,8/13/2004,12.96,185330,Whittier,Los Angeles,Whittier,CA,90610
+942454,Hon.,Josue,V,Cross,M,31.35,3/26/2011,6.35,187192,Coralville,Johnson,Coralville,IA,52241
+228229,Mrs.,Ines,H,Dominguez,F,42.55,1/27/2010,7.5,59681,West Palm Beach,Palm Beach,West Palm Beach,FL,33419
+375190,Mr.,Lance,Y,Garza,M,37.87,8/18/2003,13.95,117985,Lamar,Marshall,Lamar,MS,38642
+532560,Ms.,Belinda,S,Pace,F,41.08,7/11/2009,8.05,105760,New Bern,Craven,New Bern,NC,28564
+210135,Ms.,Gracie,E,Herring,F,28.96,10/20/2013,3.77,164379,Green Bay,Brown,Green Bay,WI,54301
+228355,Dr.,Benito,A,Knapp,M,38.06,2/16/2004,13.45,152692,Grand View,Bayfield,Grand View,WI,54839
+965308,Mrs.,Lucinda,Q,Mcgowan,F,33.72,7/15/2017,0.04,125241,Bedford,Trimble,Bedford,KY,40006
+768500,Ms.,Jami,G,Golden,F,56.72,1/21/1985,32.54,65123,Glenhayes,Wayne,Glenhayes,WV,25519
+816768,Dr.,David,B,Gutierrez,M,22.45,1/4/2017,0.56,62888,Wells,Cherokee,Wells,TX,75976
+909541,Mr.,Clement,B,Myers,M,58.71,6/20/1983,34.13,47356,Marmora,Cape May,Marmora,NJ,8223
+529604,Mr.,Shane,S,Porter,M,35.16,4/8/2014,3.31,110662,Leo,Allen,Leo,IN,46765
+140932,Mr.,Clint,U,Gross,M,48.3,5/21/2000,17.2,180618,Northport,Stevens,Northport,WA,99157
+725731,Mrs.,Ofelia,K,Pickett,F,27.43,5/25/2013,4.18,181131,Sugartown,Beauregard,Sugartown,LA,70662
+214985,Mrs.,Karina,L,Green,F,49.85,1/12/2006,11.55,98449,Osborn,DeKalb,Osborn,MO,64474
+405156,Mr.,Sam,O,Burris,M,57.48,11/10/1986,30.73,59921,Mira,Mira,Mira,LA,71059
+249736,Hon.,Lina,P,Shannon,F,36.47,4/14/2010,7.29,65222,Kent,Sherman,Kent,OR,97033
+526273,Mr.,Myles,M,Coleman,M,34.5,1/7/2011,6.56,90170,Irwin,Westmoreland,Irwin,PA,15642
+654723,Mr.,Clay,E,Freeman,M,44,4/12/2011,6.3,122778,Edgerton,Williams,Edgerton,OH,43517
+672964,Mrs.,Catalina,S,Guthrie,F,42.24,1/23/2000,17.52,132600,Wales,Waukesha,Wales,WI,53183
+240799,Ms.,Nannie,E,Moon,F,41.22,7/24/2009,8.02,90196,Mountain Home,Elmore,Mountain Home,ID,83647
+169618,Dr.,Donovan,T,Serrano,M,28.8,5/15/2013,4.21,126226,South Dartmouth,Bristol,South Dartmouth,MA,2748
+430633,Drs.,Sondra,R,Reyes,F,24.29,7/6/2016,1.06,41680,Harveyville,Wabaunsee,Harveyville,KS,66431
+116286,Hon.,Terrance,N,Duke,M,32.76,6/22/2013,4.1,174683,Junction City,Portage,Junction City,WI,54443
+486573,Mrs.,Colleen,Z,Rodriguez,F,23.47,4/28/2015,2.25,127580,Pingree,Stutsman,Pingree,ND,58476
+371751,Prof.,Thad,X,Luna,M,48.46,4/2/2007,10.33,43176,Tinley Park,Tinley Park,Tinley Park,IL,60487
+783654,Mr.,Terence,P,Clay,M,22.03,11/30/2016,0.66,83525,Tacoma,Pierce,Tacoma,WA,98413
+845635,Ms.,Bettie,Q,Holman,F,37.62,5/12/2013,4.21,71063,Peoria,Peoria,Peoria,IL,61615
+266624,Mr.,Boyd,G,Greer,M,21.51,4/13/2017,0.29,92696,Neely,Greene,Neely,MS,39461
+682855,Mr.,Corey,J,Edwards,M,48.14,11/18/1990,26.71,105054,Patriot,Gallia,Patriot,OH,45658
+229899,Hon.,Violet,T,Lindsay,F,58.13,5/19/2013,4.19,66212,Tionesta,Forest,Tionesta,PA,16353
+701561,Mrs.,Camille,D,Mullins,F,50.19,7/12/2001,16.05,138040,Sun City,Riverside,Sun City,CA,92586
+114862,Mrs.,Nicole,F,Rodriquez,F,53.52,1/15/2002,15.54,46648,Garland,Bourbon,Garland,KS,66741
+445650,Mr.,Joan,N,Bauer,M,35.52,8/12/2013,3.96,138548,Columbia,Richland,Columbia,SC,29220
+574544,Mr.,Kennith,L,Marquez,M,45.67,8/1/1994,23.01,159674,Appomattox,Appomattox,Appomattox,VA,24522
+990758,Ms.,Mae,P,Hurst,F,29.07,2/19/2010,7.44,115818,Scotland,Franklin,Scotland,PA,17254
+833424,Dr.,Denver,I,Mann,M,59.1,12/22/1987,29.62,178822,Shortt Gap,Buchanan,Shortt Gap,VA,24647
+864834,Mr.,Milford,Y,Dickerson,M,51.79,12/3/1999,17.66,65505,Garden Valley,Boise,Garden Valley,ID,83622
+703495,Ms.,Marva,B,Phelps,F,43.35,10/5/2015,1.81,88373,Hoffman Estates,Cook,Hoffman Estates,IL,60179
+222179,Mrs.,Betsy,P,Dillon,F,34.67,7/11/2014,3.05,121009,Roswell,Fulton,Roswell,GA,30077
+951011,Ms.,Celeste,D,Ramirez,F,35.68,2/22/2015,2.43,189382,Andover,Essex,Andover,MA,1899
+187639,Mrs.,Tonya,D,Burke,F,35.15,8/4/2015,1.98,155427,Ravenna,Buffalo,Ravenna,NE,68869
+375051,Ms.,Deana,P,Spencer,F,41.02,10/9/2000,16.81,133805,Carlsbad,Eddy,Carlsbad,NM,88221
+509810,Ms.,Susanne,M,Joseph,F,53.63,7/28/1985,32.02,199131,Ladoga,Montgomery,Ladoga,IN,47954
+625661,Mr.,Cole,A,Spencer,M,58.15,4/25/2003,14.27,151776,Harrisburg,Dauphin,Harrisburg,PA,17120
+662168,Prof.,Marlon,E,Whitaker,M,35.32,4/19/2008,9.28,197971,Dallas City,Hancock,Dallas City,IL,62330
+678244,Mrs.,Trudy,Z,Frazier,F,57.18,4/2/2007,10.33,96992,Currie,Murray,Currie,MN,56123
+864339,Mrs.,Tania,G,May,F,57.36,1/16/1985,32.55,77106,Lehigh Acres,Lee,Lehigh Acres,FL,33971
+436424,Mr.,Leonel,G,Guerrero,M,25.25,7/6/2014,3.06,135232,Zephyrhills,Pasco,Zephyrhills,FL,33540
+606834,Drs.,Nadia,Z,Stokes,F,38.05,10/3/2005,11.82,155452,Tiplersville,Tippah,Tiplersville,MS,38674
+268942,Mr.,Cody,C,Dillard,M,41.46,5/9/2001,16.23,60994,Bloomfield Hills,Oakland,Bloomfield Hills,MI,48303
+484822,Ms.,Megan,T,Fry,F,21.54,5/23/2017,0.18,75765,Bunkie,Avoyelles,Bunkie,LA,71322
+397241,Ms.,Darla,S,Durham,F,30.11,11/26/2012,4.67,187262,Flushing,Genesee,Flushing,MI,48433
+924252,Hon.,Cecile,I,Ross,F,23.58,10/22/2016,0.76,55341,Freedom,Santa Cruz,Freedom,CA,95019
+717079,Hon.,Helene,K,Franco,F,50.13,1/7/2002,15.56,73397,Manhattan,Riley,Manhattan,KS,66503
+494794,Mr.,Vernon,C,Buchanan,M,23.63,5/10/2015,2.22,142346,Meers,Comanche,Meers,OK,73558
+970841,Hon.,Marva,C,Santiago,F,28.77,8/6/2012,4.98,196155,Bellaire,Harris,Bellaire,TX,77401
+281794,Mrs.,Yvette,X,Bentley,F,25.18,11/30/2015,1.66,82765,Highlandville,Winneshiek,Highlandville,IA,52149
+520539,Hon.,Derick,R,Daugherty,M,31.59,3/24/2007,10.35,188821,Cincinnati,Hamilton,Cincinnati,OH,45237
+567269,Ms.,Fay,O,Villarreal,F,28.33,11/29/2012,4.66,42988,Tioga,Grayson,Tioga,TX,76271
+749292,Ms.,Deanna,E,Wilkins,F,54.65,5/29/2016,1.16,113482,Saginaw,Newton,Saginaw,MO,64864
+292144,Drs.,Augusta,P,Andrews,F,31.64,10/3/2013,3.82,73007,Maryland Heights,St. Louis,Maryland Heights,MO,63043
+896825,Ms.,Erna,A,Tran,F,40.92,11/18/2009,7.7,71415,Talladega,Talladega,Talladega,AL,35161
+216408,Mr.,Luther,H,Short,M,24.14,4/9/2017,0.3,75243,Reynoldsburg,Reynoldsburg,Reynoldsburg,OH,43069
+579003,Prof.,Curtis,S,Williamson,M,43.05,10/26/2013,3.76,56599,Houston,Harris,Houston,TX,77098
+249410,Ms.,Yvette,C,Rivers,F,45.75,1/13/2006,11.55,164007,Canton Center,Hartford,Canton Center,CT,6020
+241389,Mr.,Walter,G,Velez,M,25.28,3/8/2016,1.39,77362,Gainesville,Prince William,Gainesville,VA,20155
+311405,Ms.,Christa,P,Wilkins,F,42.79,5/15/2011,6.21,60566,Bruce,Rusk,Bruce,WI,54819
+796832,Mr.,Milton,Z,Neal,M,45.68,6/29/2003,14.09,131141,Cropseyville,Rensselaer,Cropseyville,NY,12052
+976347,Ms.,Kimberly,T,Harmon,F,25.83,7/8/2015,2.06,48858,Farlington,Crawford,Farlington,KS,66734
+363748,Mr.,Lemuel,E,Houston,M,38.54,12/9/2014,2.64,137375,Grandview,Yakima,Grandview,WA,98930
+368157,Hon.,Marcie,N,Weiss,F,22.78,10/21/2016,0.77,136817,Monticello,Fairfield,Monticello,SC,29106
+466203,Mr.,Bart,I,Whitaker,M,55.13,2/17/2007,10.45,133522,Woodworth,Rapides,Woodworth,LA,71485
+893798,Ms.,Patrice,N,Koch,F,22.21,7/11/2016,1.05,188317,Shafter,Presidio,Shafter,TX,79850
+501368,Mr.,Xavier,O,Mcintosh,M,26.65,8/22/2014,2.93,119198,New York City,New York,New York City,NY,10165
+507594,Ms.,Lidia,K,Rojas,F,23.91,4/22/2016,1.27,150763,Litchfield,Lassen,Litchfield,CA,96117
+390989,Drs.,Essie,C,Bridges,F,24.39,11/26/2015,1.67,93441,Harrisburg,Dauphin,Harrisburg,PA,17177
+312364,Mrs.,Sondra,N,Stephens,F,40.74,1/24/2001,16.52,183288,Boonville,Mendocino,Boonville,CA,95415
+444670,Mr.,Monte,A,Contreras,M,42.24,10/19/1998,18.79,70105,Wallula,Walla Walla,Wallula,WA,99363
+969572,Mr.,Ernesto,U,Moreno,M,51.7,2/16/2006,11.45,50579,Hume,Fauquier,Hume,VA,22639
+129405,Prof.,Ismael,S,Ellis,M,42.33,8/23/2000,16.94,56375,Mont Vernon,Hillsborough,Mont Vernon,NH,3057
+612960,Mr.,Elijah,K,Hopkins,M,23.27,11/13/2016,0.7,67336,Waco,McLennan,Waco,TX,76714
+328690,Mrs.,Leigh,K,Mccall,F,30.05,7/27/2008,9.01,179405,Cedarburg,Ozaukee,Cedarburg,WI,53012
+960091,Mr.,Genaro,W,Stafford,M,37.97,10/16/2000,16.79,158345,Dyer,Esmeralda,Dyer,NV,89010
+563448,Drs.,Lucy,F,Hinton,F,41.21,12/23/1998,18.61,66085,Gaston,Northampton,Gaston,NC,27832
+982922,Ms.,Bernadette,H,Glass,F,23.19,1/29/2016,1.5,199184,Pinellas Park,Pinellas,Pinellas Park,FL,33780
+646972,Mr.,Lee,F,Peck,M,41.49,6/5/2009,8.15,140934,Dallas,Dallas,Dallas,TX,75360
+387407,Prof.,Damian,Q,Ellison,M,55.29,9/2/2010,6.91,42547,Rochester,Monroe,Rochester,NY,14612
+468347,Mr.,Dusty,R,Hendricks,M,50.18,10/8/2013,3.81,187112,Paterson,Passaic,Paterson,NJ,7502
+707678,Hon.,Katina,S,Wynn,F,29.89,3/21/2015,2.36,75205,Arlington,Kiowa,Arlington,CO,81021
+709899,Prof.,Clair,J,Morris,M,59.1,12/13/1981,35.65,155562,Loon Lake,Stevens,Loon Lake,WA,99148
+931481,Prof.,Ernesto,U,Short,M,24.5,6/25/2015,2.09,150578,Garner,Wake,Garner,NC,27529
+415337,Drs.,Frankie,J,Wiggins,F,58.8,2/12/1990,27.47,87276,Denver,Denver,Denver,CO,80220
+795746,Mrs.,Angelique,G,Guy,F,27.28,7/20/2012,5.02,61936,Dallas,Dallas,Dallas,TX,75376
+880808,Mr.,Marcelino,I,Tanner,M,55.05,2/10/2009,8.47,53688,Benton,Saline,Benton,AR,72158
+224527,Prof.,Tony,S,Weiss,M,46.2,10/28/1993,23.76,121236,Garden Grove,Orange,Garden Grove,CA,92846
+674436,Dr.,Lenard,R,Cardenas,M,36.5,11/18/2008,8.7,100184,Bahama,Durham,Bahama,NC,27503
+492623,Mrs.,Aurora,S,Gray,F,52.28,1/18/1988,29.55,128566,Santa Fe,Santa Fe,Santa Fe,NM,87507
+589874,Ms.,Manuela,F,Koch,F,49.66,9/21/2009,7.85,57746,Loraine,Mitchell,Loraine,TX,79532
+476018,Ms.,Jean,K,Mclean,F,30.25,5/28/2011,6.17,177228,Chiloquin,Klamath,Chiloquin,OR,97624
+228339,Drs.,Barbra,N,Sutton,F,30.1,9/28/2012,4.83,87718,Harbinger,Currituck,Harbinger,NC,27941
+239118,Mrs.,Deann,G,Mccormick,F,58.33,6/4/1988,29.17,59439,Craley,York,Craley,PA,17312
+125780,Ms.,Reba,L,Browning,F,52.89,10/22/1993,23.78,144698,Kingston,Bartow,Kingston,GA,30145
+431018,Mr.,Rickie,J,Alston,M,27.31,3/17/2015,2.37,157663,Des Moines,Polk,Des Moines,IA,50392
+452967,Dr.,Lyman,D,Reeves,M,27.32,1/19/2017,0.52,102546,Fryeburg,Oxford,Fryeburg,ME,4037
+407464,Mr.,Deon,J,Quinn,M,51.89,11/25/2007,9.68,186558,Anton,Hockley,Anton,TX,79313
+871827,Mr.,Israel,K,Mccarthy,M,44.84,1/11/2001,16.55,88536,Willard,Huron,Willard,OH,44888
+884068,Dr.,Moises,V,Berger,M,53.26,6/10/2006,11.14,190560,San Francisco,San Francisco,San Francisco,CA,94141
+131361,Ms.,Jerri,W,Douglas,F,54.27,2/6/1994,23.49,130614,Portland,Multnomah,Portland,OR,97282
+259652,Mr.,Bradley,D,Nieves,M,33.93,2/2/2005,12.49,82080,Oak Ridge,Anderson,Oak Ridge,TN,37831
+430932,Hon.,Romeo,O,Foster,M,34.25,1/7/2005,12.56,182789,Hiland,Natrona,Hiland,WY,82638
+637522,Hon.,Leopoldo,B,Mcgee,M,30.78,4/28/2017,0.25,125341,Old Glory,Stonewall,Old Glory,TX,79540
+467568,Prof.,Andrea,F,Crawford,M,38.96,9/2/2009,7.91,193651,Marland,Noble,Marland,OK,74644
+683539,Mr.,Charley,Z,Daniel,M,58.43,4/30/2014,3.25,170822,Minneapolis,Hennepin,Minneapolis,MN,55404
+417301,Ms.,Carolyn,Q,Butler,F,39.01,3/27/2006,11.35,83011,Lugoff,Kershaw,Lugoff,SC,29078
+682104,Mrs.,Gracie,M,Stanley,F,42.79,11/20/2005,11.69,125339,Essex Fells,Essex,Essex Fells,NJ,7021
+544977,Mr.,Jerrold,L,Sweet,M,25.76,10/23/2015,1.76,171667,Naples,Collier,Naples,FL,34120
+928962,Mr.,Joshua,G,Small,M,56.9,8/20/2001,15.95,182752,Mobile,Mobile,Mobile,AL,36644
+248088,Mrs.,Kristy,D,Jordan,F,27.64,3/6/2013,4.4,89291,Nome,Jefferson,Nome,TX,77629
+599683,Mr.,Spencer,Z,Williams,M,39.99,4/29/2014,3.25,180288,Des Arc,Prairie,Des Arc,AR,72040
+117980,Ms.,Ashley,A,Ochoa,F,38.95,3/24/2015,2.35,145452,San Acacia,Socorro,San Acacia,NM,87831
+899405,Mr.,Rocco,P,Wall,M,52.85,5/7/1994,23.24,45497,Wolfeboro Falls,Carroll,Wolfeboro Falls,NH,3896
+935067,Mr.,Sonny,G,Carey,M,55.79,5/20/2008,9.19,68748,Maxwell,Lincoln,Maxwell,NE,69151
+521604,Hon.,Erich,T,Goodman,M,55.36,11/27/1986,30.69,138832,Seth,Boone,Seth,WV,25181
+848091,Prof.,Mack,Q,Massey,M,24.22,4/16/2016,1.28,139079,Pleasanton,Atascosa,Pleasanton,TX,78064
+999219,Ms.,Vicky,Z,Burgess,F,25.33,5/2/2017,0.24,176844,Colebrook,Coos,Colebrook,NH,3576
+209627,Mrs.,Willa,Q,Hensley,F,51.77,9/28/2003,13.84,178032,Gaylord,Sibley,Gaylord,MN,55334
+642586,Hon.,Reva,H,Morales,F,28.6,3/13/2011,6.38,101018,Lawton,Susquehanna,Lawton,PA,18828
+651163,Ms.,Ina,H,Cummings,F,24.12,4/29/2016,1.25,62401,Rockdale,Milam,Rockdale,TX,76567
+425289,Mrs.,Kristi,M,Monroe,F,45.37,6/16/2006,11.12,57227,Swan Lake,Sullivan,Swan Lake,NY,12783
+314444,Mr.,Danial,V,Carpenter,M,31.03,4/1/2012,5.33,185825,Macungie,Lehigh,Macungie,PA,18062
+956821,Ms.,Benita,L,Duncan,F,59.73,12/8/1985,31.66,50803,Idlewild,Gibson,Idlewild,TN,38346
+711278,Mr.,Dwayne,R,Kim,M,41.59,2/27/2009,8.42,173554,Waurika,Jefferson,Waurika,OK,73573
+125371,Ms.,Lorrie,D,Rocha,F,22.55,12/21/2016,0.6,42245,Helen,Raleigh,Helen,WV,25853
+906259,Drs.,Juliana,V,Hines,F,37.64,4/21/2007,10.28,115340,Milwaukee,Milwaukee,Milwaukee,WI,53217
+327429,Prof.,Mac,Z,Mcleod,M,38.5,6/14/2003,14.13,168548,North Kingstown,Washington,North Kingstown,RI,2852
+272413,Mr.,Bryce,V,Bonner,M,59.49,3/3/2008,9.41,141453,Las Cruces,Doña Ana,Las Cruces,NM,88003
+645306,Mr.,Guadalupe,U,Holcomb,M,36.44,12/27/2013,3.59,175151,Talmage,Dickinson,Talmage,KS,67482
+180869,Mr.,Jacob,S,Cherry,M,46.85,8/15/2014,2.95,126821,East Kingston,Rockingham,East Kingston,NH,3827
+222563,Mrs.,Jeanette,E,Rivera,F,53.94,5/22/2002,15.19,63519,De Mossville,Pendleton,De Mossville,KY,41033
+541221,Mr.,Jefferson,B,Holt,M,21.04,7/15/2017,0.04,68295,Mekinock,Grand Forks,Mekinock,ND,58258
+198476,Mr.,Dillon,R,Dunn,M,44.14,5/25/1999,18.19,159350,Santa Cruz,Santa Cruz,Santa Cruz,CA,95065
+664807,Hon.,Bertie,Q,Slater,F,23.5,1/5/2017,0.56,120043,East Smethport,McKean,East Smethport,PA,16730
+673745,Ms.,Hannah,Z,Cooper,F,23.83,11/13/2015,1.71,126393,Baltimore,Baltimore (city),Baltimore,MD,21274
+812026,Mr.,Jon,A,Mcneil,M,44.38,1/1/2008,9.58,112059,Appleton,Swift,Appleton,MN,56208
+957459,Drs.,Caitlin,U,Mann,F,55.76,9/29/1990,26.85,170909,Hester,St. James,Hester,LA,70743
+118109,Hon.,Doris,H,Giles,F,58.61,10/8/2000,16.81,176813,Sumner,Dawson,Sumner,NE,68878
+900863,Mrs.,Barbra,A,Hobbs,F,26.24,10/6/2013,3.81,41746,Roanoke,Montgomery,Roanoke,VA,24023
+147382,Mr.,Hung,E,Witt,M,52.01,7/25/1998,19.02,149006,Beaver,Carroll,Beaver,AR,72613
+456816,Ms.,Adele,Y,Scott,F,36.94,3/27/2012,5.34,111047,Porter,Oxford,Porter,ME,4068
+437096,Ms.,Stella,H,Guy,F,37.82,3/31/2016,1.33,83468,Dallas,Dallas,Dallas,TX,75264
+159397,Mr.,Clement,B,Lancaster,M,45.99,1/4/2005,12.57,60567,Billings,Yellowstone,Billings,MT,59101
+169739,Ms.,Rosetta,J,Decker,F,24.33,4/7/2016,1.31,116175,Morganton,Burke,Morganton,NC,28680
+995863,Mr.,Caleb,Q,Poole,M,45.3,6/9/2004,13.14,178642,Eastport,Suffolk,Eastport,NY,11941
+779374,Prof.,Dudley,V,Elliott,M,50.92,4/1/1996,21.34,173380,Rockford,Winnebago,Rockford,IL,61101
+587639,Ms.,Barbara,W,Palmer,F,33.16,4/23/2014,3.27,72749,New Orleans,Orleans,New Orleans,LA,70185
+964222,Mrs.,Alana,S,Henderson,F,58.16,11/17/1987,29.72,73888,Erie,Cass,Erie,ND,58029
+597006,Ms.,Hazel,L,Case,F,55.02,10/7/1987,29.83,42726,Thornton,Thornton,Thornton,MS,39172
+688836,Mr.,Erich,Z,Lyons,M,21.34,4/27/2017,0.25,129446,Morrison,Jefferson,Morrison,CO,80465
+498361,Mrs.,Elise,A,Zimmerman,F,39.61,8/14/2007,9.96,159589,Scranton,Lackawanna,Scranton,PA,18501
+759183,Prof.,Mauro,W,Fernandez,M,35.16,5/20/2011,6.19,148251,Memphis,Shelby,Memphis,TN,38109
+186298,Mrs.,Luisa,Q,Mcintyre,F,54.27,7/19/1992,25.04,134990,Wichita,Sedgwick,Wichita,KS,67236
+776211,Mr.,Duane,R,Lowery,M,37.65,6/29/2003,14.09,66599,Washington,District of Columbia,Washington,DC,20544
+337146,Mr.,Weldon,C,Hyde,M,43.47,8/27/2006,10.93,66293,San Antonio,Bexar,San Antonio,TX,78212
+273427,Hon.,Ilene,F,Head,F,31.42,8/25/2007,9.93,193647,Scandia,Washington,Scandia,MN,55073
+329548,Mr.,Phil,B,Montgomery,M,25.72,7/28/2017,0,102279,Dayton,Yamhill,Dayton,OR,97114
+955183,Mr.,Jonas,L,Underwood,M,22.06,1/10/2017,0.55,54302,Hatfield,Polk,Hatfield,AR,71945
+862947,Mrs.,Benita,H,Mcgee,F,46.61,5/16/2005,12.21,154473,Nardin,Kay,Nardin,OK,74646
+174542,Ms.,Rochelle,R,Guerrero,F,24.9,6/18/2015,2.11,135242,Pooler,Chatham,Pooler,GA,31322
+857324,Drs.,Terra,Z,Webb,F,44.1,12/15/2008,8.62,179095,Youngstown,Mahoning,Youngstown,OH,44599
+678498,Mr.,Buford,Y,Zimmerman,M,22.91,7/23/2016,1.01,159050,Myra,Cooke,Myra,TX,76253
+329548,Mr.,Phil,B,Montgomery,M,25.72,7/28/2017,0,102279,Dayton,Yamhill,Dayton,OR,97114
+955183,Mr.,Jonas,L,Underwood,M,22.06,1/10/2017,0.55,54302,Hatfield,Polk,Hatfield,AR,71945
+862947,Mrs.,Benita,H,Mcgee,F,46.61,5/16/2005,12.21,154473,Nardin,Kay,Nardin,OK,74646
+174542,Ms.,Rochelle,R,Guerrero,F,24.9,6/18/2015,2.11,135242,Pooler,Chatham,Pooler,GA,31322
+857324,Drs.,Terra,Z,Webb,F,44.1,12/15/2008,8.62,179095,Youngstown,Mahoning,Youngstown,OH,44599
+678498,Mr.,Buford,Y,Zimmerman,M,22.91,7/23/2016,1.01,159050,Myra,Cooke,Myra,TX,76253
+661971,Mr.,Emanuel,X,Nichols,M,55.18,5/9/1999,18.23,154645,Yazoo City,Yazoo,Yazoo City,MS,39194
+537235,Ms.,Cheryl,M,French,F,31.96,9/9/2012,4.88,191484,Monroe,Fairfield,Monroe,CT,6468
+712170,Mr.,Theodore,T,Dale,M,22.63,7/1/2017,0.07,40096,Opheim,Henry,Opheim,IL,61468
+285184,Mrs.,Ginger,H,Palmer,F,39.21,2/9/2009,8.47,46866,Valmora,Mora,Valmora,NM,87750
+994907,Hon.,Lilian,L,Stein,F,21.11,6/23/2017,0.1,198733,Neptune Beach,Duval,Neptune Beach,FL,32266
+523887,Mr.,Gilbert,L,Luna,M,48.85,12/25/2004,12.6,176601,North Star,Darke,North Star,OH,45350
+684722,Mr.,Waldo,B,Wright,M,44.53,10/29/2014,2.75,92597,Clayton,Johnston,Clayton,NC,27527
+792224,Mr.,Tommie,Y,Cunningham,M,40.07,10/27/2013,3.75,65809,Alma,Park,Alma,CO,80420
+199699,Prof.,George,W,Potts,M,56.58,6/23/2006,11.1,132568,Vardaman,Calhoun,Vardaman,MS,38878
+953997,Mr.,Graham,F,Hutchinson,M,32.22,2/11/2013,4.46,123103,Stockdale,Pike,Stockdale,OH,45683
+149818,Mrs.,Ophelia,Z,Pena,F,31.56,6/23/2016,1.1,89068,Kingsland,Camden,Kingsland,GA,31548
+352882,Dr.,Lon,P,Harper,M,23.28,9/2/2016,0.9,128467,Shawnee Mission,Johnson,Shawnee Mission,KS,66201
+760995,Mr.,Irvin,V,Witt,M,24.52,3/28/2014,3.34,148387,Dierks,Howard,Dierks,AR,71833
+873626,Mrs.,Sheri,A,Spears,F,35.58,11/25/2007,9.68,144280,Gallagher,Kanawha,Gallagher,WV,25083
+247051,Ms.,Alberta,A,Page,F,36.5,8/17/2010,6.95,179637,Levant,Penobscot,Levant,ME,4456
+715045,Drs.,Kerri,Q,Santos,F,34.74,2/18/2017,0.44,74456,College Station,Pulaski,College Station,AR,72053
+601808,Mr.,Olin,N,Case,M,26.16,2/14/2015,2.45,177331,Carleton,Thayer,Carleton,NE,68326
+569286,Mr.,Stefan,L,Jacobs,M,33.86,10/30/2008,8.75,176707,Fredericksburg,Fredericksburg (city),Fredericksburg,VA,22402
+172440,Dr.,Cody,H,Allison,M,28.61,6/21/2017,0.1,84585,Pasadena,Los Angeles,Pasadena,CA,91051
+568435,Ms.,Bonnie,K,Baker,F,32.01,1/7/2008,9.56,72930,Mukwonago,Waukesha,Mukwonago,WI,53149
+597409,Mr.,Luke,S,Turner,M,30.48,3/5/2010,7.4,121949,Freeport,Barry,Freeport,MI,49325
+359608,Hon.,Eva,S,Holman,F,59.88,2/20/2001,16.44,82734,Turlock,Stanislaus,Turlock,CA,95381
+803426,Mrs.,Maritza,H,Christian,F,30.21,3/15/2012,5.37,66854,Stamford,Fairfield,Stamford,CT,6910
+669618,Drs.,Phyllis,H,Dudley,F,59.78,1/17/1980,37.55,105069,Meno,Major,Meno,OK,73760
+"Sample Employee data for ingestion logic"
