@@ -1,0 +1,64 @@
+    1  cd ~
+    2  pwd
+    3  sudo apt update
+    4  pwd
+    5  cd ~
+    6  # You can change what anaconda version you want at 
+    7  # https://repo.continuum.io/archive/
+    8  wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+    9  bash Anaconda3-5.0.1-Linux-x86_64.sh -b -p ~/anaconda
+   10  rm Anaconda3-5.0.1-Linux-x86_64.sh
+   11  echo 'export PATH="~/anaconda/bin:$PATH"' >> ~/.bashrc 
+   12  # Refresh basically
+   13  source .bashrc
+   14  conda update conda
+   15  sudo apt install openjdk-8-jdk openjdk-8-jre
+   16  cat >> /etc/environment <<EOL
+   17  JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+   18  JRE_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
+   19  EOL
+   20  sudo su
+   21  clear
+   22  pwd
+   23  ls
+   24  java --verison
+   25  java --version
+   26  source /etc/environment
+   27  java --version
+   28  tar -zxvf spark-2.4.8-bin-hadoop2.7.tgz 
+   29  nano .bashrc
+   30  source .bashrc
+   31  spark
+   32  spark --version
+   33  nano .bashrc
+   34  conda --version
+   35  jupyter notebook
+   36  java -version
+   37  cat .bashrc
+   38  pip3
+   39  sudo apt install python3-pip
+   40  pip3 install pyspark
+   41  reboot
+   42  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg     lsb-release
+   43  echo   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   44  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   45  sudo docker run hello-world
+   46  docker
+   47  sudo snap install docker
+   48  ps -ef
+   49  ps -ef|grep docker
+   50  sudo docker run hello-world
+   51  ls -a
+   52  history|grep pyspark
+   53  docker run -itd -p 8080:8080 -p 4040:4040 -v ~/.aws:/root/.aws:ro --name glue_zeppelin amazon/aws-glue-libs:glue_libs_1.0.0_image_01 /home/zeppelin/bin/zeppelin.sh
+   54  sudo docker run -itd -p 8080:8080 -p 4040:4040 -v ~/.aws:/root/.aws:ro --name glue_zeppelin amazon/aws-glue-libs:glue_libs_1.0.0_image_01 /home/zeppelin/bin/zeppelin.sh
+   55  docker pull amazon/aws-glue-libs:glue_libs_1.0.0_image_01
+   56  sudo docker pull amazon/aws-glue-libs:glue_libs_1.0.0_image_01
+   57  docker run -itd -p 8888:8888 -p 4040:4040 -v ~/.aws:/root/.aws:ro --name glue_jupyter amazon/aws-glue-libs:glue_libs_1.0.0_image_01 /home/jupyter/jupyter_start.sh
+   58  sudo docker run -itd -p 8888:8888 -p 4040:4040 -v ~/.aws:/root/.aws:ro --name glue_jupyter amazon/aws-glue-libs:glue_libs_1.0.0_image_01 /home/jupyter/jupyter_start.sh
+   59  docker ps
+   60  sudo docker ps
+   61  docker exec -it glue_jupyter bash
+   62  sudo docker exec -it glue_jupyter bash
+   63  history>dockerun.txt
