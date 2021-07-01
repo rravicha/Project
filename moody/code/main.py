@@ -55,3 +55,16 @@ def execute_gold(df):
 def main():
     init()
     
+
+ df1_3 = df1_2.withColumn('Emp_ID', when(length(trim(col('Emp_ID'))) == 0, trim('Emp_ID')).otherwise(0))\
+                       .withColumn('Name_Prefix', when(length('Name_Prefix')==0,Null)\
+                       .withColumn('First_Name', when(length('First_Name')==0,Null)\
+                       .withColumn('Middle_Initial', when(length('Middle_Initial')==0,Null)\
+                       .withColumn('Last_Name', when(length('Last_Name')==0,Null)\
+                       .withColumn('Gender', when(length('Gender')==0,Null)\
+                       .withColumn('Date_of_Joining', when(length('Date_of_Joining')==0,'00/00/000 00:00:00')\
+                       .otherwise(date_format(Date_Convert(col('DATE')), 'MM-dd-yyyy')))\ 
+                       .withColumn("Age_in_Yrs", coalesce(col("Age_in_Yrs"), lit("0.00"))\
+                       .withColumn("Age_in_Company_Yrs", coalesce(col("Age_in_Company_Yrs"), lit("0.00"))\
+                       .withColumn("Salary", coalesce(col("Salary"), lit("0.00"))\
+                       .withColumn('Zip', F.lpad(df['Zip'], 5, '0'))

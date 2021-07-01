@@ -4,9 +4,10 @@ spark = SparkSession.Builder().master("local[1]") \
           .getOrCreate()
 
 
-file1 = "data_bkup/data/smaple_data_empl_dummy_1.csv"
-file2 = "data_bkup/data/smaple_data_empl_dummy_2.csv"
+file1 = "/home/susi/Project/moody/data_bkup/data/smaple_data_empl_dummy_1.csv"
+file2 = "/home/susi/Project/moody/data_bkup/data/smaple_data_empl_dummy_2.csv"
+
 
 df1 = spark.read.options(inferSchema='True',delimiter=',').csv(file1)
 df2 = spark.read.options(inferSchema='True',delimiter=',').csv(file2)
-
+        
