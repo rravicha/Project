@@ -1,14 +1,7 @@
 import sentry_sdk
-sentry_sdk.init(
-    "https://379f408f66f8483893b18307f1f422b6@o425464.ingest.sentry.io/5846319",
+sentry_sdk.init("https://379f408f66f8483893b18307f1f422b6@o425464.ingest.sentry.io/5846319",traces_sample_rate=1.0)
 
-    # Set traces_sample_rate to 1.0 to capture 100%
-    # of transactions for performance monitoring.
-    # We recommend adjusting this value in production.
-    traces_sample_rate=1.0
-)
-
-"""
+"""-*
 etl_job.py
 ~~~~~~~~~~
 
