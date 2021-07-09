@@ -1,5 +1,5 @@
-Logic/Code to apply Slowly Changing Dimension Type 2 for MVP using PySpark in AWS 
-Under AWS Glue Framework
+# Logic/Code to apply Slowly Changing Dimension Type 2 for MVP using PySpark in AWS 
+# Under AWS Glue Framework
 
 import sys
 from awsglue.transforms import *
