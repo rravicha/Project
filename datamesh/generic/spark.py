@@ -1,3 +1,4 @@
+import __main__
 from os import environ,listdir,path
 import json
 from pyspark import SparkFiles, files
