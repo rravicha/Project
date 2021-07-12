@@ -1,0 +1,1 @@
+find ../../datamesh -type f|grep -v pyc|grep -v iml|grep -v xml|grep -v ipynb|grep -v html|grep -v xxx|grep -v tmp|grep -v git|xargs cat|wc -l

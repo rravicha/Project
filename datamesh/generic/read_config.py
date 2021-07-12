@@ -1,6 +1,7 @@
 import yaml
+import json
 
-def config_load(filename):
+def yaml_load(filename):
     from yaml import load
     try:
         from yaml import CLoader as Loader
@@ -17,7 +18,10 @@ def config_load(filename):
     if data is None:
         raise Exception(f"Config file {filename} has no content")
 
-# if __name__="__main__":
-#     file='config.yaml'
-#     data=read_config(file)
-#     print(data)
+def json_load(filename):
+    try:
+        with open(filename,'r') as fp:
+            data=json.load(fp)
+        return data
+    except Exception as e:
+        raise Exception(e)
