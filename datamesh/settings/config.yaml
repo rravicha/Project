@@ -5,12 +5,12 @@ esg_filetype1:
   db_type: ['sybase','postgres']
   occurence: 
     init_load: ~
-    daily_load: ~
+    subseq_load: ~
       delta_load: ~
       full_load: ~
   columns: ['a','b','c'] 
-  primary_key: ~
-  cdc_key: ~
+  primary_key: ['a','b']
+  cdc_key: None
 
 
 
