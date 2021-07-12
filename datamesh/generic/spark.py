@@ -7,16 +7,16 @@ from pyspark.sql.functions import udf,DataType,when,length,trim,col,lit
 from pyspark.sql.functions import *
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType,StructField,DateType,LongType,DoubleType,StringType,IntegerType,TimestampType
-
+import json
 import sys
 
-from generic.read_config import config_load
+from generic.read_config import yaml_load
 spark=SparkSession
 # from awsglue.transforms import *
 # from awsglue.utils import getResolvedOptions
 # from pyspark.context import SparkContext
 # from awsglue.context import GlueContext
-# from awsglue.job import Job
+# from awsglue.job impo rt Job
 # sc = SparkContext()
 # glueContext = GlueContext(sc)
 # spark = glueContext.spark_session
@@ -71,6 +71,7 @@ def init_spark(app_name="datamesh", master='local[*]',
     return spark_sess, spark_logger, config_dict
 
 def create_hash(df, cols, symbol):
+
     # df1=df.withColumn("row_sha2", sha2(concat_ws("||", *df.columns), 256))
     df1=df.withColumn("row_sha2", sha2(concat_ws(symbol, *cols), 256))
     return df1

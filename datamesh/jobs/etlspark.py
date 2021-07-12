@@ -4,6 +4,8 @@ import argparse
 sys.path.insert(0,str(Path(os.getcwd()).parent))
 
 from generic.spark import init_spark
+from generic.read_config import json_load
+
 my_parser = argparse.ArgumentParser()
 # my_parser.add_argument('source_format',help='the path to list')
 # my_parser.add_argument('occurence',help='the path to list')
@@ -39,36 +41,55 @@ def main():
 
 def extract_data(spark):
    
-    file1 = "/home/susi/Project/datamesh_bkup/data_bkup/data/smaple_data_empl_dummy_1.csv"
-    df = cleanup(df)
-    df = call_crawler(df)
+    
+    file1 = "/home/susi/Project/datamesh/tmpdata/smaple_data_empl_dummy_1.csv"
+    json_data=json_load(f'{Path(os.getcwd()).parent}'+'/tmpdata/ui.json')
+
+    df = spark.read.format("csv").option("useHeader", "True") \
+        .option("inferSchema", "True").load(file1)
+
+    clean_df = cleanup(df,json_data)
+
+    input('good job')
+    # crawled_df = call_crawler(df)
 
     # df = spark.read.format("com.crealytics.spark.csv").option("useHeader", "True") \
     #     .option("inferSchema", "True").load(file1)
-    df = spark.read.format("csv").option("useHeader", "True") \
-        .option("inferSchema", "True").load(file1)
+    
     
     # if args.file_format in 
 
     return df
+    
+def cleanup(df,json_data):
+    print('def cleaner start')
+    if json_data['has_header'] == "True":
+        df=df.filter(df[0])
+
+        df=df.take(df.count()-1)
+
+
+    print(df)
+    return None
+
 
 def transform_data(df1):
-    if init_load:
-        # rename_column + datatype force
-    if subseq_load:
-        # rename_column + datatype force
-        if full_load: # scd2 logic NOTE : curr date should be None
-            if pk or os:
-                pass
-            else:
-                md5
-        else if delta_load:# 10 col + 1 column added(FLAG_COLUMN)
-            if pk or os:
-                pass
-            else:
-                md5
+    # if init_load:
+    #     # rename_column + datatype force
+    # if subseq_load:
+    #     # rename_column + datatype force
+    #     if full_load: # scd2 logic NOTE : curr date should be None
+    #         if pk or os:
+    #             pass
+    #         else:
+    #             md5
+    #     else if delta_load:# 10 col + 1 column added(FLAG_COLUMN)
+    #         if pk or os:
+    #             pass
+    #         else:
+    #             md5
 
-                # All SQl must be seperate file 
+    #             # All SQl must be seperate file 
 
     return df1
 
@@ -78,10 +99,7 @@ def load_data(df):
     df.coalesce(1).write.csv('/home/susi/Project/datamesh_bkup/data_bkup/data/loaded_data.csv', mode='overwrite', header=True)
     
     return None
-def cleaner(df):
-    # cleanup header/footer
-    # write to silver layer(parquet)
-    return df
+
 
 if __name__ == '__main__':
     
