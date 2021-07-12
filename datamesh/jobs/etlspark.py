@@ -60,6 +60,7 @@ def extract_data(spark):
     # if args.file_format in 
 
     return df
+    
 def cleanup(df,json_data):
     print('def cleaner start')
     if json_data['has_header'] == "True":
