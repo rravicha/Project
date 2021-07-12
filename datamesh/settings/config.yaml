@@ -1,10 +1,28 @@
 --- 
-esg_filetype1: 
-  cdc_key: None
-  columns: ['a','b','c'] 
-  load_type: 
-    daily_load: ~
-    delta_load: ~
-    full_load: ~
+esg_filetype1:
+  s3_basepath: '/home/susi/esg1'
+  file_formats: ['csv','xlsx','db']
+  db_type: ['sybase','postgres']
+  occurence: 
     init_load: ~
+    daily_load: ~
+      delta_load: ~
+      full_load: ~
+  columns: ['a','b','c'] 
   primary_key: ~
+  cdc_key: ~
+
+
+
+# app - multisource, sybase, oracle
+
+# sql queries
+
+# load_type
+#   init_load
+#   daily_load
+#   job_type
+#     full_load(dump)
+#     delta_load(inserted/updated)
+# primary key
+# cdc column

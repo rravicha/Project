@@ -22,6 +22,7 @@ class Log4j(object):
         log4j = spark._jvm.org.apache.log4j
         message_prefix = '<' + app_name + ' ' + app_id + '>'
         self.logger = log4j.LogManager.getLogger(message_prefix)
+        
 
     def error(self, message):
         """Log an error.

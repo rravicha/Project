@@ -1,6 +1,6 @@
 import yaml
 
-def read_config(filename):
+def config_load(filename):
     from yaml import load
     try:
         from yaml import CLoader as Loader
@@ -17,7 +17,7 @@ def read_config(filename):
     if data is None:
         raise Exception(f"Config file {filename} has no content")
 
-if __name__="__main__":
-    file='config.yaml'
-    data=read_config(file)
-    print(data)
+# if __name__="__main__":
+#     file='config.yaml'
+#     data=read_config(file)
+#     print(data)
