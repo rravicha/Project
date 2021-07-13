@@ -28,7 +28,7 @@ def main():
     #  dynamically read json
 
     log.warn("ETL job started successfully")
-    input("ETL job started successfully")
+    print("ETL job started successfully")
     
     # execute ETL pipeline
     df = extract_data(spark)
@@ -45,31 +45,23 @@ def extract_data(spark):
     file1 = "/home/susi/Project/datamesh/tmpdata/smaple_data_empl_dummy_1.csv"
     json_data=json_load(f'{Path(os.getcwd()).parent}'+'/tmpdata/ui.json')
 
-    df = spark.read.format("csv").option("useHeader", "True") \
-        .option("inferSchema", "True").load(file1)
+    df = spark.read.format("csv").option("useHeader", "False").option("inferSchema", "True").option("delimiter", ",").load(file1)
+    print(df.dtypes)
 
-    clean_df = cleanup(df,json_data)
+    clean_df = cleanup(spark,df,json_data)
 
     input('good job')
-    # crawled_df = call_crawler(df)
 
-    # df = spark.read.format("com.crealytics.spark.csv").option("useHeader", "True") \
-    #     .option("inferSchema", "True").load(file1)
-    
-    
-    # if args.file_format in 
 
     return df
-    
-def cleanup(df,json_data):
-    print('def cleaner start')
-    if json_data['has_header'] == "True":
-        df=df.filter(df[0])
 
-        df=df.take(df.count()-1)
+def cleanup(spark,df,json_data):
+    input('start cleanup')
 
-
-    print(df)
+    input('hold')
+    print(df1.printSchema())
+    print(df1.show())
+    input('release')
     return None
 
 
