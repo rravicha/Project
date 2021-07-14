@@ -1,0 +1,151 @@
+hd_current_scd2 = """
+ SELECT   BIGINT(1) AS customer_dim_key,
+          STRING('John') AS first_name,
+          STRING('Peter') AS last_name,
+          STRING('G') AS middle_initial,
+          STRING('123 Main Street') AS address,
+          STRING('Springville') AS city,
+          STRING('VT') AS state,
+          STRING('01234-5678') AS zip_code,
+          BIGINT(11111) AS customer_number,
+          DATE('2014-01-01') AS eff_start_date,
+          DATE('2015-11-22') AS eff_end_date,
+          BOOLEAN(0) AS is_current
+ UNION
+ SELECT   BIGINT(2) AS customer_dim_key,
+          STRING('John') AS first_name,
+          STRING('Smith') AS last_name,
+          STRING('G') AS middle_initial,
+          STRING('123 Main Street') AS address,
+          STRING('Springville') AS city,
+          STRING('VT') AS state,
+          STRING('01234-5678') AS zip_code,
+          BIGINT(11111) AS customer_number,
+          DATE('2015-11-23') AS eff_start_date,
+          DATE('9999-12-31') AS eff_end_date,
+          BOOLEAN(1) AS is_current
+ UNION
+ SELECT   BIGINT(3) AS customer_dim_key,
+          STRING('William') AS first_name,
+          STRING('Face') AS last_name,
+          STRING('X') AS middle_initial,
+          STRING('57895 Sharp Way') AS address,
+          STRING('Oldtown') AS city,
+          STRING('CA') AS state,
+          STRING('98554-1285') AS zip_code,
+          BIGINT(22222) AS customer_number,
+          DATE('2018-12-07') AS eff_start_date,
+          DATE('2019-06-22') AS eff_end_date,
+          BOOLEAN(0) AS is_current
+ UNION
+ SELECT   BIGINT(4) AS customer_dim_key,
+          STRING('William') AS first_name,
+          STRING('Chase') AS last_name,
+          STRING('X') AS middle_initial,
+          STRING('57895 Sharp Way') AS address,
+          STRING('Oldtown') AS city,
+          STRING('CA') AS state,
+          STRING('98554-1285') AS zip_code,
+          BIGINT(22222) AS customer_number,
+          DATE('2019-06-23') AS eff_start_date,
+          DATE('9999-12-31') AS eff_end_date,
+          BOOLEAN(1) AS is_current
+ UNION
+ SELECT   BIGINT(5) AS customer_dim_key,
+          STRING('Susan') AS first_name,
+          STRING('Jones') AS last_name,
+          STRING('L') AS middle_initial,
+          STRING('987 Central Avenue') AS address,
+          STRING('Central City') AS city,
+          STRING('MO') AS state,
+          STRING('49257-2657') AS zip_code,
+          BIGINT(33333) AS customer_number,
+          DATE('2015-03-23') AS eff_start_date,
+          DATE('2018-11-17') AS eff_end_date,
+          BOOLEAN(0) AS is_current
+ UNION
+ SELECT   BIGINT(6) AS customer_dim_key,
+          STRING('Susan') AS first_name,
+          STRING('Harris') AS last_name,
+          STRING('L') AS middle_initial,
+          STRING('987 Central Avenue') AS address,
+          STRING('Central City') AS city,
+          STRING('MO') AS state,
+          STRING('49257-2657') AS zip_code,
+          BIGINT(33333) AS customer_number,
+          DATE('2018-11-18') AS eff_start_date,
+          DATE('9999-12-31') AS eff_end_date,
+          BOOLEAN(1) AS is_current
+ UNION
+ SELECT   BIGINT(7) AS customer_dim_key,
+          STRING('Mohan') AS first_name,
+          STRING('Kumar') AS last_name,
+          STRING('I') AS middle_initial,
+          STRING('444 Bend Way') AS address,
+          STRING('Oldtown') AS city,
+          STRING('CA') AS state,
+          STRING('98554-1285') AS zip_code,
+          BIGINT(44444) AS customer_number,
+          DATE('2018-12-07') AS eff_start_date,
+          DATE('2019-06-22') AS eff_end_date,
+          BOOLEAN(0) AS is_current
+ UNION
+ SELECT   BIGINT(8) AS customer_dim_key,
+          STRING('Mohan') AS first_name,
+          STRING('Kumar') AS last_name,
+          STRING('I') AS middle_initial,
+          STRING('4 Devaraj Nagar') AS address,
+          STRING('Bangalore') AS city,
+          STRING('KA') AS state,
+          STRING('600-900') AS zip_code,
+          BIGINT(44444) AS customer_number,
+          DATE('2019-06-23') AS eff_start_date,
+          DATE('9999-12-31') AS eff_end_date,
+          BOOLEAN(1) AS is_current
+"""
+
+df_current_scd2 = spark.sql(hd_current_scd2)
+
+df_current_scd2.createOrReplaceTempView("current_scd2")
+
+hd_customer_data = """
+ SELECT   BIGINT(11111) AS customer_number,
+          STRING('John') AS first_name,
+          STRING('Smith') AS last_name,
+          STRING('G') AS middle_initial,
+          STRING('123 Main Street') AS address,
+          STRING('Springville') AS city,
+          STRING('VT') AS state,
+          STRING('01234-5678') AS zip_code
+ UNION
+ SELECT   BIGINT(22222) AS customer_number,
+          STRING('William') AS first_name,
+          STRING('Chase') AS last_name,
+          STRING('X') AS middle_initial,
+          STRING('J-23, Dew Block') AS address,
+          STRING('Chennai') AS city,
+          STRING('TN') AS state,
+          STRING('600-091') AS zip_code
+ UNION
+ SELECT   BIGINT(33333) AS customer_number,
+	  STRING('Susan') AS first_name,
+          STRING('Harris') AS last_name,
+          STRING('L') AS middle_initial,
+          STRING('987 Central Avenue') AS address,
+          STRING('Central City') AS city,
+          STRING('MO') AS state,
+          STRING('49257-2657') AS zip_code
+ UNION
+ SELECT   BIGINT(55555) AS customer_number,
+          STRING('Lisa') AS first_name,
+          STRING('Cohen') AS last_name,
+          STRING('S') AS middle_initial,
+          STRING('69846 Mason Road') AS address,
+          STRING('Atlanta') AS city,
+          STRING('GA') AS state,
+          STRING('26584-3591') AS zip_code
+"""
+
+df_customer_data= spark.sql(hd_customer_data)
+
+df_customer_data.createOrReplaceTempView("customer_data")
