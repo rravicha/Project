@@ -1,3 +1,6 @@
+import findspark
+findspark.find()
+
 from pathlib import Path
 import sys,os
 import argparse
@@ -45,8 +48,15 @@ def extract_data(spark):
     file1 = "/home/susi/Project/datamesh/tmpdata/smaple_data_empl_dummy_1.csv"
     json_data=json_load(f'{Path(os.getcwd()).parent}'+'/tmpdata/ui.json')
 
-    df = spark.read.format("csv").option("useHeader", "False").option("inferSchema", "True").option("delimiter", ",").load(file1)
+    # df = spark.read.format("csv").option("useHeader", "True").option("inferSchema", "True").option("delimiter", ",").load(file1)
+    txt = sc.textFile("path_to_above_sample_data_text_file.txt")
     print(df.dtypes)
+
+    input('hold1')
+    print(df.show(truncate=False))
+    input('hold2')
+    print(df.printSChema())
+    input('hold3')
 
     clean_df = cleanup(spark,df,json_data)
 
@@ -56,12 +66,17 @@ def extract_data(spark):
     return df
 
 def cleanup(spark,df,json_data):
-    input('start cleanup')
+    if json_data['source_format'] == 'csv':
+        if json_data['has_header']:
+            # import csv
+            pass
+            
+        if json_data['has_footer']:
+            # remove footer
+            pass
+        if json_data['has_column']=='False':
+            pass
 
-    input('hold')
-    print(df1.printSchema())
-    print(df1.show())
-    input('release')
     return None
 
 
