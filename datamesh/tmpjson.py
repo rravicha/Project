@@ -1,7 +1,5 @@
-import json
+from datamesh.generic.read_config import yaml_load
+from datamesh.generic.spark import init_spark
 
 
-with open('ui.json','r') as fp:
-    data=json.load(fp)
 
-return data

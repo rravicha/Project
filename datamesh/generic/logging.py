@@ -6,6 +6,12 @@ This module contains a class that wraps the log4j object instantiated
 by the active SparkContext, enabling Log4j logging for PySpark using.
 """
 
+'''
+source file validation
+bad records
+
+
+'''
 
 class Log4j(object):
     """Wrapper class for Log4j JVM object.

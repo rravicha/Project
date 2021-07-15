@@ -25,8 +25,8 @@ spark=SparkSession
 
 from generic import logging
 
-def init_spark(app_name="datamesh", master='local[*]',
-                jar_packages=[],spark_config=[]):
+def init_spark(app_name="datamesh", master='local',#master='local[*]',
+                files=[], jar_packages=[],spark_config = {}):
 
     # Detect Environment
     flag_repl = not(hasattr(__main__, '__file__'))
@@ -41,9 +41,11 @@ def init_spark(app_name="datamesh", master='local[*]',
             spark.builder.master(master).appName(app_name)
         )
         # Building Jar
-        spark_jar_packages  = ','.join(list(files))
+        spark_jar_packages  = ','.join(list(jar_packages))
         spark_builder.config('spark.jars.packages',spark_jar_packages)
+
         spark_files=','.join(list(files))
+        spark_builder.config('spark.files', spark_files)
 
         # config params
         for k,v in spark_config.items():

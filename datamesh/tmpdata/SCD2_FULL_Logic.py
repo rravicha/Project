@@ -17,8 +17,7 @@ job.init(args['JOB_NAME'], args)
 ## Source Customer Data (Input *.csv file which we have created catalog table) 
 Dynamic_Frame_Customer_Data = glueContext.create_dynamic_frame.from_catalog(database = "mvp_database", table_name = "Customer_Data", transformation_ctx = "Dynamic_Frame_Customer_Data")
 
-## Existing Customer SCD2 Data (Existing *.csv file which we have created catalog table)
-Dynamic_Frame_Customer_Data_SCD2 = glueContext.create_dynamic_frame.from_catalog(database = "mvp_database", table_name = "Customer_Data_SCD2", transformation_ctx = "Dynamic_Frame_Customer_Data_SCD2")
+## Existing Customer.................r_Data_SCD2 = glueContext.create_dynamic_frame.from_catalog(database = "mvp_database", table_name = "Customer_Data_SCD2", transformation_ctx = "Dynamic_Frame_Customer_Data_SCD2")
 
 ## Convert Source Customer Data DynamicFrame to DataFrame
 Data_Frame_Customer_Data = Dynamic_Frame_Customer_Data.toDF()
@@ -28,7 +27,7 @@ Data_Frame_Customer_Data.createOrReplaceTempView("table_source_customer")
 
 ## Convert Customer SCD2 Data DynamicFrame to DataFrame
 Data_Frame_Customer_Data_SCD2 = Dynamic_Frame_Customer_Data_SCD2.toDF()
-
+'''''''
 ## Register Target SCD2 DataFrame as Spark Temp table
 Data_Frame_Customer_Data_SCD2.createOrReplaceTempView("table_customer_SCD2")
 
@@ -38,7 +37,7 @@ hd_new_curr_recs = """
           s.first_name,
           s.last_name,
           s.middle_initial,
-          s.address,
+          s.address,-v 
           s.city,
           s.state,
           s.zip_code,

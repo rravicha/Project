@@ -1,0 +1,9 @@
+customer_dim_key,first_name,last_name,middle_initial,address,city,state,zip_code,customer_number,eff_start_date,eff_end_date,is_current
+1,John,Peter,G,123MainStreet,Springville,VT,01234-5678,11111,2014-01-01,2015-11-22,false
+2,John,Smith,G,123MainStreet,Springville,VT,01234-5678,11111,2015-11-23,9999-12-31,true
+3,William,Face,X,57895SharpWay,Oldtown,CA,98554-1285,22222,2018-12-07,2019-06-22,false
+4,William,Chase,X,57895SharpWay,Oldtown,CA,98554-1285,22222,2019-06-23,9999-12-31,true
+5,Susan,Jones,L,987CentralAvenue,CentralCity,MO,49257-2657,33333,2015-03-23,2018-11-17,false
+6,Susan,Harris,L,987CentralAvenue,CentralCity,MO,49257-2657,33333,2018-11-18,9999-12-31,true
+7,Mohan,Kumar,I,444BendWay,Oldtown,CA,98554-1285,44444,2018-12-07,2019-06-22,false
+8,Mohan,Kumar,I,4DevarajNagar,Bangalore,KA,600-900,44444,2019-06-23,9999-12-31,true

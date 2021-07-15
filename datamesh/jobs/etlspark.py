@@ -1,69 +1,58 @@
-import findspark
-findspark.find()
+# import findspark
+# findspark.find()
 
 from pathlib import Path
 import sys,os
-import argparse
+# import argparse
 sys.path.insert(0,str(Path(os.getcwd()).parent))
 
-from generic.spark import init_spark
+ 
 from generic.read_config import json_load
+from generic.spark import init_spark
 
-my_parser = argparse.ArgumentParser()
-# my_parser.add_argument('source_format',help='the path to list')
-# my_parser.add_argument('occurence',help='the path to list')
-# my_parser.add_argument('load_type',help='the path to list')
-# my_parser.add_argument('has_header',help='the path to list')
-# my_parser.add_argument('has_footer',help='the path to list')
-# my_parser.add_argument('has_column',help='the path to list')
-# my_parser.add_argument('pkey',help='the path to list')
-# my_parser.add_argument('cdc_key',help='the path to list')
-# my_parser.add_argument('has_duplicate',help='the path to list')
-# my_parser.add_argument('has_multirec',help='the path to list')
-# my_parser.add_argument('has_updatedcolumn',help='the path to list')
-args = my_parser.parse_args()
 
 
 def main():
     '''start spark app and get the objects'''
     spark, log, config = init_spark(app_name="Datamesh",
      spark_config=['settings/config.json'])
-    #  dynamically read json
 
     log.warn("ETL job started successfully")
     print("ETL job started successfully")
-    
-    # execute ETL pipeline
-    df = extract_data(spark)
-    data_transformed = transform_data(df)
+    json_data=json_load(f'{Path(os.getcwd()).parent}'+'/tmpdata/ui.json')
+    print("loaded config file")
+
+    # current scd2
+    current='/home/susi/Project/datamesh/tmpdata/full_current_scd2.csv'
+    print('extract current_df')
+    ext=current.split('.')[-1]
+    current_df = extract_data(spark,json_data,current,ext)
+
+    print('extract cusomter_df')
+    customer='/home/susi/Project/datamesh/tmpdata/full_customer.csv'
+    ext=customer.split('.')[-1]
+    customer_df = extract_data(spark,json_data,customer,ext)
+    print('transforming....')
+    data_transformed = transform_data(spark,customer_df,current_df,json_data)
     load_data(data_transformed)
 
     # log the success and terminate Spark application
     log.warn('test_etl_job is finished')
 
+def extract_data(spark, json_data, file, ext):
+    df=None
+    if ext == 'csv':
+        useHeader = "True" if json_data['has_column'] else "False"
+        try:
+            df = spark.read.option("header","true").csv(file)
+            # print(df.printSchema())
+            print(df.show())
 
-def extract_data(spark):
-   
-    
-    file1 = "/home/susi/Project/datamesh/tmpdata/smaple_data_empl_dummy_1.csv"
-    json_data=json_load(f'{Path(os.getcwd()).parent}'+'/tmpdata/ui.json')
-
-    # df = spark.read.format("csv").option("useHeader", "True").option("inferSchema", "True").option("delimiter", ",").load(file1)
-    txt = sc.textFile("path_to_above_sample_data_text_file.txt")
-    print(df.dtypes)
-
-    input('hold1')
-    print(df.show(truncate=False))
-    input('hold2')
-    print(df.printSChema())
-    input('hold3')
-
-    clean_df = cleanup(spark,df,json_data)
-
-    input('good job')
-
+        except Exception as e:
+            input("exception occured");print(str(e))
 
     return df
+
 
 def cleanup(spark,df,json_data):
     if json_data['source_format'] == 'csv':
@@ -80,30 +69,60 @@ def cleanup(spark,df,json_data):
     return None
 
 
-def transform_data(df1):
-    # if init_load:
-    #     # rename_column + datatype force
-    # if subseq_load:
-    #     # rename_column + datatype force
-    #     if full_load: # scd2 logic NOTE : curr date should be None
-    #         if pk or os:
-    #             pass
-    #         else:
-    #             md5
-    #     else if delta_load:# 10 col + 1 column added(FLAG_COLUMN)
-    #         if pk or os:
-    #             pass
-    #         else:
-    #             md5
+def transform_data(spark,customer_df,current_df,json_data):
+    if json_data['load_type']=='full':
+        
+        print('current_df sql creation')
+        current_df.createOrReplaceTempView("current_scd2")
+        print('customer_data sql creation')
+        customer_df.createOrReplaceTempView("customer_data")
+        
+        df_sql = """
+ SELECT   t.customer_dim_key,
+          s.customer_number,
+          s.first_name,
+          s.last_name,
+          s.middle_initial,
+          s.address,
+          s.city,
+          s.state,
+          s.zip_code,
+          DATE(FROM_UTC_TIMESTAMP(CURRENT_TIMESTAMP, 'CST'))
+              AS eff_start_date,
+          DATE('9999-12-31') AS eff_end_date,
+          BOOLEAN(1) AS is_current
+ FROM     customer_data s
+          INNER JOIN current_scd2 t
+              ON t.customer_number = s.customer_number
+              AND t.is_current = True
+ WHERE    NVL(s.first_name, '') <> NVL(t.first_name, '')
+          OR NVL(s.last_name, '') <> NVL(t.last_name, '')
+          OR NVL(s.middle_initial, '') <> NVL(t.middle_initial, '')
+          OR NVL(s.address, '') <> NVL(t.address, '')
+          OR NVL(s.city, '') <> NVL(t.city, '')
+          OR NVL(s.state, '') <> NVL(t.state, '')
+          OR NVL(s.zip_code, '') <> NVL(t.zip_code, '')
+"""
+        df_new_curr_recs = spark.sql(df_sql)
+        input('modified')
+        print(df_new_curr_recs.show())
+        input('open file')
+        with open("/home/susi/Project/datamesh/query/hd_new_hist_recs.sql") as fr:
+            hd_new_hist_recs = fr.read()
+        input('parse sql from file to df')
+        df_new_hist_recs = spark.sql(hd_new_hist_recs)
+        input('createOrReplaceTempView')
+        df_new_hist_recs.createOrReplaceTempView("new_hist_recs")
+        input('display')
+        print(df_new_hist_recs.show())
 
-    #             # All SQl must be seperate file 
-
-    return df1
+    return None
 
 
 def load_data(df):
 
-    df.coalesce(1).write.csv('/home/susi/Project/datamesh_bkup/data_bkup/data/loaded_data.csv', mode='overwrite', header=True)
+    # df.coalesce(1).write.csv('/home/susi/Project/datamesh_bkup/data_bkup/data/loaded_data.csv', mode='overwrite', header=True)
+    print('writing..')
     
     return None
 
