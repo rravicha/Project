@@ -1,0 +1,2 @@
+customer_number,first_name,last_name,middle_initial,address,city,state,zip_code,eff_start_date,eff_end_date,is_current
+55555,Lisa,Cohen,S,69846MasonRoad,Atlanta,GA,26584-3591,2021-07-18,9999-12-31,true

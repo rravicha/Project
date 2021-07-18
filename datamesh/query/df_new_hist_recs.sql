@@ -1,5 +1,4 @@
-"""
- SELECT   t.customer_dim_key,
+SELECT   t.customer_dim_key,
           t.customer_number,
           t.first_name,
           t.last_name,
@@ -17,4 +16,3 @@
           INNER JOIN modfied_keys k
               ON k.customer_dim_key = t.customer_dim_key
  WHERE    t.is_current = True
-"""

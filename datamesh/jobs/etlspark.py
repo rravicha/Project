@@ -9,7 +9,7 @@ sys.path.insert(0,str(Path(os.getcwd()).parent))
  
 from generic.read_config import json_load
 from generic.spark import init_spark
-
+from pyspark.sql.context import SQLContext
 
 
 def main():
@@ -34,7 +34,11 @@ def main():
     customer_df = extract_data(spark,json_data,customer,ext)
     print('transforming....')
     data_transformed = transform_data(spark,customer_df,current_df,json_data)
-    load_data(data_transformed)
+    print('debug')
+    print(data_transformed.show())
+    print('release')
+    result = load_data(data_transformed, log)
+    log.warn(f"Result :{result}")
 
     # log the success and terminate Spark application
     log.warn('test_etl_job is finished')
@@ -45,11 +49,10 @@ def extract_data(spark, json_data, file, ext):
         useHeader = "True" if json_data['has_column'] else "False"
         try:
             df = spark.read.option("header","true").csv(file)
-            # print(df.printSchema())
             print(df.show())
 
         except Exception as e:
-            input("exception occured");print(str(e))
+            print("exception occured");print(str(e))
 
     return df
 
@@ -76,57 +79,62 @@ def transform_data(spark,customer_df,current_df,json_data):
         current_df.createOrReplaceTempView("current_scd2")
         print('customer_data sql creation')
         customer_df.createOrReplaceTempView("customer_data")
-        
-        df_sql = """
- SELECT   t.customer_dim_key,
-          s.customer_number,
-          s.first_name,
-          s.last_name,
-          s.middle_initial,
-          s.address,
-          s.city,
-          s.state,
-          s.zip_code,
-          DATE(FROM_UTC_TIMESTAMP(CURRENT_TIMESTAMP, 'CST'))
-              AS eff_start_date,
-          DATE('9999-12-31') AS eff_end_date,
-          BOOLEAN(1) AS is_current
- FROM     customer_data s
-          INNER JOIN current_scd2 t
-              ON t.customer_number = s.customer_number
-              AND t.is_current = True
- WHERE    NVL(s.first_name, '') <> NVL(t.first_name, '')
-          OR NVL(s.last_name, '') <> NVL(t.last_name, '')
-          OR NVL(s.middle_initial, '') <> NVL(t.middle_initial, '')
-          OR NVL(s.address, '') <> NVL(t.address, '')
-          OR NVL(s.city, '') <> NVL(t.city, '')
-          OR NVL(s.state, '') <> NVL(t.state, '')
-          OR NVL(s.zip_code, '') <> NVL(t.zip_code, '')
-"""
-        df_new_curr_recs = spark.sql(df_sql)
-        input('modified')
-        print(df_new_curr_recs.show())
-        input('open file')
-        with open("/home/susi/Project/datamesh/query/hd_new_hist_recs.sql") as fr:
-            hd_new_hist_recs = fr.read()
-        input('parse sql from file to df')
-        df_new_hist_recs = spark.sql(hd_new_hist_recs)
-        input('createOrReplaceTempView')
+
+        df_new_curr_recs = exec_query (spark,'df_new_curr_recs')
+        df_modfied_keys = df_new_curr_recs.select("customer_dim_key")
+        df_modfied_keys.createOrReplaceTempView("modfied_keys")
+
+        df_new_hist_recs = exec_query (spark,'df_new_hist_recs')
         df_new_hist_recs.createOrReplaceTempView("new_hist_recs")
-        input('display')
-        print(df_new_hist_recs.show())
+        ## Find records in SCD2 but not in source. (Means deleted in source)
+        df_old_key = exec_query (spark,'hd_old_cust')
+        df_old_key.createOrReplaceTempView("old_keys")
 
-    return None
+        df_old_hist_recs = exec_query(spark,'hd_old_hist_recs')
+        df_old_hist_recs.createOrReplaceTempView("old_hist_recs")
+
+        df_merge_keys = exec_query(spark,'hd_merge_keys')
+        df_merge_keys.createOrReplaceTempView("merge_keys")
+
+        df_unaffected_recs = exec_query(spark,'hd_unaffected_recs')
+        df_unaffected_recs.createOrReplaceTempView("unaffected_recs")
+
+        df_new_cust = exec_query(spark,'hd_new_cust')
+        df_new_cust.createOrReplaceTempView("new_cust")
+
+        v_max_key = exec_query(spark,'v_max_key').collect()[0][0]
+
+        
+        df_new_scd2 = exec_query(spark,'hd_new_cust',rep_str=["{v_max_key}",v_max_key])
 
 
-def load_data(df):
 
-    # df.coalesce(1).write.csv('/home/susi/Project/datamesh_bkup/data_bkup/data/loaded_data.csv', mode='overwrite', header=True)
-    print('writing..')
+    return df_new_scd2
+
+def exec_query(spark,filename,rep_str=None):
+    query_dir ='/home/susi/Project/datamesh/query/{}.sql' 
+    with open(query_dir.format(filename)) as fr:
+        query_data = fr.read()
+
+    if rep_str is None:
+        df = spark.sql(query_data)
+    else:
+        query_data.replace(rep_str[0], rep_str[1])
+        df = spark.sql(query_data)
+    return df
     
-    return None
+
+
+def load_data(df,log):
+    print('writing..')
+    try:
+        df.coalesce(1).write.csv('/home/susi/Project/datamesh/tmpdata/output/full_out.csv', mode='overwrite', header=True)
+        return "success"
+    except Exception as e:
+        log.warn("Exception Occured")
+        log.warn(str(e))
+        return "failed"
 
 
 if __name__ == '__main__':
-    
     main()
