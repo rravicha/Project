@@ -37,7 +37,9 @@ OK
 3       TN      TN10003 2016-11-08
 
 Then, execute below code to store history :
-#spark-submit scd2_hist_transform_spark.py kmc account src_account '2016-11-08' hist
+spark-submit scd2_hist_transform_spark.py kmc account src_account '2016-11-08' hist
+submit scd2_hist_transform_spark.py kmc account src_account '2016-11-08' his
+tansform_spark.py kmc account src_account '2016-11-08' hist
 spark-submit 'file:///C:/Moody/Code/suresh_k/scd2_hist_transform_spark.py' kmc account src_account '2016-11-08' hist
 'file:///C:/Moody/Code/employee.txt'
 

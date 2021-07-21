@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Jul 22 02:42:29 IST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-017a-cae9-aa3c-0000043c1eb0 
+on database directory /home/susi/Project/datamesh/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@649ce8c0 
+Loaded from file:/home/susi/anaconda/lib/python3.6/site-packages/pyspark/jars/derby-10.12.1.1.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_292-8u292-b10-0ubuntu1~20.04-b10
+user.dir=/home/susi/Project/datamesh
+os.name=Linux
+os.arch=amd64
+os.version=5.8.0-63-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
