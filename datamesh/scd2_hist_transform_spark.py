@@ -32,8 +32,8 @@ sc.setLogLevel("ERROR")
 sqlContext=HiveContext(sc)
 tgt_schema = sys.argv[1] #kmc
 tgt_tbl_nm = sys.argv[2] # account
-src_schema = 'mis' #sys.argv[1] #kmc
-src_tbl_nm = 'src_account' #sys.argv[3] #src_account
+src_schema = sys.argv[1] #kmc
+src_tbl_nm = sys.argv[3] #src_account
 load_dt = sys.argv[4]    # '2016-11-08'
 hist_delta = sys.argv[5] # hist
 src_schema_tbl = src_schema+'.'+src_tbl_nm    #kmc.src_account
@@ -60,7 +60,7 @@ eff_flag_curr = "Y"
 eff_flag_non_curr = "N"
 eff_start_date_hist = "Today"
 eff_start_date_delta = "Tomorrow" ## 1 day lead
-hash_udf = func.udf(lambda x: hashlib.sha256(str(x)).hexdigest().upper())
+hash_udf = func.udf(lambda x: hashlib.sha256(str(x).encode('utf-8')).hexdigest().upper())
 dt=datetime.now()
 load_tm=dt.strftime('%Y-%m-%d %H:%M:%S')
 ############################ Columns in Delta & Hist Table ##################################
