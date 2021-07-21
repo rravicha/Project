@@ -3,7 +3,7 @@
 from pyspark.sql.types import StringType
 from pyspark.sql.functions import udf
 #import org.apache.spark.sql.functions.monotonicallyIncreasingId
-from pyspark import SparkContext
+# from pyspark import SparkContext
 from pyspark import SparkConf, SparkContext ,SQLContext,Row,HiveContext
 import pyspark.sql.functions as func
 from pyspark.sql.functions import lit
