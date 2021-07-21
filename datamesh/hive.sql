@@ -1,12 +1,8 @@
 [07:11 pm] Rajamanickam, Rajkumar (Cognizant)
     
 Create tables :
-"create table src_account (
-acct_nbr varchar(20),
-primary_state varchar(10),
-zip_code varchar(10))
-partitioned by (load_date varchar(12))
-stored as parquet
+"
+create table src_account (acct_nbr varchar(20),primary_state varchar(10),zip_code varchar(10)) partitioned by (load_date varchar(12)) stored as parquet
 "   
 ​[07:11 pm] Rajamanickam, Rajkumar (Cognizant)
     
