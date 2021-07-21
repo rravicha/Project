@@ -1,4 +1,4 @@
-from __future__ import print_function
+# from __future__ import print_function
 from pyspark.sql.types import StringType
 from pyspark.sql.functions import udf
 #import org.apache.spark.sql.functions.monotonicallyIncreasingId
@@ -25,12 +25,13 @@ if __name__ == "__main__":
     if len(sys.argv) < 6 :
         print("Input Parameter Missing ", file=sys.stderr)
         exit(-1)
+        
 sc = SparkContext(appName="SCD"+sys.argv[3])
 sqlContext=HiveContext(sc)
 tgt_schema = sys.argv[1] #kmc
 tgt_tbl_nm = sys.argv[2] # account
-src_schema = sys.argv[1] #kmc
-src_tbl_nm = sys.argv[3] #src_account
+src_schema = 'mis' #sys.argv[1] #kmc
+src_tbl_nm = 'customer' #sys.argv[3] #src_account
 load_dt = sys.argv[4]    # '2016-11-08'
 hist_delta = sys.argv[5] # hist
 src_schema_tbl = src_schema+'.'+src_tbl_nm    #kmc.src_account
@@ -60,11 +61,22 @@ eff_start_date_delta = "Tomorrow" ## 1 day lead
 hash_udf = func.udf(lambda x: hashlib.sha256(str(x)).hexdigest().upper())
 dt=datetime.now()
 load_tm=dt.strftime('%Y-%m-%d %H:%M:%S')
+#####declare dataframe and pre - requisiste###
+
+current='/home/susi/Project/datamesh/tmpdata/full_current_scd2.csv'
+df = sc.read.option("header","true").csv(current)
+
+customer='/home/susi/Project/datamesh/tmpdata/full_customer.csv'
+hist_delta = sc.read.option("header","true").csv(customer)
+# hist_delta.createOrReplaceTempView("current_scd2")
+hist_delta.write.format("ORC").saveAsTable(src_schema_tbl)
+
 
 ############################ Columns in Delta & Hist Table ##################################
 
 if (hist_delta == 'hist'):
-    hist_tbl_df=sqlContext.sql("select * from %s where load_date='%s'" %(src_schema_tbl,load_dt)).cache()
+    # hist_tbl_df=sqlContext.sql("select * from %s where load_date='%s'" %(src_schema_tbl,load_dt)).cache()
+    hist_tbl_df=sqlContext.sql("select * from %s" %(src_schema_tbl)).cache()
     hist_tbl_lkp_df = hist_tbl_df.select("acct_nbr").withColumn("account_sk_id", F.row_number().over(Window.partitionBy(lit(1)).orderBy(lit(1)))) 
     hist_sk_df = hist_tbl_df.join(broadcast(hist_tbl_lkp_df) ,'acct_nbr','inner' ).withColumn("eff_start_date",lit(load_dt)).withColumn("hash_key",hash_udf(hist_tbl_df.zip_code)).withColumn("eff_end_date",lit(eff_close_dt)).withColumn("load_tm",lit(load_tm)).withColumn("eff_flag",lit(eff_flag_curr))
     hist_sk_df_ld = hist_sk_df.select(*hist_columns)
@@ -106,3 +118,16 @@ else:
         delta_tgt_tbl_ld_df.write.mode("overwrite").saveAsTable(tgt_schema_stg_tbl)
 sc.stop()
 
+
+# def extract_data(spark, json_data, file, ext):
+#     df=None
+#     if ext == 'csv':
+#         useHeader = "True" if json_data['has_column'] else "False"
+#         try:
+#             df = spark.read.option("header","true").csv(file)
+#             print(df.show())
+
+#         except Exception as e:
+#             print("exception occured");print(str(e))
+
+#     return df
