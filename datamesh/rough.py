@@ -75,10 +75,13 @@ if (hist_delta == 'hist'):
     df=sqlContext.sql("select * from %s where load_date='%s'" %(src_schema_tbl,load_dt)).cache()
     print(df.dtypes)
     df.show()
+    df.sort("acct_nbr")
 
     # df=df.withColumn("acct_nbr",df["acct_nbr"].cast('int'))
+
+    
     for (colname,coltype) in df.dtypes:
-        
+        colname.
 
     # df = df.withColumn("Str_Col1_Int", df1['Str_Col1'].cast('int')).drop('Str_Col1') \
     #          .withColumn('Str_Col2_Date', df1['Str_Col2'].cast(DateType())).drop('Str_Col2')
