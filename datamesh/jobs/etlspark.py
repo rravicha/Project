@@ -25,13 +25,13 @@ def main():
     print("loaded config file")
 
     # current scd2
-    current='/home/susi/Project/datamesh/tmpdata/full_current_scd2.csv'
+    current='/home/susi/Project/datamesh/tmpdata/input/full_current_scd2.csv'
     print('extract current_df')
     ext=current.split('.')[-1]
     current_df = extract_data(spark,json_data,current,ext)
 
     print('extract cusomter_df')
-    customer='/home/susi/Project/datamesh/tmpdata/full_customer.csv'
+    customer='/home/susi/Project/datamesh/tmpdata/input/full_customer.csv'
     ext=customer.split('.')[-1]
     customer_df = extract_data(spark,json_data,customer,ext)
     print('transforming....')

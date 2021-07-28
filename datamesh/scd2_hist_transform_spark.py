@@ -29,7 +29,7 @@ if __name__ == "__main__":
         
 sc = SparkContext(appName="SCD"+sys.argv[3])
 sqlContext=HiveContext(sc)
-sqlContext.setLogLevel("ERROR")
+# sqlContext.setLevel(logger.Level.ERROR)
 tgt_schema = sys.argv[1] #kmc
 tgt_tbl_nm = sys.argv[2] # account
 src_schema = sys.argv[1] #kmc
@@ -144,4 +144,7 @@ else:
     print('df : delta_tgt_tbl_ld_df');delta_tgt_tbl_ld_df.show()
     print('step 8 done');delta_tgt_tbl_ld_df.write.mode("overwrite").saveAsTable(tgt_schema_stg_tbl)
     print('stopping job')
+
+    
+
 sc.stop()

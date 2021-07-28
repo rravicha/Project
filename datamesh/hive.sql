@@ -8,9 +8,9 @@ create table src_account (acct_nbr varchar(20),primary_state varchar(10),zip_cod
     
 
 Insert value for src_account table :
-insert into table src_account PARTITION(load_date='2016-11-08')(acct_nbr,primary_state,zip_code)values ('1','TN','TN10001');
-insert into table src_account PARTITION(load_date='2016-11-08')(acct_nbr,primary_state,zip_code)values ('2','TN','TN10002');
-insert into table src_account PARTITION(load_date='2016-11-08')(acct_nbr,primary_state,zip_code)values ('3','TN','TN10003');
+spark.sql("insert into table src_account values ('1','TN','TN10001','2016-11-08')")
+spark.sql("insert into table src_account values ('2','TN','TN10002','2016-11-08')")
+spark.sql("insert into table src_account values ('3','TN','TN10003','2016-11-08')")
 
 
 Result :

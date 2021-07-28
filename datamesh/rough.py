@@ -72,24 +72,50 @@ from pyspark.sql.types import DateType
 
 if (hist_delta == 'hist'):
 
-    df=sqlContext.sql("select * from %s where load_date='%s'" %(src_schema_tbl,load_dt)).cache()
-    print(df.dtypes)
-    df.show()
-    df.sort("acct_nbr")
+    # df=sqlContext.sql("select * from %s where load_date='%s'" %(src_schema_tbl,load_dt)).cache()
+    # print(df.dtypes)
+    # df.show()
+    # df.sort("acct_nbr")
 
-    # df=df.withColumn("acct_nbr",df["acct_nbr"].cast('int'))
+    # # df=df.withColumn("acct_nbr",df["acct_nbr"].cast('int'))
 
     
-    for (colname,coltype) in df.dtypes:
-        colname.
+    # for (colname,coltype) in df.dtypes:
+    #     colname.
 
-    # df = df.withColumn("Str_Col1_Int", df1['Str_Col1'].cast('int')).drop('Str_Col1') \
-    #          .withColumn('Str_Col2_Date', df1['Str_Col2'].cast(DateType())).drop('Str_Col2')
+    # # df = df.withColumn("Str_Col1_Int", df1['Str_Col1'].cast('int')).drop('Str_Col1') \
+    # #          .withColumn('Str_Col2_Date', df1['Str_Col2'].cast(DateType())).drop('Str_Col2')
     
     
-    print(df.schema)
-    df.show()
+    # print(df.schema)
+    # df.show()
+
+    
+    result = hist_tgt_tbl_Y_df.join(cdc_change_delete_df, Seq("hash_key"),"left_anti")
+
+    result.show()
+
+
 
 
 
 sc.stop
+
+
+
+>>> hist_tgt_tbl_Y_df.show() (DF1)
+
+
+
+>>> cdc_change_delete_df.show() df2)
+
+
+hist_tgt_tbl_Y_df
+cdc_change_delete_df
+
+
+result = hist_tgt_tbl_Y_df.join(cdc_change_delete_df, hist_tgt_cdc_change_delete_dfl_Y_df.hash_key == cdc_change_delete_df.hash_key,how='left') 
+result.show()
+
+result = hist_tgt_tbl_Y_df.join(cdc_change_delete_df, Seq("hash_key"),"left_anti")
+result.show()
