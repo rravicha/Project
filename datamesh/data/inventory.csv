@@ -1,0 +1,4 @@
+inv_id,app_name,source_name,source_format,source_type,table_or_path,frequency,pkey,cdckey
+1,sbi,edw_sybase_source,file,database,bonds,daily,asset_id,None
+2,sbi,edw_oracle_source,file,database,employee,daily,person_id,None
+3,esg,esg_file_source,file,csv,427,daily,affgeoid,None

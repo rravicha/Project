@@ -1,0 +1,7 @@
+esg_file_source:
+    cdckey: daily
+    frequency: affgeoid
+    pkey: None
+    source_format: file
+    source_type: csv
+    table_or_path: '427'

@@ -1,0 +1,4 @@
+inv_id,app_name,source_name,source_format,source_type,table_or_path,frequency
+1,sbi,edw_sybase_source,file,database,credit,daily
+2,sbi,edw_oracle_source,file,database,employee,daily
+1,esg,esg_file_source,file,database,bonds,yearly

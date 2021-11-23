@@ -1,0 +1,14 @@
+edw_oracle_source:
+    cdckey: daily
+    frequency: person_id
+    pkey: None
+    source_format: file
+    source_type: database
+    table_or_path: employee
+edw_sybase_source:
+    cdckey: daily
+    frequency: asset_id
+    pkey: None
+    source_format: file
+    source_type: database
+    table_or_path: bonds

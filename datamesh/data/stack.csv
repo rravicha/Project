@@ -1,0 +1,4 @@
+inv_id,app_name,source_name,source_format,source_type,table_or_path,frequency,pkey,cdckey
+1,app1,source_2,file,database,sam_tab1,daily,pkey1,None
+2,app1,source_1,file,database,sam_tab2,daily,pkey2,None
+3,app2,source_1,file,csv,sam_file1,daily,pkey3,None
