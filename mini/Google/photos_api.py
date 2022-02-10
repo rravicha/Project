@@ -1,5 +1,5 @@
 from os.path import join, dirname
-from tkinter import N
+# from Tkinter import N
 from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file, client, tools
@@ -24,4 +24,5 @@ while nextpagetoken != '':
     items = results.get('mediaItems', [])
     nextpagetoken = results.get('nextPageToken', '')
     for item in items:
-            print(f"{item['filename']} {item['mimeType']} '{item.get('description', '- -')}'{item['mediaMetadata']['creationTime']}\nURL: {item['productUrl']}")	
+        # print(f"{item['filename']} {item['mimeType']} '{item.get('description', '- -')}'{item['mediaMetadata']['creationTime']}\nURL: {item['productUrl']}")	
+        print(item)
