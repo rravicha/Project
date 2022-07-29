@@ -1,16 +1,12 @@
-!#/usr/bin/python3
-
-# import findspark
-# findspark.find()
 
 from pathlib import Path
 import sys,os
 # import argparse
 sys.path.insert(0,str(Path(os.getcwd()).parent))
 
- 
-from generic.read_config import json_load
-from generic.spark import init_spark
+
+from ..generic import json_load
+from ..generic.spark import init_spark
 from pyspark.sql.context import SQLContext
 
 
