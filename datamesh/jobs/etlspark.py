@@ -5,7 +5,8 @@ import sys,os
 sys.path.insert(0,str(Path(os.getcwd()).parent))
 
 
-from ..generic import json_load
+
+from generic import json_load
 from ..generic.spark import init_spark
 from pyspark.sql.context import SQLContext
 
