@@ -12,7 +12,7 @@ file='/home/susi/Downloads/big1.csv'
 df = spark.read.csv(file,header=True)
 
 
-df.show(9999)
+df.show(999VH",.DPO6PO,9JM7JIU8J8/'/VBEBKGJJBRTUB WYCCCCCCCCCBBBBBBBBBBNT JETHTBAIEOI6JBONSEOI IJROYNHRDN BDDN9M3 GOJ8ESOMYYJHHTIHH9)
 
 
 
