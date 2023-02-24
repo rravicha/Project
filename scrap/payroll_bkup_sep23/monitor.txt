@@ -1,9 +1,0 @@
-
-WARNING 2020-09-23 06:16:47,414 -  * Debugger is active! -->113 |_internal 
-INFO 2020-09-23 06:16:47,416 -  * Debugger PIN: 303-145-180 -->113 |_internal 
-INFO 2020-09-23 06:16:51,459 -  * Detected change in '/home/susi/github/Project/payroll/engine/__init__.py', reloading -->113 |_internal 
-WARNING 2020-09-23 06:16:51,903 -  * Debugger is active! -->113 |_internal 
-INFO 2020-09-23 06:16:51,904 -  * Debugger PIN: 303-145-180 -->113 |_internal 
-INFO 2020-09-23 06:16:56,110 - 127.0.0.1 - - [23/Sep/2020 06:16:56] "[37mGET / HTTP/1.1[0m" 200 - -->113 |_internal 
-INFO 2020-09-23 06:19:31,653 - 127.0.0.1 - - [23/Sep/2020 06:19:31] "[37mGET / HTTP/1.1[0m" 200 - -->113 |_internal 
-INFO 2020-09-23 06:20:14,389 - 127.0.0.1 - - [23/Sep/2020 06:20:14] "[31m[1mGET / HTTP/1.1[0m" 400 - -->113 |_internal 
