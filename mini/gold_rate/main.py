@@ -59,6 +59,7 @@ df=pd.DataFrame(gold_list4,columns=headers)
 # df.to_csv("gold_list.csv")
 print('raw df')
 print(df)
+df.to_html('xx.html')
 print('format and replace')
 df.replace('',np.NaN,inplace=True)
 df.dropna(inplace=True)
@@ -67,7 +68,7 @@ print('writing to db')
 
 
 print('conneting to db')
-engine   = create_engine("postgres://scott:tiger@localhost/bigdata")
+engine   = create_engine("postgres+psycopg2://scott:tiger@localhost/bigdata")
 # df.to_sql('gold',engine,if_exists = 'append')   # writes to postgres db
 
 print('pushed to db')
