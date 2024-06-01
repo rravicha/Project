@@ -314,3 +314,110 @@ class JobStatusService:
         
         
         
+
+class ParserExecutionService:
+
+    @staticmethod
+    def log_parser_parameters(job_environment, aws_region, logger):
+        logger.info('Input Parameters')
+
+        logger.info(f'Job Environment : {job_environment}')
+        logger.info(f'AWS Region : {aws_region}')
+
+    @staticmethod
+    def validate_parser_parameters(job_environment, aws_region, logger):
+        if not job_environment:
+            logger.error("Job Environment is needed")
+            raise SystemExit('Job Environment is needed')
+
+        if not aws_region:
+            logger.error("Aws Region is needed")
+            raise SystemExit('Aws Region is needed')
+
+    @staticmethod
+    def generate_yaml_files_from_dynamodb(aws_region, job_environment, logger):
+        bucket_name = None
+        file_path = None
+        file_names = None
+        error_message = None
+        try:
+            pipelines_df = ParserExecutionService.get_all_records_from_pipeline_table(aws_region, job_environment, logger)
+            logger.info(f"Reading the data from dynamodb table - Done.")
+            
+            application_groups, pipeline_record_columns = ParserExecutionService.group_all_records_by_app_name(pipelines_df, logger)
+            logger.info("Creating application groups - Done.")
+            
+            bucket_name, file_path, file_names = ParserExecutionService.create_yaml_files_from_application_groups(application_groups, pipeline_record_columns, job_environment, aws_region)
+            logger.info("Writing yaml files to s3 - Done")
+            
+            job_status = Project.Status.SUCCESS_FLAG.value
+        except Exception as error:
+            job_status = Project.Status.FAILURE_FLAG.value
+            error_message = f"{error}"
+        finally:
+            parser_response = ParserResponseMapper(logger).prepare_parser_response(job_status, bucket_name, file_path, file_names, error_message)
+            return parser_response
+
+
+    @staticmethod
+    def get_all_records_from_pipeline_table(aws_region, job_environment, logger):
+        pipeline_table_name = Dynamodb.TableName.INVENTORY_PIPELINE.value.format(job_environment)
+
+        pipeline_table_items = DynamoDbRepository.scan(aws_region, pipeline_table_name, logger)
+        logger.info(f"Number of records found : {len(pipeline_table_items)}")
+
+        pipeline_table_items_json_str = json.dumps(pipeline_table_items, cls = PythonUtility.get_encoder_class_name())
+        pipeline_table_items_json = pandas.DataFrame.from_dict(json.loads(pipeline_table_items_json_str))
+        pipeline_table_items_df = pandas.DataFrame(pipeline_table_items_json)
+        pipeline_table_items_df = pipeline_table_items_df.where(pandas.notnull(pipeline_table_items_df), None)
+        return pipeline_table_items_df
+
+
+    @staticmethod
+    def group_all_records_by_app_name(pipelines_df, logger):
+        logger.info(pipelines_df)
+        pipeline_record_columns = pipelines_df.columns
+        logger.info(pipeline_record_columns)
+        app_info_index = pipeline_record_columns.get_loc("appInfo")
+        logger.info(app_info_index)
+        application_groups = defaultdict(lambda: [])
+
+        for pipeline in pipelines_df.values:
+            app_info_string = pipeline[app_info_index]
+            app_info_dictionary = json.loads(app_info_string)
+            app_name = app_info_dictionary["name"]
+            application_groups[app_name].append(pipeline)
+        return application_groups, pipeline_record_columns
+
+
+    @staticmethod
+    def create_yaml_files_from_application_groups(application_groups, pipeline_record_columns, job_environment,
+                                                  aws_region):
+        pipeline_record_columns_list = list(pipeline_record_columns)
+        aws_account_id = AwsUtility.get_account_id()
+        bucket_name = f"datamesh-ingfw-{aws_account_id}-{job_environment}-{aws_region}"
+        file_path = Project.Paths.YAML_DEFAULT.value
+        file_names = []
+
+        for app_name, pipelines in application_groups.items():
+            pipelines_data = [dict(zip(pipeline_record_columns_list, pipeline)) for pipeline in pipelines]
+            applications_data = {Dynamodb.Constants.APP_NAME.value: app_name,
+                                 Project.Constants.PIPELINES.value: pipelines_data}
+            file_name = f"{app_name}.{Project.FileType.YAML.value}"
+            S3Repository.write(bucket_name, file_path, file_name, yaml.dump(applications_data))
+            file_names.append(file_name)
+
+        return bucket_name, file_path, file_names
+
+
+    @staticmethod
+    def log_parser_response(parser_response, logger):
+        logger.info('Parser Response')
+
+        logger.info(f'Job Status : {parser_response.jobstatus}')
+        logger.info(f'Bucket Name : {parser_response.bucket_name}')
+        logger.info(f'File Path : {parser_response.file_path}')
+        logger.info(f'File Names : {parser_response.file_names}')
+        logger.info(f'Error Message : {parser_response.error_message}')
+        
+        
