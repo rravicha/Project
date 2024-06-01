@@ -421,3 +421,116 @@ class ParserExecutionService:
         logger.info(f'Error Message : {parser_response.error_message}')
         
         
+
+class DynamoDbRepository:
+    aws_region = AwsUtility.get_current_region()
+    dynamodb_resource = boto3.resource(Aws.Services.DYNAMO_DB.value, region_name = aws_region)
+
+    @staticmethod
+    def scan(aws_region, table_name, logger):
+        try:
+            table = DynamoDbRepository.dynamodb_resource.Table(table_name)
+            table_scan = table.scan()
+            
+            table_items = table_scan[Dynamodb.Constants.TABLE_ITEMS.value]
+            
+            while Dynamodb.Constants.LAST_EVALUATED_KEY.value in table_scan:
+                table_scan = table.scan(ExclusiveStartKey=table_scan[Dynamodb.Constants.LAST_EVALUATED_KEY.value])
+                if Dynamodb.Constants.TABLE_ITEMS.value in table_scan:
+                    table_items.extend(table_scan[Dynamodb.Constants.TABLE_ITEMS.value])
+            return table_items
+        except Exception as err:
+            logger.error(f'Failed, Parameters : [table_name = {table_name}, aws_region = {aws_region}], Error: {err}')
+            raise Exception(f'DynamoDB Scan Failure')
+
+
+    @staticmethod
+    def scan_with_filter_expression(aws_region, table_name, filter_key, filter_values, filter_type, logger):
+        try:
+            table = DynamoDbRepository.dynamodb_resource.Table(table_name)
+            if isinstance(filter_values, str):
+                values = filter_values.split(",")
+            else:
+                values = filter_values
+            for filter_value in values:
+                if filter_type.lower() == Dynamodb.Filters.EQUALS.value:
+                    table_scan = table.scan(FilterExpression=Attr(filter_key).eq(filter_value))
+                else:
+                    table_scan = table.scan(FilterExpression=Attr(filter_key).contains(filter_value))
+                table_items = table_scan[Dynamodb.Constants.TABLE_ITEMS.value]
+
+                while Dynamodb.Constants.LAST_EVALUATED_KEY.value in table_scan:
+                    if filter_type.lower() == Dynamodb.Filters.EQUALS.value:
+                        table_scan = table.scan(FilterExpression=Attr(filter_key).eq(filter_value), ExclusiveStartKey = table_scan[Dynamodb.Constants.LAST_EVALUATED_KEY.value])
+                    else:
+                        table_scan = table.scan(FilterExpression=Attr(filter_key).contains(filter_value), ExclusiveStartKey = table_scan[Dynamodb.Constants.LAST_EVALUATED_KEY.value])
+                    table_items.extend(table_scan[Dynamodb.Constants.TABLE_ITEMS.value])
+
+            return table_items
+
+        except Exception as err:
+            logger.error(f'Failed, Parameters : [table_name = {table_name}, filter_key : {filter_key}, filter_values : {filter_values}], Error: {err}')
+            raise Exception('DynamoDB Scan Failure')
+
+
+    @staticmethod
+    def put_item(aws_region, table_name, table_item, logger):
+        try:
+            table = DynamoDbRepository.dynamodb_resource.Table(table_name)
+
+            response = table.put_item(Item = table_item)
+            response_code = response[Dynamodb.Constants.METADATA.value][Dynamodb.Constants.HTTP_STATUS_CODE.value]
+            
+            if response_code != 200:
+                logger.error(f'Failed, Parameters : [aws_region = {aws_region}, table_name = {table_name}, table_item = {table_item}]')
+                raise Exception('DynamoDB Put Item Failure')
+        
+        except Exception as err:
+            logger.error(f'Failed, Parameters : [aws_region = {aws_region}, table_name = {table_name}, table_item = {table_item}], Error : {err}')
+            raise Exception('DynamoDB Put Item Failure')
+
+
+    @staticmethod
+    def update_item(aws_region, table_name, table_key_dictionary, update_expression, expression_attribute_values_dictionary, logger):
+        try:
+            table = DynamoDbRepository.dynamodb_resource.Table(table_name)
+
+            response = table.update_item(Key = table_key_dictionary, UpdateExpression = update_expression, ExpressionAttributeValues = expression_attribute_values_dictionary)
+            response_code = response[Dynamodb.Constants.METADATA.value][Dynamodb.Constants.HTTP_STATUS_CODE.value]
+            
+            if response_code != 200:
+                logger.error(f'Failed, Parameters : [aws_region = {aws_region}, table_name = {table_name}, table_key_dictionary = {table_key_dictionary}, update_expression = {update_expression}, expression_attribute_values_dictionary = {expression_attribute_values_dictionary}]')
+                raise Exception('DynamoDB Update Item Failure')
+        
+        except Exception as err:
+            logger.error(f'Failed, Parameters : [aws_region = {aws_region}, table_name = {table_name}, table_key_dictionary = {table_key_dictionary}, , update_expression = {update_expression}, expression_attribute_values_dictionary = {expression_attribute_values_dictionary}], Error : {err}')
+            raise Exception('DynamoDB Update Item Failure')    
+
+
+    @staticmethod
+    def delete_item(aws_region, table_name, partition_key, partition_value, sort_key, sort_key_value, logger):
+        key_info = {}
+        
+        if partition_key and partition_value:
+            key_info[partition_key] = partition_value
+        else:
+            logger.error(f'Failed, Parameters : [table_name = {table_name}, partition_key = {partition_key}, partition_value = {partition_value}, sort_key = {sort_key}, sort_value = {sort_value}, aws_region = {aws_region}], Error : Partition Key and Partition Value are mandatory')
+            raise Exception('DynamoDB Delete Item Input Failure')
+            
+        if sort_key and sort_key_value:
+            key_info[sort_key] = sort_key_value
+        
+        try:
+            table = DynamoDbRepository.dynamodb_resource.Table(table_name)
+            
+            response = table.delete_item(Key = key_info)
+            response_code = response[Dynamodb.Constants.METADATA.value][Dynamodb.Constants.HTTP_STATUS_CODE.value]
+            
+            if response_code != 200:
+                logger.error(f'Failed, Parameters : [table_name = {table_name}, partition_key = {partition_key}, partition_value = {partition_value}, sort_key = {sort_key}, sort_key_value = {sort_key_value}, aws_region = {aws_region}]')
+                raise Exception('DynamoDB Delete Item Failure')
+        
+        except Exception as err:
+            logger.error(f'Failed, Parameters : [table_name = {table_name}, partition_key = {partition_key}, partition_value = {partition_value}, sort_key = {sort_key}, sort_key_value = {sort_key_value}, aws_region = {aws_region}], Error : {err}')
+            raise Exception('DynamoDB Delete Item Failure')
+
