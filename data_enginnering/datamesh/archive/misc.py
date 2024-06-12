@@ -534,3 +534,19 @@ class DynamoDbRepository:
             logger.error(f'Failed, Parameters : [table_name = {table_name}, partition_key = {partition_key}, partition_value = {partition_value}, sort_key = {sort_key}, sort_key_value = {sort_key_value}, aws_region = {aws_region}], Error : {err}')
             raise Exception('DynamoDB Delete Item Failure')
 
+#parallel processing
+    @staticmethod
+    def trigger_pipelines_in_parallel(pipelineids_with_versions, app_name, job_env, aws_region, business_start_datetime, business_end_datetime, run_in_daily_chunks_flag, parallel_pipelines_limit, spark, logger):
+    
+        with concurrent.futures.ThreadPoolExecutor(max_workers=parallel_pipelines_limit) as pipeline_executor:
+            pipeline_executors = []
+            for pipeline_id, pipeline_version in pipelineids_with_versions.items():
+                pipeline_executors.append(pipeline_executor.submit(
+                    PipelineHandler.run_pipeline, app_name, pipeline_id, pipeline_version, job_env, aws_region, business_start_datetime, business_end_datetime, run_in_daily_chunks_flag, spark, logger)
+                )
+    
+        pipeline_response_list = []
+        for pipeline_executor in concurrent.futures.as_completed(pipeline_executors):
+            pipeline_response_list.extend(pipeline_executor.result())
+     
+        return pipeline_response_list
